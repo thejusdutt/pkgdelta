@@ -7,8 +7,11 @@ inputs:
   lockfile:
     description: Path to package-lock.json, pnpm-lock.yaml or yarn.lock
     default: package-lock.json
+  mode:
+    description: "diff: check only versions the change brings in (default). audit: check every locked version."
+    default: diff
   base-ref:
-    description: Git ref to compare against. Defaults to the pull request base.
+    description: Git ref to compare against in diff mode. Defaults to the pull request base, then HEAD~1.
     default: ""
 runs:
   using: composite
@@ -19,12 +22,17 @@ runs:
     - name: Install pkgdelta
       shell: bash
       run: pip install --quiet "${{ github.action_path }}"
-    - name: Check lockfile changes
+    - name: Check lockfile
       shell: bash
       env:
         LOCK: ${{ inputs.lockfile }}
+        MODE: ${{ inputs.mode }}
         BASE: ${{ inputs.base-ref || github.event.pull_request.base.sha || 'HEAD~1' }}
       run: |
+        if [ "$MODE" = "audit" ]; then
+          pkgdelta audit "$LOCK"
+          exit $?
+        fi
         git fetch --quiet --depth=1 origin "$BASE" 2>/dev/null || true
         if ! git show "$BASE:$LOCK" > "$RUNNER_TEMP/old-lock" 2>/dev/null; then
           echo "No $LOCK at $BASE; checking every locked version instead."

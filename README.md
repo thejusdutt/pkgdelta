@@ -2,6 +2,8 @@
 
 Check each npm update against the package's own previous release.
 
+> Status: research project with a working tool. The evaluation below is the main result; the rules are simple and a determined attacker can get around them. Use it as one layer, not the only one.
+
 When an attacker takes over a popular package, the new release does something the old one never did: it adds an install script, calls a host it never called, starts reading `~/.npmrc`, or ships obfuscated code. pkgdelta looks only at that difference. The package's history is the baseline.
 
 ```
@@ -98,13 +100,13 @@ v2's rules added 5 catches on this set, all git-dependency injections (`@velliaj
 ### What it misses, and why
 
 - **No payload in the tarball.** Three `vant` 4.9.x samples and two `@rxap/ngx-bootstrap` samples differ from the previous release only in the version number. Either the dataset captured a clean copy or the attack was elsewhere. No content check can catch them.
-- **The payload lives in a new dependency that has since been deleted.** 8 Mastra packages (June 2026) added `easy-day-js`, published 0.8 days earlier by an unrelated account. pkgdelta flags that (medium) but does not block on it alone, because 4 of 6,707 benign updates look the same (for example `fast-levenshtein` 3.0.0 switching to `fastest-levenshtein`). The malicious `easy-day-js` version is gone from the registry, so its code can't be scanned after the fact.
+- **The payload lives in a new dependency that has since been deleted.** 8 Mastra packages (June 2026) added `easy-day-js`, a copy of `dayjs` published by an unrelated account: a clean version on 16 June, then `1.11.22` the next night with an install script that downloads and runs a second program ([MAL-2026-5979](https://osv.dev/vulnerability/MAL-2026-5979)). npm removed it within hours; the clean decoy is still there. pkgdelta flags that (medium) but does not block on it alone, because 4 of 6,707 benign updates look the same (for example `fast-levenshtein` 3.0.0 switching to `fastest-levenshtein`). The malicious `easy-day-js` version is gone from the registry, so its code can't be scanned after the fact.
 - **The one false positive** is `@octokit/openapi-types` 28 → 29: a first-time publisher, on a major release, without the build provenance every earlier release had. That is a real anomaly. A human should look.
 
 ## Install
 
 ```
-pip install git+<this repo>
+pip install git+https://github.com/thejusdutt/pkgdelta
 ```
 
 Python 3.10+, no dependencies. It downloads tarballs from the registry and reads them in memory. It never runs package code.
@@ -122,15 +124,18 @@ Exit code 1 means something was blocked. `--json` for machine output. Lockfiles:
 
 `diff` and `audit` also ask [OSV](https://osv.dev) whether a version is already known as malware, and flag locked versions that npm has since removed. A lockfile that still pins `chalk@5.6.1` fails with the OSV id and a note to treat the machine as compromised.
 
-**In CI (GitHub Actions)** — `action.yml` is written but has not yet been run on GitHub.
+**In CI (GitHub Actions)**
 
 ```yaml
 - uses: actions/checkout@v4
   with: { fetch-depth: 0 }
-- uses: <this repo>@main
+- uses: thejusdutt/pkgdelta@v0.1.0
   with:
-    lockfile: package-lock.json
+    lockfile: package-lock.json   # or pnpm-lock.yaml / yarn.lock
+    # mode: audit                 # check every locked version, not only the changed ones
 ```
+
+On a pull request it checks only the versions the lockfile change brings in. This repo's own CI runs the action against a lockfile that pins `chalk@5.6.1` and checks that the build fails.
 
 **For maintainers**: run `pkgdelta local` on the output of `npm pack` as the last step before `npm publish`. The Nx (2025), TanStack (2026) and keyv (2026) releases came out of the projects' own compromised CI. A check that compares what is about to ship with what shipped last time is cheap and would have stopped all three.
 

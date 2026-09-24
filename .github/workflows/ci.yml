@@ -1,0 +1,43 @@
+name: ci
+on:
+  push:
+  pull_request:
+
+jobs:
+  tests:
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pytest
+      - run: python -m pytest -q
+
+  action:
+    # Runs the action from this repo against two lockfiles: one that pins
+    # chalk@5.6.1 (removed from npm as malware in Sept 2025) must fail, a clean
+    # one must pass.
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Known-bad lockfile
+        id: bad
+        uses: ./
+        continue-on-error: true
+        with:
+          lockfile: tests/fixtures/known-bad-lock.json
+          mode: audit
+      - name: Clean lockfile
+        uses: ./
+        with:
+          lockfile: tests/fixtures/clean-lock.json
+          mode: audit
+      - name: The known-bad lockfile must have failed
+        shell: bash
+        run: |
+          echo "known-bad outcome: ${{ steps.bad.outcome }}"
+          test "${{ steps.bad.outcome }}" = "failure"
