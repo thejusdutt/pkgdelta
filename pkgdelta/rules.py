@@ -106,20 +106,51 @@ CAP_SEVERITY = {
 }
 
 
+B64_LIT = re.compile(r"""['"`]([A-Za-z0-9+/]{40,}={0,2})['"`]""")
+
+
+def _decoded_strings(t: str) -> str:
+    """Text hidden in base64 string literals, e.g. exec(`echo '<b64>' | base64 -d | bash`)."""
+    import base64
+    import binascii
+    out = []
+    for m in B64_LIT.finditer(t):
+        raw = m.group(1)
+        if len(raw) > 200_000:
+            continue
+        try:
+            dec = base64.b64decode(raw + "=" * (-len(raw) % 4), validate=True)
+        except (binascii.Error, ValueError):
+            continue
+        txt = dec.decode("utf-8", "ignore")
+        if txt and sum(c.isprintable() or c in "\n\t" for c in txt) / len(txt) > 0.95:
+            out.append(txt)
+    return "\n".join(out)
+
+
 def cap_set(files: dict[str, bytes], only: list[str] | None = None) -> dict[str, tuple[str, str]]:
-    """category -> (file, excerpt) for the first hit."""
+    """category -> (file, excerpt) for the first hit. Also scans text decoded
+    from base64 string literals."""
     out: dict[str, tuple[str, str]] = {}
     items = ((p, files[p]) for p in only if p in files) if only is not None else files.items()
     for p, b in items:
         if not (_is_code(p) and b):
             continue
         t = _text(b)
+        hidden = None
         for cat, rx in CAPS.items():
             if cat in out:
                 continue
             m = rx.search(t)
             if m:
                 out[cat] = (p, _around(t, m.start()))
+                continue
+            if hidden is None:
+                hidden = _decoded_strings(t) if "base64" in t or "atob" in t or "Buffer.from" in t else ""
+            if hidden:
+                m = rx.search(hidden)
+                if m:
+                    out[cat] = (p, "decoded from base64: " + _around(hidden, m.start()))
     return out
 
 
@@ -404,7 +435,7 @@ def rule_new_deps(d: Delta, r: Report, lookup=None) -> None:
         if not info:
             continue
         age_days, has_hooks, theirs = info
-        if age_days is None or age_days >= 30:
+        if age_days is None or age_days < 0 or age_days >= 30:
             continue
         if ours and theirs and ours & theirs:
             continue
@@ -417,6 +448,25 @@ def rule_new_deps(d: Delta, r: Report, lookup=None) -> None:
             worst = f
     if worst:
         r.findings.append(worst)
+
+
+NON_REGISTRY = re.compile(r"^(?:git\+|git:|github:|gitlab:|bitbucket:|gist:|https?:|file:|link:|[\w.-]+/[\w.-]+(?:#.*)?$)")
+
+
+def rule_nonregistry_deps(d: Delta, r: Report) -> None:
+    """A dependency that installs from git or a URL instead of the registry.
+
+    npm clones git dependencies and runs their `prepare` script, so the payload
+    never has to be in the published tarball. The May 2026 TanStack/antv/
+    opensearch wave used exactly this: an orphan commit in the real upstream
+    repo, referenced as `github:org/repo#<sha>` in optionalDependencies."""
+    old = deps(d.old.manifest)
+    for name, spec in deps(d.new.manifest).items():
+        if NON_REGISTRY.match(spec.strip()) and old.get(name) != spec:
+            r.findings.append(Finding("non-registry-dependency", "high",
+                                      f"new dependency {name} installs from outside the registry: {_clip(spec, 90)}",
+                                      "package.json"))
+            return
 
 
 def rule_new_publisher(d: Delta, r: Report) -> None:
@@ -452,7 +502,8 @@ def rule_metadata(d: Delta, r: Report) -> None:
 
 
 RULES = (rule_install_hooks, rule_agent_autorun, rule_binaries, rule_capabilities, rule_network,
-         rule_obfuscation, rule_hidden_code, rule_blob, rule_injected_growth, rule_metadata, rule_new_publisher)
+         rule_obfuscation, rule_hidden_code, rule_blob, rule_injected_growth, rule_metadata, rule_new_publisher,
+         rule_nonregistry_deps)
 
 
 def evaluate(d: Delta, dep_lookup=None) -> Report:

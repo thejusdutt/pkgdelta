@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pkgdelta"
+version = "0.1.0"
+description = "Check each npm update against the package's own previous release. Catches account-takeover releases (Shai-Hulud, ChainDrop, axios) with a measured false-positive rate."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "Apache-2.0"}
+dependencies = []
+
+[project.scripts]
+pkgdelta = "pkgdelta.cli:main"
+
+[tool.setuptools]
+packages = ["pkgdelta"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

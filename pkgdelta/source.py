@@ -21,8 +21,9 @@ from dataclasses import dataclass, field
 REGISTRY = os.environ.get("PKGDELTA_REGISTRY", "https://registry.npmjs.org")
 CACHE = pathlib.Path(os.environ.get("PKGDELTA_CACHE", pathlib.Path.home() / ".cache" / "pkgdelta"))
 
-# Skip reading huge files. Payloads are small; giant files are bundles or binaries.
-MAX_FILE = 8 * 1024 * 1024
+# Files above this are recorded but not read. Kept high on purpose: the
+# @bitwarden/cli 2026.4.0 payload was a 10 MB file.
+MAX_FILE = 64 * 1024 * 1024
 
 
 @dataclass
@@ -149,9 +150,37 @@ def from_dir(path: str | os.PathLike) -> Package:
     return Package(man.get("name", "?"), man.get("version", "?"), files, man)
 
 
+# Python decrypts ZipCrypto in pure Python, which takes tens of seconds for the
+# 10 MB Shai-Hulud payloads. After the first read we keep a scrambled copy
+# (every byte XOR 0x5A): nothing on disk is runnable or matches a malware
+# signature, and unscrambling with bytes.translate runs at C speed.
+_XOR = bytes(b ^ 0x5A for b in range(256))
+
+
+def _scrambled_cache(path) -> pathlib.Path:
+    import hashlib
+    h = hashlib.sha1(str(pathlib.Path(path).resolve()).encode()).hexdigest()[:20]
+    return CACHE / "dd_scrambled" / f"{h}.bin"
+
+
 def from_dd_zip(path: str | os.PathLike, password: bytes = b"infected") -> tuple[Package, dict]:
     """Read a DataDog dataset sample in memory. Returns the package and the
     registry record (packument) captured at discovery time."""
+    import pickle
+    cpath = _scrambled_cache(path)
+    if cpath.exists():
+        files, info = pickle.loads(cpath.read_bytes().translate(_XOR))
+    else:
+        files, info = _read_dd_zip(path, password)
+        _atomic_write(cpath, pickle.dumps((files, info), protocol=5).translate(_XOR))
+    man = _manifest(files)
+    name = man.get("name") or info.get("name", "?")
+    ver = man.get("version", "?")
+    meta = info.get("versions", {}).get(ver, {})
+    return Package(name, ver, files, man, meta, info.get("time", {}).get(ver)), info
+
+
+def _read_dd_zip(path, password):
     zf = zipfile.ZipFile(path)
     files: dict[str, bytes] = {}
     info: dict = {}
@@ -178,8 +207,4 @@ def from_dd_zip(path: str | os.PathLike, password: bytes = b"infected") -> tuple
             if zi.filename.endswith(".tgz"):
                 files = files_from_tgz(zf.read(zi, pwd=password))
                 break
-    man = _manifest(files)
-    name = man.get("name") or info.get("name", "?")
-    ver = man.get("version", "?")
-    meta = info.get("versions", {}).get(ver, {})
-    return Package(name, ver, files, man, meta, info.get("time", {}).get(ver)), info
+    return files, info

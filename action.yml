@@ -1,0 +1,34 @@
+name: pkgdelta
+description: Fail the build when a lockfile change brings in an npm version that behaves unlike its previous release.
+branding:
+  icon: shield
+  color: red
+inputs:
+  lockfile:
+    description: Path to package-lock.json, pnpm-lock.yaml or yarn.lock
+    default: package-lock.json
+  base-ref:
+    description: Git ref to compare against. Defaults to the pull request base.
+    default: ""
+runs:
+  using: composite
+  steps:
+    - uses: actions/setup-python@v5
+      with:
+        python-version: "3.12"
+    - name: Install pkgdelta
+      shell: bash
+      run: pip install --quiet "${{ github.action_path }}"
+    - name: Check lockfile changes
+      shell: bash
+      env:
+        LOCK: ${{ inputs.lockfile }}
+        BASE: ${{ inputs.base-ref || github.event.pull_request.base.sha || 'HEAD~1' }}
+      run: |
+        git fetch --quiet --depth=1 origin "$BASE" 2>/dev/null || true
+        if ! git show "$BASE:$LOCK" > "$RUNNER_TEMP/old-lock" 2>/dev/null; then
+          echo "No $LOCK at $BASE; checking every locked version instead."
+          pkgdelta audit "$LOCK"
+        else
+          pkgdelta diff "$RUNNER_TEMP/old-lock" "$LOCK"
+        fi

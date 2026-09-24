@@ -136,8 +136,12 @@ def main():
         if a.limit:
             recs = recs[: a.limit]
         jobs += [(kind, x) for x in recs]
+    results = []
     with cf.ProcessPoolExecutor(a.workers) as ex:
-        results = list(ex.map(run_one, jobs, chunksize=4))
+        for i, r in enumerate(ex.map(run_one, jobs, chunksize=4), 1):
+            results.append(r)
+            if i % 250 == 0:
+                print(f"  ... {i}/{len(jobs)}", file=sys.stderr, flush=True)
     with (DATA / a.out).open("w") as f:
         for x in results:
             f.write(json.dumps(x) + "\n")

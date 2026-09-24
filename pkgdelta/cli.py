@@ -2,7 +2,8 @@
 
   pkgdelta check <name> <new-version> [--against <old-version>]
   pkgdelta diff  <old-lockfile> <new-lockfile>
-  pkgdelta audit <lockfile> [--since 30d]
+  pkgdelta audit <lockfile>
+  pkgdelta local <package.tgz | package-dir>   (before you publish)
 
 Exit code 1 when any version is blocked, 0 otherwise, 2 on usage errors.
 """
@@ -51,11 +52,41 @@ def dep_lookup(name: str, published: str | None):
     return (b - a).total_seconds() / 86400, hooks, rules._maintainers(pack)
 
 
+def osv_malicious(items: list[tuple[str, str]]) -> dict[tuple[str, str], list[str]]:
+    """Known-malicious versions from OSV (MAL- ids), one batch request per 1000."""
+    import urllib.request
+    out: dict[tuple[str, str], list[str]] = {}
+    for i in range(0, len(items), 1000):
+        chunk = items[i:i + 1000]
+        body = json.dumps({"queries": [{"package": {"name": n, "ecosystem": "npm"}, "version": v} for n, v in chunk]}).encode()
+        try:
+            req = urllib.request.Request("https://api.osv.dev/v1/querybatch", data=body,
+                                         headers={"Content-Type": "application/json"})
+            res = json.load(urllib.request.urlopen(req, timeout=120)).get("results", [])
+        except Exception as e:
+            print(f"  (OSV lookup failed: {e})", file=sys.stderr)
+            return out
+        for (n, v), r in zip(chunk, res):
+            mal = [x["id"] for x in r.get("vulns") or [] if x["id"].startswith("MAL-")]
+            if mal:
+                out[(n, v)] = mal
+    return out
+
+
+def unpublished(name: str, version: str) -> dict:
+    return {"name": name, "old": None, "new": version, "score": rules.BLOCK_AT, "blocked": True,
+            "findings": [{"rule": "unpublished", "severity": "high",
+                          "message": "this version is no longer on the registry; npm removes malware this way. "
+                                     "Treat any machine that installed it as compromised."}]}
+
+
 def check_one(name: str, version: str, against: str | None = None) -> dict:
     try:
         pack = source.packument(name)
         if version not in (pack.get("versions") or {}):
-            return {"name": name, "new": version, "error": "version not on the registry (unpublished?)"}
+            if version in (pack.get("time") or {}):
+                return unpublished(name, version)
+            return {"name": name, "new": version, "error": "version not found on the registry"}
         base = against or predecessor(pack, version)
         if not base:
             return {"name": name, "new": version, "skipped": "first release, nothing to compare with"}
@@ -66,9 +97,38 @@ def check_one(name: str, version: str, against: str | None = None) -> dict:
         return {"name": name, "new": version, "error": f"{type(e).__name__}: {e}"}
 
 
-def run_many(items: list[tuple[str, str, str | None]], workers: int) -> list[dict]:
+def run_many(items: list[tuple[str, str, str | None]], workers: int, use_osv: bool = True) -> list[dict]:
     with cf.ThreadPoolExecutor(workers) as ex:
-        return list(ex.map(lambda it: check_one(*it), items))
+        results = list(ex.map(lambda it: check_one(*it), items))
+    if use_osv:
+        known = osv_malicious([(n, v) for n, v, _ in items])
+        for r in results:
+            ids = known.get((r["name"], r["new"]))
+            if ids:
+                r.setdefault("findings", []).insert(0, {"rule": "known-malicious", "severity": "high",
+                                                        "message": "listed as malicious in OSV: " + ", ".join(ids)})
+                r["blocked"] = True
+                r["score"] = max(r.get("score") or 0, rules.BLOCK_AT)
+                r.pop("error", None)
+                r.pop("skipped", None)
+                r.setdefault("old", None)
+    return results
+
+
+def check_local(path: str, against: str | None) -> dict:
+    """Compare a package you are about to publish with its last published release."""
+    import os
+    new = source.from_dir(path) if os.path.isdir(path) else source.from_tgz_file(path)
+    try:
+        pack = source.packument(new.name, max_age=0)
+    except Exception:
+        return {"name": new.name, "new": new.version, "skipped": "not on the registry yet"}
+    base = against or (pack.get("dist-tags") or {}).get("latest")
+    if not base:
+        return {"name": new.name, "new": new.version, "skipped": "no published release to compare with"}
+    old = source.from_registry(new.name, base, pack)
+    new.meta = {"maintainers": pack.get("maintainers") or []}
+    return rules.evaluate(delta.compute(old, new, pack), dep_lookup).as_dict()
 
 
 def show(results: list[dict], verbose: bool) -> None:
@@ -84,7 +144,8 @@ def show(results: list[dict], verbose: bool) -> None:
         if not r["findings"] and not verbose:
             continue
         mark = "BLOCK" if r["blocked"] else ("warn " if r["findings"] else "ok   ")
-        print(f"{mark} {r['name']} {r['old']} -> {r['new']}  (score {r['score']})")
+        span = f"{r['old']} -> {r['new']}" if r.get("old") else r["new"]
+        print(f"{mark} {r['name']} {span}  (score {r['score']})")
         for f in r["findings"]:
             loc = f" [{f['file']}]" if f.get("file") else ""
             print(f"        {SEV_MARK[f['severity']]} {f['rule']}: {f['message']}{loc}")
@@ -106,12 +167,20 @@ def main(argv: list[str] | None = None) -> int:
     d.add_argument("new")
     a = sub.add_parser("audit", help="check every version in a lockfile against its previous release")
     a.add_argument("lock")
-    for p in (c, d, a):
+    lo = sub.add_parser("local", help="check a package you are about to publish against its last release")
+    lo.add_argument("path", help="a .tgz from `npm pack`, or the package directory")
+    lo.add_argument("--against", help="compare with this version instead of the latest release")
+    for p in (c, d, a, lo):
+        p.add_argument("--no-osv", action="store_true", help="skip the OSV known-malware lookup")
         p.add_argument("--json", action="store_true", help="print JSON")
         p.add_argument("-v", "--verbose", action="store_true")
         p.add_argument("-j", "--jobs", type=int, default=8)
     args = ap.parse_args(argv)
 
+    if args.cmd == "local":
+        results = [check_local(args.path, args.against)]
+        print(json.dumps(results, indent=2)) if args.json else show(results, True)
+        return 1 if results[0].get("blocked") else 0
     if args.cmd == "check":
         items = [(args.name, args.version, args.against)]
     elif args.cmd == "diff":
@@ -121,7 +190,7 @@ def main(argv: list[str] | None = None) -> int:
     if not items:
         print("nothing to check")
         return 0
-    results = run_many(items, args.jobs)
+    results = run_many(items, args.jobs, use_osv=not args.no_osv)
     if args.json:
         print(json.dumps(results, indent=2))
     else:
