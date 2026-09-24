@@ -182,3 +182,12 @@ def test_first_published_ignores_security_placeholder():
     pack = {"time": {"created": "2026-03-31T04:26:32Z", "4.2.0": "2026-03-30T05:57:32Z",
                      "4.2.1": "2026-03-30T23:59:12Z", "0.0.1-security.0": "2026-03-31T04:26:33Z"}}
     assert rules.first_published(pack) == "2026-03-30T05:57:32Z"
+
+
+def test_secrets_in_findings_are_redacted():
+    tok = "ghp_" + "A1b2C3d4E5" * 4
+    spec = f"git+https://{tok}@github.com/evil/payload.git"
+    rep = run(pkg("1.0.2"), pkg("1.0.3", deps={"evil": spec}))
+    text = json.dumps(rep.as_dict())
+    assert tok not in text and "[redacted]" in text
+    assert rules.redact("https://user:pass@host.example/x") == "https://[redacted]@host.example/x"

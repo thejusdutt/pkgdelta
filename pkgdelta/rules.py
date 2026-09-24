@@ -22,6 +22,21 @@ CODE_EXT = (".js", ".cjs", ".mjs", ".jsx")
 BINARY_EXT = (".node", ".dll", ".exe", ".so", ".dylib", ".bin", ".elf")
 
 
+# Findings quote package code, which can carry credentials (the malicious
+# @velliajs/discord releases put a GitHub token inside a git dependency URL).
+# Output ends up in CI logs, so secrets are masked before they are stored.
+SECRET_RX = re.compile(r"gh[pousr]_[A-Za-z0-9]{30,}|github_pat_[A-Za-z0-9_]{30,}|npm_[A-Za-z0-9]{30,}|glpat-[A-Za-z0-9_-]{20,}"
+                       r"|AKIA[0-9A-Z]{16}|xox[abprs]-[A-Za-z0-9-]{10,}|sk-(?:ant-)?[A-Za-z0-9_-]{32,}")
+URL_CRED_RX = re.compile(r"(?<=://)[^/\s:@'\"`]+:?[^/\s@'\"`]*@")
+
+
+def redact(s: str | None) -> str | None:
+    if not s:
+        return s
+    s = SECRET_RX.sub(lambda m: m.group(0)[:4] + "…[redacted]", s)
+    return URL_CRED_RX.sub("[redacted]@", s)
+
+
 @dataclass
 class Finding:
     rule: str
@@ -29,6 +44,10 @@ class Finding:
     message: str
     file: str | None = None
     evidence: str | None = None
+
+    def __post_init__(self):
+        self.message = redact(self.message)
+        self.evidence = redact(self.evidence)
 
     def as_dict(self) -> dict:
         return {k: v for k, v in self.__dict__.items() if v is not None}
