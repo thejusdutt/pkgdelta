@@ -1,6 +1,6 @@
-# Miasma: npm malware hidden in binding.gyp (June 2026, @vapi-ai/server-sdk and 42 more): detection results and how to check your lockfile
+# Miasma: npm malware hidden in binding.gyp (June 2026, @vapi-ai/server-sdk, leo-logger and 26 more packages): detection results and how to check your lockfile
 
-On 3 and 4 June 2026 43 packages, among them `@vapi-ai/server-sdk` 0.11.2 ([MAL-2026-5209](https://osv.dev/vulnerability/MAL-2026-5209)) and several `autotel-*` and `awaitly-*` packages, got malicious releases with **no install script at all**. On 25 June `leo-logger` 1.0.8 ([MAL-2026-6429](https://osv.dev/vulnerability/MAL-2026-6429)) did the same. pkgdelta blocks all 44 with rules frozen before 2026. GuardDog's own verdict flags 36.
+On 3 and 4 June 2026 27 packages, among them `@vapi-ai/server-sdk` ([MAL-2026-5209](https://osv.dev/vulnerability/MAL-2026-5209)) and several `autotel-*` and `awaitly-*` packages, got 43 malicious releases with **no install script at all**. On 25 June `leo-logger` 1.0.8 ([MAL-2026-6429](https://osv.dev/vulnerability/MAL-2026-6429)) did the same. pkgdelta blocks all 44 with rules frozen before 2026. GuardDog's own verdict flags 36.
 
 [Am I affected?](#am-i-affected) · [What changed](#what-changed-compared-with-the-previous-release) · [Numbers](#detection-results)
 

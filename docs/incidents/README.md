@@ -9,7 +9,7 @@ The numbers come from the files in [`results/`](../../results). The tables insid
 |---|---|---|---|---|---|
 | [Nx / s1ngularity (`@nx/*` 21.5.0)](nx-s1ngularity.md) | Aug 2025 | 7 | 7 | 7 | 0 of 7 |
 | [chalk, debug and 16 more (phished maintainer)](chalk-debug.md) | Sep 2025 | 18 | 18 | 18 | 18 of 18 |
-| [Shai-Hulud worm (`@ctrl/tinycolor` and 369 more)](shai-hulud.md) | Sep 2025 | 370 | 370 | 370 | 370 of 370 |
+| [Shai-Hulud worm (`@ctrl/tinycolor` and 163 more packages)](shai-hulud.md) | Sep 2025 | 370 | 370 | 370 | 370 of 370 |
 | [Shai-Hulud 2.0 (Postman, PostHog, AsyncAPI, …)](shai-hulud-2.md) | Nov 2025 | 412 | 412 | 412 | 411 of 411 |
 | [axios 1.14.1 / `plain-crypto-js`](axios-plain-crypto-js.md) | Mar 2026 | 1 | 1 | 1 | 0 of 1 |
 | [`@bitwarden/cli` 2026.4.0](bitwarden-cli.md) | Apr 2026 | 1 | 1 | 1 | 1 of 1 |

@@ -93,7 +93,7 @@ def fetch_osv(keys):
             mal = sorted(a["id"] for a in r.get("vulns") or [] if a["id"].startswith("MAL-"))
             if mal:
                 ids[f"{n}@{v}"] = mal
-    OSV_FILE.write_text(json.dumps(ids, indent=0, sort_keys=True) + "\n", encoding="utf-8")
+    OSV_FILE.write_text(json.dumps(ids, indent=0, sort_keys=True) + "\n", encoding="utf-8", newline="\n")
     return ids
 
 
@@ -138,7 +138,7 @@ def block(rows, osv):
 TITLES = {
     "nx-s1ngularity": ("Nx / s1ngularity (`@nx/*` 21.5.0)", "Aug 2025"),
     "chalk-debug": ("chalk, debug and 16 more (phished maintainer)", "Sep 2025"),
-    "shai-hulud": ("Shai-Hulud worm (`@ctrl/tinycolor` and 369 more)", "Sep 2025"),
+    "shai-hulud": ("Shai-Hulud worm (`@ctrl/tinycolor` and 163 more packages)", "Sep 2025"),
     "shai-hulud-2": ("Shai-Hulud 2.0 (Postman, PostHog, AsyncAPI, …)", "Nov 2025"),
     "axios-plain-crypto-js": ("axios 1.14.1 / `plain-crypto-js`", "Mar 2026"),
     "bitwarden-cli": ("`@bitwarden/cli` 2026.4.0", "Apr 2026"),

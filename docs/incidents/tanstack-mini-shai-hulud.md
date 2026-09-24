@@ -1,6 +1,6 @@
 # TanStack npm compromise (Mini Shai-Hulud, May 2026) and the @antv wave: detection results and how to check your lockfile
 
-On 11 and 12 May 2026 malicious releases went out for 60 `@tanstack/*` packages, plus `@uipath`, `@squawk`, `@tallyui`, `@mistralai`, `@opensearch-project/opensearch` and others: 163 releases in the DataDog dataset. A week later, on 19 May, 44 `@antv/*` packages and `echarts-for-react`, `jest-canvas-mock`, `jest-date-mock` and `size-sensor` followed with the same trick: 51 more. The first wave is the one people call Mini Shai-Hulud.
+On 11 and 12 May 2026 60 malicious releases went out across 40 `@tanstack/*` packages, plus `@uipath`, `@squawk`, `@tallyui`, `@mistralai`, `@opensearch-project/opensearch` and others: 163 releases in the DataDog dataset. A week later, on 19 May, 44 releases of 38 `@antv/*` packages and `echarts-for-react`, `jest-canvas-mock`, `jest-date-mock` and `size-sensor` followed with the same trick: 51 more. The first wave is the one people call Mini Shai-Hulud.
 
 pkgdelta's frozen v1 rules block 207 of the 214. The 7 it missed carried no code at all, only a new git dependency. v2 blocks all 214 — but v2 was written after looking at these misses, so read that number as "what the rules can do", not as a clean test.
 

@@ -39,7 +39,7 @@ Each incident page lists every malicious version, its OSV id, what changed compa
 | [Mastra / easy-day-js](docs/incidents/mastra-easy-day-js.md), Jun 2026 | 117 `@mastra/*` packages, `mastra`, `create-mastra`, `easy-day-js` 1.11.22 | 111 of 119 |
 | [Miasma (binding.gyp)](docs/incidents/node-gyp-miasma.md), Jun 2026 | `@vapi-ai/server-sdk` 0.11.2, `leo-logger` 1.0.8, `autotel-*`, `awaitly-*`, `executable-stories-*` | 44 of 44 |
 | [Red Hat Cloud Services](docs/incidents/redhat-cloud-services.md), Jun 2026 | `@redhat-cloud-services/chrome` 2.3.1 and 15 more | 16 of 16 |
-| [TanStack / Mini Shai-Hulud](docs/incidents/tanstack-mini-shai-hulud.md), May 2026 | 60 `@tanstack/*` packages (e.g. `@tanstack/react-router` 1.169.5), `@uipath/*`, `@mistralai/*`, `@opensearch-project/opensearch`, 44 `@antv/*`, `jest-canvas-mock` 2.5.3 | 214 of 214 (v1: 207) |
+| [TanStack / Mini Shai-Hulud](docs/incidents/tanstack-mini-shai-hulud.md), May 2026 | 60 releases of 40 `@tanstack/*` packages (e.g. `@tanstack/react-router` 1.169.5), `@uipath/*`, `@mistralai/*`, `@opensearch-project/opensearch`, 44 `@antv/*` releases, `jest-canvas-mock` 2.5.3 | 214 of 214 (v1: 207) |
 | [SAP cap-js](docs/incidents/sap-cap-js.md), Apr 2026 | `@cap-js/db-service` 2.10.1, `@cap-js/postgres` 2.2.2, `@cap-js/sqlite` 2.2.2, `mbt` 1.2.48 | 4 of 4 |
 | [Bitwarden CLI](docs/incidents/bitwarden-cli.md), Apr 2026 | `@bitwarden/cli` 2026.4.0 | 1 of 1 |
 | [axios / plain-crypto-js](docs/incidents/axios-plain-crypto-js.md), Mar 2026 | `axios` 1.14.1, `plain-crypto-js` 4.2.1 | 1 of 1, narrowly |
