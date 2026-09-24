@@ -77,7 +77,21 @@ On pre-2026 attacks GuardDog's own verdict catches 97% of samples. On 2026 attac
 
 A fair caveat: pkgdelta's rules were written by someone who had read the 2025–26 incident reports, and GuardDog was not tuned on this dataset at all.
 
-__EXTRA_RESULTS__
+### Fresh holdout: attacks after the dataset ends
+
+v2's clean test. The DataDog dataset stops on 2026-06-25. I walked every OSV `MAL-2026-*` advisory published after that, kept npm versions that follow an established clean release (the clean release is at least 30 days older and in no malware advisory), took at most 3 versions per package, and recovered the tarballs from jsDelivr's cache: 180 releases from 109 packages. npm had already deleted them. 67 of the 180 copies are partial; jsDelivr kept `keyv@6.0.0`'s `setup.mjs` and `Math_Symbol.js` but lost `dist/`, which Socket found to be byte-identical to the clean `6.0.0-rc.1` anyway.
+
+The labels vary a lot in quality, so the set is split by what the advisory says:
+
+| Group | Releases | pkgdelta v2 | GuardDog `high_risk` | GuardDog, any `threat-*` rule |
+|---|---|---|---|---|
+| ChainDrop worm, 2026-08-04 | 53 | **49 (92%)** | 49 (92%) | 49 (92%) |
+| Other advisories describing a hijacked release | 12 | 1 | 1 | 8 |
+| Advisories from one automated scanner judging the package | 115 | 12 | 57 | 90 |
+
+- **ChainDrop**: both tools block the same 49 and miss the same 4. The 4 (`@keyv/compress-brotli`, three `@servicetitan/suppress-warnings` versions) differ from the previous release only in the version number and git hash; Socket's write-up says the `@keyv/*` 6.0.0 tarballs don't carry the payload.
+- **The other two groups** mostly say things like "9remote is a remote-shell tool" or "installs a daemon that accepts remote commands". That behaviour is the product and was in the previous release too. To check, I ran GuardDog on the previous clean release of every package in the set: **53 of its 57 `high_risk` hits and 88 of its 90 threat-rule hits on the automated group fire on the previous release as well**, and 7 of 8 in the middle group. Those are judgements about what the package is, not about a poisoned update. pkgdelta only answers the second question, by design. If you want the first one too, run a content scanner as well.
+- **One real miss worth naming**: `@injectivelabs/sdk-ts` 1.20.21 (July 2026) added a block to the wallet module, labelled as "key derivation telemetry", that builds its host from an array of character codes (`String.fromCharCode`) and posts the mnemonic there. pkgdelta only sees URLs written as text. Decoding character-code arrays the way base64 is decoded now is the obvious next rule. I did not add it, because this set is the only clean test v2 has left.
 
 ### What it misses, and why
 
