@@ -1,0 +1,16 @@
+README.md
+pyproject.toml
+pkgdelta/__init__.py
+pkgdelta/__main__.py
+pkgdelta/cli.py
+pkgdelta/delta.py
+pkgdelta/lockfile.py
+pkgdelta/rules.py
+pkgdelta/semver.py
+pkgdelta/source.py
+pkgdelta.egg-info/PKG-INFO
+pkgdelta.egg-info/SOURCES.txt
+pkgdelta.egg-info/dependency_links.txt
+pkgdelta.egg-info/entry_points.txt
+pkgdelta.egg-info/top_level.txt
+tests/test_rules.py

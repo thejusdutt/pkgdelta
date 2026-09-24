@@ -1,0 +1,1248 @@
+{"name": "9remote", "mal_version": "2.1.1", "base_version": "2.0.82", "osv": "MAL-2026-13406", "discovered": "2026-08-06", "mal_published": "2026-07-15T16:32:48.746Z", "tgz": "extra/9remote@2.1.1.tgz", "missing_files": 0, "label": "automated"}
+{"name": "9remote", "mal_version": "2.1.5", "base_version": "2.1.4", "osv": "MAL-2026-13406", "discovered": "2026-08-06", "mal_published": "2026-07-17T14:04:47.407Z", "tgz": "extra/9remote@2.1.5.tgz", "missing_files": 0, "label": "automated"}
+{"name": "9remote", "mal_version": "2.1.6", "base_version": "2.1.4", "osv": "MAL-2026-13406", "discovered": "2026-08-06", "mal_published": "2026-07-18T14:26:48.927Z", "tgz": "extra/9remote@2.1.6.tgz", "missing_files": 0, "label": "automated"}
+{"name": "@0l00000l/auth", "mal_version": "1.1.3", "base_version": "1.1.2", "osv": "MAL-2026-13407", "discovered": "2026-08-06", "mal_published": "2026-07-24T23:06:32.708Z", "tgz": "extra/@0l00000l__auth@1.1.3.tgz", "missing_files": 0, "label": "automated"}
+{"name": "@0l00000l/auth", "mal_version": "1.1.4", "base_version": "1.1.2", "osv": "MAL-2026-13407", "discovered": "2026-08-06", "mal_published": "2026-07-25T00:44:17.259Z", "tgz": "extra/@0l00000l__auth@1.1.4.tgz", "missing_files": 0, "label": "automated"}
+{"name": "@7nohe/openapi-react-query-codegen", "mal_version": "0.0.0-365d4eb738d3146583431948d3ba6e27a32556be", "osv": "MAL-2026-15494", "drop": "tarball gone"}
+{"name": "@7nohe/openapi-react-query-codegen", "mal_version": "0.0.0-ec7876d6c917dad516ba69bbfafc948b834bf0ab", "osv": "MAL-2026-15494", "drop": "tarball gone"}
+{"name": "@7nohe/openapi-react-query-codegen", "mal_version": "0.5.4", "osv": "MAL-2026-15494", "drop": "tarball gone"}
+{"name": "@activepieces/piece-base44", "mal_version": "0.1.7", "base_version": "0.1.6", "osv": "MAL-2026-13408", "discovered": "2026-08-06", "mal_published": "2026-08-04T07:09:05.604Z", "tgz": "extra/@activepieces__piece-base44@0.1.7.tgz", "missing_files": 0, "label": "automated"}
+{"name": "@activepieces/piece-google-bigquery", "mal_version": "0.0.5", "base_version": "0.0.4", "osv": "MAL-2026-13394", "discovered": "2026-08-06", "mal_published": "2026-08-04T07:17:28.787Z", "tgz": "extra/@activepieces__piece-google-bigquery@0.0.5.tgz", "missing_files": 0, "label": "automated"}
+{"name": "@activepieces/piece-google-bigquery", "mal_version": "0.0.6", "base_version": "0.0.4", "osv": "MAL-2026-13394", "discovered": "2026-08-06", "mal_published": "2026-08-06T09:36:17.606Z", "tgz": "extra/@activepieces__piece-google-bigquery@0.0.6.tgz", "missing_files": 0, "label": "automated"}
+{"name": "@activepieces/piece-google-contacts", "mal_version": "0.4.7", "base_version": "0.4.6", "osv": "MAL-2026-13395", "discovered": "2026-08-06", "mal_published": "2026-08-04T07:17:09.671Z", "tgz": "extra/@activepieces__piece-google-contacts@0.4.7.tgz", "missing_files": 0, "label": "automated"}
+{"name": "@activepieces/piece-google-contacts", "mal_version": "0.4.8", "base_version": "0.4.6", "osv": "MAL-2026-13395", "discovered": "2026-08-06", "mal_published": "2026-08-06T09:35:42.507Z", "tgz": "extra/@activepieces__piece-google-contacts@0.4.8.tgz", "missing_files": 0, "label": "automated"}
+{"name": "@activepieces/piece-google-forms", "mal_version": "0.5.5", "base_version": "0.5.4", "osv": "MAL-2026-13396", "discovered": "2026-08-06", "mal_published": "2026-08-03T16:22:52.554Z", "tgz": "extra/@activepieces__piece-google-forms@0.5.5.tgz", "missing_files": 0, "label": "compromise"}
+{"name": "@activepieces/piece-google-forms", "mal_version": "0.5.6", "base_version": "0.5.4", "osv": "MAL-2026-13396", "discovered": "2026-08-06", "mal_published": "2026-08-04T07:16:52.277Z", "tgz": "extra/@activepieces__piece-google-forms@0.5.6.tgz", "missing_files": 0, "label": "compromise"}
+{"name": "@activepieces/piece-google-forms", "mal_version": "0.5.7", "base_version": "0.5.4", "osv": "MAL-2026-13396", "discovered": "2026-08-06", "mal_published": "2026-08-06T09:35:58.830Z", "tgz": "extra/@activepieces__piece-google-forms@0.5.7.tgz", "missing_files": 0, "label": "compromise"}
+{"name": "@addai/entity-runtime", "mal_version": "0.2.45", "base_version": "0.2.44", "osv": "MAL-2026-13410", "discovered": "2026-08-06", "mal_published": "2026-07-15T16:35:12.993Z", "tgz": "extra/@addai__entity-runtime@0.2.45.tgz", "missing_files": 0, "label": "automated"}
+{"name": "@addai/entity-runtime", "mal_version": "0.2.46", "base_version": "0.2.44", "osv": "MAL-2026-13410", "discovered": "2026-08-06", "mal_published": "2026-07-20T09:03:19.764Z", "tgz": "extra/@addai__entity-runtime@0.2.46.tgz", "missing_files": 0, "label": "automated"}
+{"name": "@addai/entity-runtime", "mal_version": "0.2.47", "base_version": "0.2.44", "osv": "MAL-2026-13410", "discovered": "2026-08-06", "mal_published": "2026-07-21T10:10:41.811Z", "tgz": "extra/@addai__entity-runtime@0.2.47.tgz", "missing_files": 0, "label": "automated"}
+{"name": "@adminide-stack/clock-tik-browser", "mal_version": "12.0.24", "osv": "MAL-2026-11551", "drop": "tarball gone"}
+{"name": "@adminide-stack/yantra-mobile", "mal_version": "12.0.33", "osv": "MAL-2026-11552", "drop": "tarball gone"}
+{"name": "@agent-link/agent", "mal_version": "0.1.269", "base_version": "0.1.268", "osv": "MAL-2026-10705", "discovered": "2026-07-16", "mal_published": "2026-07-16T02:04:55.641Z", "tgz": "extra/@agent-link__agent@0.1.269.tgz", "missing_files": 0, "label": "automated"}
+{"name": "@agent-link/agent", "mal_version": "0.1.270", "base_version": "0.1.268", "osv": "MAL-2026-10705", "discovered": "2026-07-16", "mal_published": "2026-07-16T02:10:55.476Z", "tgz": "extra/@agent-link__agent@0.1.270.tgz", "missing_files": 0, "label": "automated"}
+{"name": "@agent-link/agent", "mal_version": "0.1.271", "base_version": "0.1.268", "osv": "MAL-2026-10705", "discovered": "2026-07-16", "mal_published": "2026-07-16T02:51:20.625Z", "tgz": "extra/@agent-link__agent@0.1.271.tgz", "missing_files": 0, "label": "automated"}
+{"name": "@agentvox/host", "mal_version": "0.1.5", "base_version": "0.1.0", "osv": "MAL-2026-10706", "discovered": "2026-07-16", "mal_published": "2026-07-15T23:05:22.295Z", "tgz": "extra/@agentvox__host@0.1.5.tgz", "missing_files": 0, "label": "automated"}
+{"name": "@ai-support-agent/cli", "mal_version": "0.3.2-beta.0", "base_version": "0.3.1", "osv": "MAL-2026-10707", "discovered": "2026-07-16", "mal_published": "2026-07-15T15:07:52.130Z", "tgz": "extra/@ai-support-agent__cli@0.3.2-beta.0.tgz", "missing_files": 0, "label": "compromise"}
+{"name": "@ai-support-agent/cli", "mal_version": "0.3.2-beta.1", "base_version": "0.3.1", "osv": "MAL-2026-10707", "discovered": "2026-07-16", "mal_published": "2026-07-16T00:27:56.891Z", "tgz": "extra/@ai-support-agent__cli@0.3.2-beta.1.tgz", "missing_files": 0, "label": "compromise"}
+{"name": "@ai-support-agent/cli", "mal_version": "0.3.2-beta.2", "base_version": "0.3.1", "osv": "MAL-2026-10707", "discovered": "2026-07-16", "mal_published": "2026-07-16T02:07:09.336Z", "tgz": "extra/@ai-support-agent__cli@0.3.2-beta.2.tgz", "missing_files": 0, "label": "compromise"}
+{"name": "@apicity/meta", "mal_version": "0.8.0", "base_version": "0.7.3", "osv": "MAL-2026-13412", "discovered": "2026-08-06", "mal_published": "2026-07-21T06:35:30.703Z", "tgz": "extra/@apicity__meta@0.8.0.tgz", "missing_files": 0, "label": "compromise"}
+{"name": "@apicity/meta", "mal_version": "0.8.1", "base_version": "0.7.3", "osv": "MAL-2026-13412", "discovered": "2026-08-06", "mal_published": "2026-07-25T01:50:02.751Z", "tgz": "extra/@apicity__meta@0.8.1.tgz", "missing_files": 0, "label": "compromise"}
+{"name": "@apicity/meta", "mal_version": "0.8.2", "base_version": "0.7.3", "osv": "MAL-2026-13412", "discovered": "2026-08-06", "mal_published": "2026-07-27T13:07:31.316Z", "tgz": "extra/@apicity__meta@0.8.2.tgz", "missing_files": 0, "label": "compromise"}
+{"name": "@arv-bedrock/auth", "mal_version": "1.1.7", "osv": "MAL-2026-11553", "drop": "tarball gone"}
+{"name": "@arv-bedrock/auth", "mal_version": "1.1.8", "osv": "MAL-2026-11553", "drop": "tarball gone"}
+{"name": "@arv-bedrock/auth-admin", "mal_version": "1.0.2", "osv": "MAL-2026-11554", "drop": "tarball gone"}
+{"name": "@arv-bedrock/auth-admin", "mal_version": "1.0.3", "osv": "MAL-2026-11554", "drop": "tarball gone"}
+{"name": "@arv-bedrock/auth-sso", "mal_version": "1.6.1", "osv": "MAL-2026-11555", "drop": "tarball gone"}
+{"name": "@arv-bedrock/auth-sso", "mal_version": "1.6.2", "osv": "MAL-2026-11555", "drop": "tarball gone"}
+{"name": "@arv-bedrock/auth-sso-backend", "mal_version": "1.7.1", "osv": "MAL-2026-11556", "drop": "tarball gone"}
+{"name": "@arv-bedrock/auth-sso-backend", "mal_version": "1.7.2", "osv": "MAL-2026-11556", "drop": "tarball gone"}
+{"name": "@arv-bedrock/logger", "mal_version": "1.7.1", "osv": "MAL-2026-11557", "drop": "tarball gone"}
+{"name": "@arv-bedrock/logger", "mal_version": "1.7.2", "base_version": "1.7.0", "osv": "MAL-2026-11557", "discovered": "2026-08-04", "mal_published": "2026-08-04T10:36:22.742Z", "tgz": "extra/@arv-bedrock__logger@1.7.2.tgz", "missing_files": 16, "label": "compromise"}
+{"name": "@aster110/cc2wechat", "mal_version": "5.1.0", "base_version": "5.0.3", "osv": "MAL-2026-13520", "discovered": "2026-08-07", "mal_published": "2026-08-07T08:38:38.168Z", "tgz": "extra/@aster110__cc2wechat@5.1.0.tgz", "missing_files": 0, "label": "automated"}
+{"name": "@atom8n/inspector", "mal_version": "0.17.32", "base_version": "0.17.31", "osv": "MAL-2026-13414", "discovered": "2026-08-06", "mal_published": "2026-07-18T16:05:38.584Z", "tgz": "extra/@atom8n__inspector@0.17.32.tgz", "missing_files": 0, "label": "automated"}
+{"name": "@cacheable/memory", "mal_version": "2.2.1", "osv": "MAL-2026-11558", "drop": "tarball gone"}
+{"name": "@cacheable/net", "mal_version": "2.1.1", "osv": "MAL-2026-11559", "drop": "tarball gone"}
+{"name": "@cacheable/node-cache", "mal_version": "3.1.2", "base_version": "3.1.1", "osv": "MAL-2026-11560", "discovered": "2026-08-04", "mal_published": "2026-08-04T10:10:34.275Z", "tgz": "extra/@cacheable__node-cache@3.1.2.tgz", "missing_files": 6, "label": "compromise"}
+{"name": "@cacheable/utils", "mal_version": "2.5.1", "osv": "MAL-2026-11561", "drop": "tarball gone"}
+{"name": "@cliphijack/santaclaude", "mal_version": "1.0.100", "base_version": "1.0.99", "osv": "MAL-2026-13363", "discovered": "2026-08-05", "mal_published": "2026-07-18T15:02:41.745Z", "tgz": "extra/@cliphijack__santaclaude@1.0.100.tgz", "missing_files": 0, "label": "automated"}
+{"name": "@cliphijack/santaclaude", "mal_version": "1.0.102", "base_version": "1.0.101", "osv": "MAL-2026-13363", "discovered": "2026-08-05", "mal_published": "2026-07-27T03:00:09.121Z", "tgz": "extra/@cliphijack__santaclaude@1.0.102.tgz", "missing_files": 0, "label": "automated"}
+{"name": "@cliphijack/santaclaude", "mal_version": "1.0.103", "base_version": "1.0.101", "osv": "MAL-2026-13363", "discovered": "2026-08-05", "mal_published": "2026-07-27T03:12:56.053Z", "tgz": "extra/@cliphijack__santaclaude@1.0.103.tgz", "missing_files": 0, "label": "automated"}
+{"name": "@cyberrant-rantai/rantai", "mal_version": "1.0.15", "base_version": "1.0.14", "osv": "MAL-2026-10709", "discovered": "2026-07-16", "mal_published": "2026-07-15T22:01:37.938Z", "tgz": "extra/@cyberrant-rantai__rantai@1.0.15.tgz", "missing_files": 0, "label": "automated"}
+{"name": "@deliveroo/determinator", "mal_version": "0.2.1", "osv": "MAL-2026-11562", "drop": "tarball gone"}
+{"name": "@deliveroo/reevent", "mal_version": "1.0.1", "base_version": "1.0.0", "osv": "MAL-2026-11563", "discovered": "2026-08-04", "mal_published": "2026-08-04T10:33:58.198Z", "tgz": "extra/@deliveroo__reevent@1.0.1.tgz", "missing_files": 0, "label": "compromise"}
+{"name": "@depup/astro", "mal_version": "7.1.3-depup.2", "base_version": "7.1.3-depup.1", "osv": "MAL-2026-13622", "discovered": "2026-08-07", "mal_published": "2026-07-24T08:55:58.390Z", "tgz": "extra/@depup__astro@7.1.3-depup.2.tgz", "missing_files": 0, "label": "automated"}
+{"name": "@depup/astro", "mal_version": "7.2.0-depup.0", "base_version": "7.1.6-depup.4", "osv": "MAL-2026-13622", "discovered": "2026-08-07", "mal_published": "2026-08-07T01:20:14.227Z", "tgz": "extra/@depup__astro@7.2.0-depup.0.tgz", "missing_files": 1, "label": "automated"}
+{"name": "@depup/aws-sdk__credential-provider-process", "mal_version": "3.972.59-depup.0", "base_version": "3.972.25-depup.0", "osv": "MAL-2026-13623", "discovered": "2026-08-07", "mal_published": "2026-07-21T16:02:34.743Z", "tgz": "extra/@depup__aws-sdk__credential-provider-process@3.972.59-depup.0.tgz", "missing_files": 0, "label": "automated"}
+{"name": "@depup/aws-sdk__credential-provider-process", "mal_version": "3.972.62-depup.0", "base_version": "3.972.61-depup.0", "osv": "MAL-2026-13623", "discovered": "2026-08-07", "mal_published": "2026-07-28T00:37:50.328Z", "tgz": "extra/@depup__aws-sdk__credential-provider-process@3.972.62-depup.0.tgz", "missing_files": 0, "label": "automated"}
+{"name": "@depup/aws-sdk__credential-provider-process", "mal_version": "3.972.63-depup.0", "base_version": "3.972.61-depup.0", "osv": "MAL-2026-13623", "discovered": "2026-08-07", "mal_published": "2026-07-29T00:35:34.212Z", "tgz": "extra/@depup__aws-sdk__credential-provider-process@3.972.63-depup.0.tgz", "missing_files": 0, "label": "automated"}
+{"name": "@depup/memfs", "mal_version": "4.67.0-depup.0", "base_version": "4.66.1-depup.0", "osv": "MAL-2026-13624", "discovered": "2026-08-07", "mal_published": "2026-08-04T08:59:17.030Z", "tgz": "extra/@depup__memfs@4.67.0-depup.0.tgz", "missing_files": 0, "label": "automated"}
+{"name": "@depup/nuxt", "mal_version": "4.5.0-depup.0", "base_version": "4.4.2-depup.12", "osv": "MAL-2026-13625", "discovered": "2026-08-07", "mal_published": "2026-07-21T17:26:53.749Z", "tgz": "extra/@depup__nuxt@4.5.0-depup.0.tgz", "missing_files": 0, "label": "automated"}
+{"name": "@devmikets/hyperliquid-sdk", "mal_version": "1.9.6", "base_version": "1.9.5", "osv": "MAL-2026-14042", "discovered": "2026-08-14", "mal_published": "2026-08-08T22:55:15.645Z", "tgz": "extra/@devmikets__hyperliquid-sdk@1.9.6.tgz", "missing_files": 0, "label": "automated"}
+{"name": "@immobiliarelabs/backstage-plugin-gitlab", "mal_version": "1.0.1", "osv": "MAL-2026-6526", "drop": "tarball gone"}
+{"name": "@immobiliarelabs/backstage-plugin-gitlab", "mal_version": "2.1.2", "osv": "MAL-2026-6526", "drop": "tarball gone"}
+{"name": "@immobiliarelabs/backstage-plugin-gitlab", "mal_version": "3.0.3", "osv": "MAL-2026-6526", "drop": "tarball gone"}
+{"name": "@immobiliarelabs/backstage-plugin-gitlab-backend", "mal_version": "3.0.3", "osv": "MAL-2026-6527", "drop": "tarball gone"}
+{"name": "@immobiliarelabs/backstage-plugin-gitlab-backend", "mal_version": "4.0.2", "osv": "MAL-2026-6527", "drop": "tarball gone"}
+{"name": "@immobiliarelabs/backstage-plugin-gitlab-backend", "mal_version": "5.2.1", "osv": "MAL-2026-6527", "drop": "tarball gone"}
+{"name": "@immobiliarelabs/backstage-plugin-ldap-auth", "mal_version": "1.1.4", "osv": "MAL-2026-6528", "drop": "tarball gone"}
+{"name": "@immobiliarelabs/backstage-plugin-ldap-auth", "mal_version": "2.0.5", "osv": "MAL-2026-6528", "drop": "tarball gone"}
+{"name": "@immobiliarelabs/backstage-plugin-ldap-auth", "mal_version": "3.0.2", "osv": "MAL-2026-6528", "drop": "tarball gone"}
+{"name": "@immobiliarelabs/backstage-plugin-ldap-auth-backend", "mal_version": "1.1.3", "osv": "MAL-2026-6529", "drop": "tarball gone"}
+{"name": "@immobiliarelabs/backstage-plugin-ldap-auth-backend", "mal_version": "2.0.5", "osv": "MAL-2026-6529", "drop": "tarball gone"}
+{"name": "@immobiliarelabs/backstage-plugin-ldap-auth-backend", "mal_version": "3.0.2", "osv": "MAL-2026-6529", "drop": "tarball gone"}
+{"name": "@injectivelabs/sdk-ts", "mal_version": "1.20.21", "base_version": "1.20.20", "osv": "MAL-2026-10165", "discovered": "2026-07-10", "mal_published": "2026-07-08T20:59:28.362Z", "tgz": "extra/@injectivelabs__sdk-ts@1.20.21.tgz", "missing_files": 0, "label": "compromise"}
+{"name": "@joyfill/components", "mal_version": "4.0.0-rc24-2773-beta.4", "osv": "MAL-2026-11160", "drop": "tarball gone"}
+{"name": "@joyfill/layouts", "mal_version": "0.1.2-2773.beta.0", "osv": "MAL-2026-11161", "drop": "tarball gone"}
+{"name": "@junyoung-kim/reins", "mal_version": "0.1.6", "base_version": "0.1.5", "osv": "MAL-2026-13432", "discovered": "2026-08-06", "mal_published": "2026-07-29T02:28:15.978Z", "tgz": "extra/@junyoung-kim__reins@0.1.6.tgz", "missing_files": 0, "label": "automated"}
+{"name": "@junyoung-kim/reins", "mal_version": "0.1.7", "base_version": "0.1.5", "osv": "MAL-2026-13432", "discovered": "2026-08-06", "mal_published": "2026-07-31T07:33:08.415Z", "tgz": "extra/@junyoung-kim__reins@0.1.7.tgz", "missing_files": 0, "label": "automated"}
+{"name": "@keyv/bigmap", "mal_version": "6.0.0", "base_version": "1.3.1", "osv": "MAL-2026-12007", "discovered": "2026-08-04", "mal_published": "2026-08-04T09:31:01.221Z", "tgz": "extra/@keyv__bigmap@6.0.0.tgz", "missing_files": 6, "label": "automated"}
+{"name": "@keyv/compress-brotli", "mal_version": "6.0.0", "base_version": "2.0.5", "osv": "MAL-2026-12009", "discovered": "2026-08-04", "mal_published": "2026-08-04T09:30:17.010Z", "tgz": "extra/@keyv__compress-brotli@6.0.0.tgz", "missing_files": 5, "label": "compromise"}
+{"name": "@keyv/compress-gzip", "mal_version": "6.0.0", "osv": "MAL-2026-12010", "drop": "tarball gone"}
+{"name": "@keyv/compress-lz4", "mal_version": "6.0.0", "osv": "MAL-2026-12011", "drop": "tarball gone"}
+{"name": "@keyv/dynamo", "mal_version": "6.0.0", "base_version": "1.2.4", "osv": "MAL-2026-12012", "discovered": "2026-08-04", "mal_published": "2026-08-04T09:30:48.058Z", "tgz": "extra/@keyv__dynamo@6.0.0.tgz", "missing_files": 6, "label": "automated"}
+{"name": "@keyv/encrypt-node", "mal_version": "6.0.0", "osv": "MAL-2026-12013", "drop": "tarball gone"}
+{"name": "@keyv/encrypt-web", "mal_version": "6.0.0", "osv": "MAL-2026-12014", "drop": "tarball gone"}
+{"name": "@keyv/etcd", "mal_version": "6.0.0", "osv": "MAL-2026-12015", "drop": "tarball gone"}
+{"name": "@keyv/memcache", "mal_version": "6.0.0", "base_version": "2.0.2", "osv": "MAL-2026-12016", "discovered": "2026-08-04", "mal_published": "2026-08-04T09:30:58.604Z", "tgz": "extra/@keyv__memcache@6.0.0.tgz", "missing_files": 5, "label": "automated"}
+{"name": "@keyv/mongo", "mal_version": "6.0.0", "base_version": "3.1.0", "osv": "MAL-2026-12017", "discovered": "2026-08-04", "mal_published": "2026-08-04T09:31:03.692Z", "tgz": "extra/@keyv__mongo@6.0.0.tgz", "missing_files": 6, "label": "automated"}
+{"name": "@keyv/mysql", "mal_version": "6.0.0", "osv": "MAL-2026-12018", "drop": "tarball gone"}
+{"name": "@keyv/postgres", "mal_version": "6.0.0", "osv": "MAL-2026-12019", "drop": "tarball gone"}
+{"name": "@keyv/redis", "mal_version": "6.0.0", "base_version": "5.1.6", "osv": "MAL-2026-12020", "discovered": "2026-08-04", "mal_published": "2026-08-04T09:32:24.818Z", "tgz": "extra/@keyv__redis@6.0.0.tgz", "missing_files": 5, "label": "automated"}
+{"name": "@keyv/serialize-msgpackr", "mal_version": "6.0.0", "osv": "MAL-2026-12021", "drop": "tarball gone"}
+{"name": "@keyv/serialize-superjson", "mal_version": "6.0.0", "osv": "MAL-2026-12022", "drop": "tarball gone"}
+{"name": "@keyv/sqlite", "mal_version": "6.0.0", "osv": "MAL-2026-12023", "drop": "tarball gone"}
+{"name": "@keyv/test-suite", "mal_version": "6.0.0", "osv": "MAL-2026-12024", "drop": "tarball gone"}
+{"name": "@keyv/valkey", "mal_version": "6.0.0", "base_version": "1.0.11", "osv": "MAL-2026-12025", "discovered": "2026-08-04", "mal_published": "2026-08-04T09:31:29.347Z", "tgz": "extra/@keyv__valkey@6.0.0.tgz", "missing_files": 5, "label": "automated"}
+{"name": "@kolbo/mcp", "mal_version": "1.57.1", "base_version": "1.57.0", "osv": "MAL-2026-13938", "discovered": "2026-08-13", "mal_published": "2026-08-08T05:34:07.207Z", "tgz": "extra/@kolbo__mcp@1.57.1.tgz", "missing_files": 0, "label": "automated"}
+{"name": "@lambda-platform/lambda-vue", "mal_version": "3.3.24", "osv": "MAL-2026-13668", "drop": "tarball gone"}
+{"name": "@leejungkiin/awkit", "mal_version": "3.3.1", "base_version": "3.3.0", "osv": "MAL-2026-13427", "discovered": "2026-08-06", "mal_published": "2026-07-18T15:37:21.079Z", "tgz": "extra/@leejungkiin__awkit@3.3.1.tgz", "missing_files": 0, "label": "automated"}
+{"name": "@leejungkiin/awkit", "mal_version": "3.3.2", "base_version": "3.3.0", "osv": "MAL-2026-13427", "discovered": "2026-08-06", "mal_published": "2026-07-18T15:54:50.773Z", "tgz": "extra/@leejungkiin__awkit@3.3.2.tgz", "missing_files": 0, "label": "automated"}
+{"name": "@leejungkiin/awkit", "mal_version": "3.3.3", "base_version": "3.3.0", "osv": "MAL-2026-13427", "discovered": "2026-08-06", "mal_published": "2026-07-18T23:00:07.363Z", "tgz": "extra/@leejungkiin__awkit@3.3.3.tgz", "missing_files": 4, "label": "automated"}
+{"name": "@love-moon/conductor-cli", "mal_version": "0.7.4", "base_version": "0.7.3", "osv": "MAL-2026-13428", "discovered": "2026-08-06", "mal_published": "2026-07-17T12:24:36.050Z", "tgz": "extra/@love-moon__conductor-cli@0.7.4.tgz", "missing_files": 0, "label": "automated"}
+{"name": "@love-moon/conductor-cli", "mal_version": "0.7.5", "base_version": "0.7.3", "osv": "MAL-2026-13428", "discovered": "2026-08-06", "mal_published": "2026-07-17T13:16:17.623Z", "tgz": "extra/@love-moon__conductor-cli@0.7.5.tgz", "missing_files": 0, "label": "automated"}
+{"name": "@love-moon/conductor-cli", "mal_version": "0.7.6", "base_version": "0.7.3", "osv": "MAL-2026-13428", "discovered": "2026-08-06", "mal_published": "2026-07-20T10:35:18.989Z", "tgz": "extra/@love-moon__conductor-cli@0.7.6.tgz", "missing_files": 0, "label": "automated"}
+{"name": "@modhamanish/rn-mm-template", "mal_version": "1.1.3", "osv": "MAL-2026-6725", "drop": "tarball gone"}
+{"name": "@mrbenty8jf1p9y5/oidc-bind-canary", "mal_version": "0.0.3", "base_version": "0.0.1", "osv": "MAL-2026-13626", "discovered": "2026-08-07", "mal_published": "2026-08-01T16:55:44.703Z", "tgz": "extra/@mrbenty8jf1p9y5__oidc-bind-canary@0.0.3.tgz", "missing_files": 0, "label": "automated"}
+{"name": "@nebula.js/cli", "mal_version": "7.1.2", "base_version": "7.1.1", "osv": "MAL-2026-11565", "discovered": "2026-08-04", "mal_published": "2026-08-04T10:46:37.284Z", "tgz": "extra/@nebula.js__cli@7.1.2.tgz", "missing_files": 5, "label": "compromise"}
+{"name": "@nebula.js/cli-build", "mal_version": "7.1.2", "base_version": "7.1.1", "osv": "MAL-2026-11566", "discovered": "2026-08-04", "mal_published": "2026-08-04T10:46:37.237Z", "tgz": "extra/@nebula.js__cli-build@7.1.2.tgz", "missing_files": 10, "label": "compromise"}
+{"name": "@nebula.js/cli-sense", "mal_version": "7.1.2", "base_version": "7.1.1", "osv": "MAL-2026-11567", "discovered": "2026-08-04", "mal_published": "2026-08-04T10:46:37.262Z", "tgz": "extra/@nebula.js__cli-sense@7.1.2.tgz", "missing_files": 10, "label": "compromise"}
+{"name": "@nebula.js/cli-serve", "mal_version": "7.1.2", "base_version": "7.1.1", "osv": "MAL-2026-11568", "discovered": "2026-08-04", "mal_published": "2026-08-04T10:46:39.018Z", "tgz": "extra/@nebula.js__cli-serve@7.1.2.tgz", "missing_files": 228, "label": "compromise"}
+{"name": "@nebula.js/locale", "mal_version": "0.6.2", "osv": "MAL-2026-11569", "drop": "tarball gone"}
+{"name": "@nebula.js/nucleus", "mal_version": "0.5.1", "osv": "MAL-2026-11570", "drop": "tarball gone"}
+{"name": "@nebula.js/sn-action-button", "mal_version": "2.3.1", "osv": "MAL-2026-11571", "drop": "tarball gone"}
+{"name": "@nebula.js/sn-animator", "mal_version": "2.13.1", "osv": "MAL-2026-11572", "drop": "tarball gone"}
+{"name": "@nebula.js/sn-distributionplot", "mal_version": "1.0.7", "osv": "MAL-2026-11573", "drop": "tarball gone"}
+{"name": "@nebula.js/sn-layout-container", "mal_version": "4.4.1", "osv": "MAL-2026-11574", "drop": "tarball gone"}
+{"name": "@nebula.js/sn-line-chart", "mal_version": "2.7.1", "base_version": "2.7.0", "osv": "MAL-2026-11575", "discovered": "2026-08-04", "mal_published": "2026-08-04T10:46:37.297Z", "tgz": "extra/@nebula.js__sn-line-chart@2.7.1.tgz", "missing_files": 12, "label": "compromise"}
+{"name": "@nebula.js/sn-listbox", "mal_version": "0.19.3", "osv": "MAL-2026-11576", "drop": "tarball gone"}
+{"name": "@nebula.js/sn-map", "mal_version": "0.12.7", "osv": "MAL-2026-11577", "drop": "tarball gone"}
+{"name": "@nebula.js/sn-nav-menu", "mal_version": "0.14.2", "osv": "MAL-2026-11578", "drop": "tarball gone"}
+{"name": "@nebula.js/sn-org-chart", "mal_version": "1.7.1", "osv": "MAL-2026-11579", "drop": "tarball gone"}
+{"name": "@nebula.js/sn-shape", "mal_version": "1.5.1", "osv": "MAL-2026-11580", "drop": "tarball gone"}
+{"name": "@nebula.js/sn-slider", "mal_version": "0.20.1", "osv": "MAL-2026-11581", "drop": "tarball gone"}
+{"name": "@nebula.js/sn-tabbed-container", "mal_version": "2.4.1", "osv": "MAL-2026-11582", "drop": "tarball gone"}
+{"name": "@nebula.js/snapshooter", "mal_version": "0.6.1", "osv": "MAL-2026-11583", "drop": "tarball gone"}
+{"name": "@nebula.js/stardust", "mal_version": "7.1.2", "base_version": "7.1.1", "osv": "MAL-2026-11584", "discovered": "2026-08-04", "mal_published": "2026-08-04T10:46:39.344Z", "tgz": "extra/@nebula.js__stardust@7.1.2.tgz", "missing_files": 30, "label": "compromise"}
+{"name": "@nebula.js/test-utils", "mal_version": "0.6.1", "osv": "MAL-2026-11585", "drop": "tarball gone"}
+{"name": "@nebula.js/theme", "mal_version": "0.6.1", "osv": "MAL-2026-11586", "drop": "tarball gone"}
+{"name": "@onereach/authorizer-helper", "mal_version": "0.0.11", "osv": "MAL-2026-11587", "drop": "tarball gone"}
+{"name": "@onereach/authorizer-helper", "mal_version": "0.0.12", "osv": "MAL-2026-11587", "drop": "tarball gone"}
+{"name": "@onereach/authorizer-helper", "mal_version": "0.0.13", "osv": "MAL-2026-11587", "drop": "tarball gone"}
+{"name": "@onereach/billing-dto", "mal_version": "27.2.1", "osv": "MAL-2026-11589", "drop": "tarball gone"}
+{"name": "@onereach/billing-dto", "mal_version": "27.2.2", "osv": "MAL-2026-11589", "drop": "tarball gone"}
+{"name": "@onereach/billing-dto", "mal_version": "27.2.3", "osv": "MAL-2026-11589", "drop": "tarball gone"}
+{"name": "@onereach/billing-shared", "mal_version": "27.2.1", "osv": "MAL-2026-11590", "drop": "tarball gone"}
+{"name": "@onereach/billing-shared", "mal_version": "27.2.2", "osv": "MAL-2026-11590", "drop": "tarball gone"}
+{"name": "@onereach/billing-shared", "mal_version": "27.2.3", "osv": "MAL-2026-11590", "drop": "tarball gone"}
+{"name": "@onereach/cb-schema-translator", "mal_version": "1.3.1", "osv": "MAL-2026-11591", "drop": "tarball gone"}
+{"name": "@onereach/cb-schema-translator", "mal_version": "1.3.2", "osv": "MAL-2026-11591", "drop": "tarball gone"}
+{"name": "@onereach/cb-schema-translator", "mal_version": "1.3.3", "osv": "MAL-2026-11591", "drop": "tarball gone"}
+{"name": "@onereach/channel-transformer", "mal_version": "0.0.66", "osv": "MAL-2026-11592", "drop": "tarball gone"}
+{"name": "@onereach/channel-transformer", "mal_version": "0.0.67", "osv": "MAL-2026-11592", "drop": "tarball gone"}
+{"name": "@onereach/channel-transformer", "mal_version": "0.0.68", "osv": "MAL-2026-11592", "drop": "tarball gone"}
+{"name": "@onereach/channel-transformers", "mal_version": "0.0.5", "osv": "MAL-2026-11593", "drop": "tarball gone"}
+{"name": "@onereach/channel-transformers", "mal_version": "0.0.6", "osv": "MAL-2026-11593", "drop": "tarball gone"}
+{"name": "@onereach/channel-transformers", "mal_version": "0.0.7", "osv": "MAL-2026-11593", "drop": "tarball gone"}
+{"name": "@onereach/ckeditor5-build-classic", "mal_version": "30.0.1", "osv": "MAL-2026-11594", "drop": "tarball gone"}
+{"name": "@onereach/ckeditor5-build-classic", "mal_version": "30.0.2", "osv": "MAL-2026-11594", "drop": "tarball gone"}
+{"name": "@onereach/ckeditor5-build-classic", "mal_version": "30.0.3", "osv": "MAL-2026-11594", "drop": "tarball gone"}
+{"name": "@onereach/condition-builder", "mal_version": "1.0.8", "osv": "MAL-2026-11595", "drop": "tarball gone"}
+{"name": "@onereach/condition-builder", "mal_version": "1.0.9", "osv": "MAL-2026-11595", "drop": "tarball gone"}
+{"name": "@onereach/condition-builder", "mal_version": "1.0.10", "osv": "MAL-2026-11595", "drop": "tarball gone"}
+{"name": "@onereach/content-builder", "mal_version": "0.0.18", "osv": "MAL-2026-11596", "drop": "tarball gone"}
+{"name": "@onereach/content-builder", "mal_version": "0.0.19", "osv": "MAL-2026-11596", "drop": "tarball gone"}
+{"name": "@onereach/content-builder", "mal_version": "0.0.20", "osv": "MAL-2026-11596", "drop": "tarball gone"}
+{"name": "@onereach/content-builder-template-compiler", "mal_version": "0.0.3", "osv": "MAL-2026-11597", "drop": "tarball gone"}
+{"name": "@onereach/content-builder-template-compiler", "mal_version": "0.0.4", "osv": "MAL-2026-11597", "drop": "tarball gone"}
+{"name": "@onereach/content-builder-template-compiler", "mal_version": "0.0.5", "osv": "MAL-2026-11597", "drop": "tarball gone"}
+{"name": "@onereach/expression-components", "mal_version": "9.1.1", "osv": "MAL-2026-11598", "drop": "tarball gone"}
+{"name": "@onereach/expression-components", "mal_version": "9.1.2", "osv": "MAL-2026-11598", "drop": "tarball gone"}
+{"name": "@onereach/expression-components", "mal_version": "9.1.3", "osv": "MAL-2026-11598", "drop": "tarball gone"}
+{"name": "@onereach/font-icons", "mal_version": "27.0.2", "osv": "MAL-2026-11599", "drop": "tarball gone"}
+{"name": "@onereach/font-icons", "mal_version": "27.0.3", "osv": "MAL-2026-11599", "drop": "tarball gone"}
+{"name": "@onereach/font-icons", "mal_version": "27.0.4", "osv": "MAL-2026-11599", "drop": "tarball gone"}
+{"name": "@onereach/get-version-data", "mal_version": "3.1.2", "osv": "MAL-2026-11600", "drop": "tarball gone"}
+{"name": "@onereach/get-version-data", "mal_version": "3.1.3", "osv": "MAL-2026-11600", "drop": "tarball gone"}
+{"name": "@onereach/get-version-data", "mal_version": "3.1.4", "osv": "MAL-2026-11600", "drop": "tarball gone"}
+{"name": "@onereach/idw-init-account-resources", "mal_version": "1.0.1", "osv": "MAL-2026-11603", "drop": "tarball gone"}
+{"name": "@onereach/idw-init-account-resources", "mal_version": "1.0.2", "osv": "MAL-2026-11603", "drop": "tarball gone"}
+{"name": "@onereach/idw-init-account-resources", "mal_version": "1.0.3", "osv": "MAL-2026-11603", "drop": "tarball gone"}
+{"name": "@onereach/lambda-invocation", "mal_version": "1.2.1", "osv": "MAL-2026-11606", "drop": "tarball gone"}
+{"name": "@onereach/lambda-invocation", "mal_version": "1.2.2", "osv": "MAL-2026-11606", "drop": "tarball gone"}
+{"name": "@onereach/lambda-invocation", "mal_version": "1.2.3", "osv": "MAL-2026-11606", "drop": "tarball gone"}
+{"name": "@onereach/or-browser", "mal_version": "0.0.48", "osv": "MAL-2026-11608", "drop": "tarball gone"}
+{"name": "@onereach/or-browser", "mal_version": "0.0.49", "osv": "MAL-2026-11608", "drop": "tarball gone"}
+{"name": "@onereach/or-browser", "mal_version": "0.0.50", "osv": "MAL-2026-11608", "drop": "tarball gone"}
+{"name": "@onereach/or-browser-next", "mal_version": "0.0.11", "osv": "MAL-2026-11609", "drop": "tarball gone"}
+{"name": "@onereach/or-browser-next", "mal_version": "0.0.12", "osv": "MAL-2026-11609", "drop": "tarball gone"}
+{"name": "@onereach/or-browser-next", "mal_version": "0.0.13", "osv": "MAL-2026-11609", "drop": "tarball gone"}
+{"name": "@onereach/or-content-builder-renderer", "mal_version": "0.0.2", "osv": "MAL-2026-11610", "drop": "tarball gone"}
+{"name": "@onereach/or-content-builder-renderer", "mal_version": "0.0.3", "osv": "MAL-2026-11610", "drop": "tarball gone"}
+{"name": "@onereach/or-content-builder-renderer", "mal_version": "0.0.4", "osv": "MAL-2026-11610", "drop": "tarball gone"}
+{"name": "@onereach/or-file-uploader-next", "mal_version": "0.0.8", "osv": "MAL-2026-11611", "drop": "tarball gone"}
+{"name": "@onereach/or-file-uploader-next", "mal_version": "0.0.9", "osv": "MAL-2026-11611", "drop": "tarball gone"}
+{"name": "@onereach/or-file-uploader-next", "mal_version": "0.0.10", "osv": "MAL-2026-11611", "drop": "tarball gone"}
+{"name": "@onereach/or-pro", "mal_version": "1.13.1", "osv": "MAL-2026-11612", "drop": "tarball gone"}
+{"name": "@onereach/or-pro", "mal_version": "1.13.2", "osv": "MAL-2026-11612", "drop": "tarball gone"}
+{"name": "@onereach/or-pro", "mal_version": "1.13.3", "osv": "MAL-2026-11612", "drop": "tarball gone"}
+{"name": "@onereach/orest-cli", "mal_version": "2.4.1", "osv": "MAL-2026-11614", "drop": "tarball gone"}
+{"name": "@onereach/orest-cli", "mal_version": "2.4.2", "osv": "MAL-2026-11614", "drop": "tarball gone"}
+{"name": "@onereach/orest-cli", "mal_version": "2.4.3", "osv": "MAL-2026-11614", "drop": "tarball gone"}
+{"name": "@onereach/orest-input-cli", "mal_version": "1.18.1", "osv": "MAL-2026-11615", "drop": "tarball gone"}
+{"name": "@onereach/orest-input-cli", "mal_version": "1.18.2", "osv": "MAL-2026-11615", "drop": "tarball gone"}
+{"name": "@onereach/orest-input-cli", "mal_version": "1.18.3", "osv": "MAL-2026-11615", "drop": "tarball gone"}
+{"name": "@onereach/orest-jest-presets", "mal_version": "0.0.3", "osv": "MAL-2026-11616", "drop": "tarball gone"}
+{"name": "@onereach/orest-jest-presets", "mal_version": "0.0.4", "osv": "MAL-2026-11616", "drop": "tarball gone"}
+{"name": "@onereach/orest-jest-presets", "mal_version": "0.0.5", "osv": "MAL-2026-11616", "drop": "tarball gone"}
+{"name": "@onereach/orest-vue-demi-vue2", "mal_version": "0.0.4", "osv": "MAL-2026-11617", "drop": "tarball gone"}
+{"name": "@onereach/orest-vue-demi-vue2", "mal_version": "0.0.5", "osv": "MAL-2026-11617", "drop": "tarball gone"}
+{"name": "@onereach/orest-vue-demi-vue2", "mal_version": "0.0.6", "osv": "MAL-2026-11617", "drop": "tarball gone"}
+{"name": "@onereach/orest-vue-demi-vue3", "mal_version": "0.0.4", "osv": "MAL-2026-11618", "drop": "tarball gone"}
+{"name": "@onereach/orest-vue-demi-vue3", "mal_version": "0.0.5", "osv": "MAL-2026-11618", "drop": "tarball gone"}
+{"name": "@onereach/orest-vue-demi-vue3", "mal_version": "0.0.6", "osv": "MAL-2026-11618", "drop": "tarball gone"}
+{"name": "@onereach/orest-vue3", "mal_version": "0.0.4", "osv": "MAL-2026-11619", "drop": "tarball gone"}
+{"name": "@onereach/orest-vue3", "mal_version": "0.0.5", "osv": "MAL-2026-11619", "drop": "tarball gone"}
+{"name": "@onereach/orest-vue3", "mal_version": "0.0.6", "osv": "MAL-2026-11619", "drop": "tarball gone"}
+{"name": "@onereach/phonenumber-interpreter", "mal_version": "0.0.18", "osv": "MAL-2026-11620", "drop": "tarball gone"}
+{"name": "@onereach/phonenumber-interpreter", "mal_version": "0.0.19", "osv": "MAL-2026-11620", "drop": "tarball gone"}
+{"name": "@onereach/phonenumber-interpreter", "mal_version": "0.0.20", "osv": "MAL-2026-11620", "drop": "tarball gone"}
+{"name": "@onereach/pnpm-audit-junit", "mal_version": "1.0.3", "osv": "MAL-2026-11621", "drop": "tarball gone"}
+{"name": "@onereach/pnpm-audit-junit", "mal_version": "1.0.4", "osv": "MAL-2026-11621", "drop": "tarball gone"}
+{"name": "@onereach/pnpm-audit-junit", "mal_version": "1.0.5", "osv": "MAL-2026-11621", "drop": "tarball gone"}
+{"name": "@onereach/postcss-scoped-selector", "mal_version": "1.2.1", "osv": "MAL-2026-11622", "drop": "tarball gone"}
+{"name": "@onereach/postcss-scoped-selector", "mal_version": "1.2.2", "osv": "MAL-2026-11622", "drop": "tarball gone"}
+{"name": "@onereach/postcss-scoped-selector", "mal_version": "1.2.3", "osv": "MAL-2026-11622", "drop": "tarball gone"}
+{"name": "@onereach/regex-helper", "mal_version": "0.5.16", "osv": "MAL-2026-11623", "drop": "tarball gone"}
+{"name": "@onereach/regex-helper", "mal_version": "0.5.17", "osv": "MAL-2026-11623", "drop": "tarball gone"}
+{"name": "@onereach/regex-helper", "mal_version": "0.5.18", "osv": "MAL-2026-11623", "drop": "tarball gone"}
+{"name": "@onereach/regular-expressions", "mal_version": "0.5.23", "osv": "MAL-2026-11624", "drop": "tarball gone"}
+{"name": "@onereach/regular-expressions", "mal_version": "0.5.24", "osv": "MAL-2026-11624", "drop": "tarball gone"}
+{"name": "@onereach/regular-expressions", "mal_version": "0.5.25", "osv": "MAL-2026-11624", "drop": "tarball gone"}
+{"name": "@onereach/regular-expressions-test", "mal_version": "0.0.4", "osv": "MAL-2026-11625", "drop": "tarball gone"}
+{"name": "@onereach/regular-expressions-test", "mal_version": "0.0.5", "osv": "MAL-2026-11625", "drop": "tarball gone"}
+{"name": "@onereach/regular-expressions-test", "mal_version": "0.0.6", "osv": "MAL-2026-11625", "drop": "tarball gone"}
+{"name": "@onereach/rwc-client", "mal_version": "6.4.7", "osv": "MAL-2026-11626", "drop": "tarball gone"}
+{"name": "@onereach/rwc-client", "mal_version": "6.4.8", "osv": "MAL-2026-11626", "drop": "tarball gone"}
+{"name": "@onereach/rwc-client", "mal_version": "6.4.9", "osv": "MAL-2026-11626", "drop": "tarball gone"}
+{"name": "@onereach/salesforce-miaw-client", "mal_version": "0.0.3", "osv": "MAL-2026-11627", "drop": "tarball gone"}
+{"name": "@onereach/salesforce-miaw-client", "mal_version": "0.0.4", "osv": "MAL-2026-11627", "drop": "tarball gone"}
+{"name": "@onereach/salesforce-miaw-client", "mal_version": "0.0.5", "osv": "MAL-2026-11627", "drop": "tarball gone"}
+{"name": "@onereach/si-a-button", "mal_version": "0.0.3", "osv": "MAL-2026-11628", "drop": "tarball gone"}
+{"name": "@onereach/si-a-button", "mal_version": "0.0.4", "osv": "MAL-2026-11628", "drop": "tarball gone"}
+{"name": "@onereach/si-a-button", "mal_version": "0.0.5", "osv": "MAL-2026-11628", "drop": "tarball gone"}
+{"name": "@onereach/si-alert", "mal_version": "0.4.11", "osv": "MAL-2026-11629", "drop": "tarball gone"}
+{"name": "@onereach/si-alert", "mal_version": "0.4.12", "osv": "MAL-2026-11629", "drop": "tarball gone"}
+{"name": "@onereach/si-alert", "mal_version": "0.4.13", "osv": "MAL-2026-11629", "drop": "tarball gone"}
+{"name": "@onereach/si-checkbox", "mal_version": "0.6.5", "osv": "MAL-2026-11630", "drop": "tarball gone"}
+{"name": "@onereach/si-checkbox", "mal_version": "0.6.6", "osv": "MAL-2026-11630", "drop": "tarball gone"}
+{"name": "@onereach/si-checkbox", "mal_version": "0.6.7", "osv": "MAL-2026-11630", "drop": "tarball gone"}
+{"name": "@onereach/si-checkbox-group", "mal_version": "0.3.5", "osv": "MAL-2026-11631", "drop": "tarball gone"}
+{"name": "@onereach/si-checkbox-group", "mal_version": "0.3.6", "osv": "MAL-2026-11631", "drop": "tarball gone"}
+{"name": "@onereach/si-checkbox-group", "mal_version": "0.3.7", "osv": "MAL-2026-11631", "drop": "tarball gone"}
+{"name": "@onereach/si-code", "mal_version": "0.6.4", "osv": "MAL-2026-11632", "drop": "tarball gone"}
+{"name": "@onereach/si-code", "mal_version": "0.6.5", "osv": "MAL-2026-11632", "drop": "tarball gone"}
+{"name": "@onereach/si-code", "mal_version": "0.6.6", "osv": "MAL-2026-11632", "drop": "tarball gone"}
+{"name": "@onereach/si-collapsible-group", "mal_version": "0.6.4", "osv": "MAL-2026-11633", "drop": "tarball gone"}
+{"name": "@onereach/si-collapsible-group", "mal_version": "0.6.5", "osv": "MAL-2026-11633", "drop": "tarball gone"}
+{"name": "@onereach/si-collapsible-group", "mal_version": "0.6.6", "osv": "MAL-2026-11633", "drop": "tarball gone"}
+{"name": "@onereach/si-copyable-text", "mal_version": "0.4.11", "osv": "MAL-2026-11634", "drop": "tarball gone"}
+{"name": "@onereach/si-copyable-text", "mal_version": "0.4.12", "osv": "MAL-2026-11634", "drop": "tarball gone"}
+{"name": "@onereach/si-copyable-text", "mal_version": "0.4.13", "osv": "MAL-2026-11634", "drop": "tarball gone"}
+{"name": "@onereach/si-datepicker", "mal_version": "0.4.5", "osv": "MAL-2026-11635", "drop": "tarball gone"}
+{"name": "@onereach/si-datepicker", "mal_version": "0.4.6", "osv": "MAL-2026-11635", "drop": "tarball gone"}
+{"name": "@onereach/si-datepicker", "mal_version": "0.4.7", "osv": "MAL-2026-11635", "drop": "tarball gone"}
+{"name": "@onereach/si-divider", "mal_version": "0.4.11", "osv": "MAL-2026-11636", "drop": "tarball gone"}
+{"name": "@onereach/si-divider", "mal_version": "0.4.12", "osv": "MAL-2026-11636", "drop": "tarball gone"}
+{"name": "@onereach/si-divider", "mal_version": "0.4.13", "osv": "MAL-2026-11636", "drop": "tarball gone"}
+{"name": "@onereach/si-dropdown-advanced", "mal_version": "0.4.5", "osv": "MAL-2026-11637", "drop": "tarball gone"}
+{"name": "@onereach/si-dropdown-advanced", "mal_version": "0.4.6", "osv": "MAL-2026-11637", "drop": "tarball gone"}
+{"name": "@onereach/si-dropdown-advanced", "mal_version": "0.4.7", "osv": "MAL-2026-11637", "drop": "tarball gone"}
+{"name": "@onereach/si-dropdown-simple", "mal_version": "0.4.5", "osv": "MAL-2026-11638", "drop": "tarball gone"}
+{"name": "@onereach/si-dropdown-simple", "mal_version": "0.4.6", "osv": "MAL-2026-11638", "drop": "tarball gone"}
+{"name": "@onereach/si-dropdown-simple", "mal_version": "0.4.7", "osv": "MAL-2026-11638", "drop": "tarball gone"}
+{"name": "@onereach/si-header", "mal_version": "0.4.11", "osv": "MAL-2026-11639", "drop": "tarball gone"}
+{"name": "@onereach/si-header", "mal_version": "0.4.12", "osv": "MAL-2026-11639", "drop": "tarball gone"}
+{"name": "@onereach/si-header", "mal_version": "0.4.13", "osv": "MAL-2026-11639", "drop": "tarball gone"}
+{"name": "@onereach/si-list", "mal_version": "0.7.4", "osv": "MAL-2026-11640", "drop": "tarball gone"}
+{"name": "@onereach/si-list", "mal_version": "0.7.5", "osv": "MAL-2026-11640", "drop": "tarball gone"}
+{"name": "@onereach/si-list", "mal_version": "0.7.6", "osv": "MAL-2026-11640", "drop": "tarball gone"}
+{"name": "@onereach/si-merge-tag-input", "mal_version": "0.4.5", "osv": "MAL-2026-11641", "drop": "tarball gone"}
+{"name": "@onereach/si-merge-tag-input", "mal_version": "0.4.6", "osv": "MAL-2026-11641", "drop": "tarball gone"}
+{"name": "@onereach/si-merge-tag-input", "mal_version": "0.4.7", "osv": "MAL-2026-11641", "drop": "tarball gone"}
+{"name": "@onereach/si-radio-group", "mal_version": "0.3.5", "osv": "MAL-2026-11642", "drop": "tarball gone"}
+{"name": "@onereach/si-radio-group", "mal_version": "0.3.6", "osv": "MAL-2026-11642", "drop": "tarball gone"}
+{"name": "@onereach/si-radio-group", "mal_version": "0.3.7", "osv": "MAL-2026-11642", "drop": "tarball gone"}
+{"name": "@onereach/si-root", "mal_version": "0.9.4", "osv": "MAL-2026-11643", "drop": "tarball gone"}
+{"name": "@onereach/si-root", "mal_version": "0.9.5", "osv": "MAL-2026-11643", "drop": "tarball gone"}
+{"name": "@onereach/si-root", "mal_version": "0.9.6", "osv": "MAL-2026-11643", "drop": "tarball gone"}
+{"name": "@onereach/si-select", "mal_version": "0.1.3", "osv": "MAL-2026-11644", "drop": "tarball gone"}
+{"name": "@onereach/si-select", "mal_version": "0.1.4", "osv": "MAL-2026-11644", "drop": "tarball gone"}
+{"name": "@onereach/si-select", "mal_version": "0.1.5", "osv": "MAL-2026-11644", "drop": "tarball gone"}
+{"name": "@onereach/si-step-chooser", "mal_version": "0.4.4", "osv": "MAL-2026-11645", "drop": "tarball gone"}
+{"name": "@onereach/si-step-chooser", "mal_version": "0.4.5", "osv": "MAL-2026-11645", "drop": "tarball gone"}
+{"name": "@onereach/si-step-chooser", "mal_version": "0.4.6", "osv": "MAL-2026-11645", "drop": "tarball gone"}
+{"name": "@onereach/si-switch", "mal_version": "0.4.5", "osv": "MAL-2026-11646", "drop": "tarball gone"}
+{"name": "@onereach/si-switch", "mal_version": "0.4.6", "osv": "MAL-2026-11646", "drop": "tarball gone"}
+{"name": "@onereach/si-switch", "mal_version": "0.4.7", "osv": "MAL-2026-11646", "drop": "tarball gone"}
+{"name": "@onereach/si-text-message", "mal_version": "0.4.5", "osv": "MAL-2026-11647", "drop": "tarball gone"}
+{"name": "@onereach/si-text-message", "mal_version": "0.4.6", "osv": "MAL-2026-11647", "drop": "tarball gone"}
+{"name": "@onereach/si-text-message", "mal_version": "0.4.7", "osv": "MAL-2026-11647", "drop": "tarball gone"}
+{"name": "@onereach/si-textinput", "mal_version": "0.5.5", "osv": "MAL-2026-11648", "drop": "tarball gone"}
+{"name": "@onereach/si-textinput", "mal_version": "0.5.6", "osv": "MAL-2026-11648", "drop": "tarball gone"}
+{"name": "@onereach/si-textinput", "mal_version": "0.5.7", "osv": "MAL-2026-11648", "drop": "tarball gone"}
+{"name": "@onereach/si-validated-timestring-input", "mal_version": "0.3.5", "osv": "MAL-2026-11649", "drop": "tarball gone"}
+{"name": "@onereach/si-validated-timestring-input", "mal_version": "0.3.6", "osv": "MAL-2026-11649", "drop": "tarball gone"}
+{"name": "@onereach/si-validated-timestring-input", "mal_version": "0.3.7", "osv": "MAL-2026-11649", "drop": "tarball gone"}
+{"name": "@onereach/slack-helpers", "mal_version": "1.0.3", "osv": "MAL-2026-11650", "drop": "tarball gone"}
+{"name": "@onereach/slack-helpers", "mal_version": "1.0.4", "osv": "MAL-2026-11650", "drop": "tarball gone"}
+{"name": "@onereach/slack-helpers", "mal_version": "1.0.5", "osv": "MAL-2026-11650", "drop": "tarball gone"}
+{"name": "@onereach/ssml-editor", "mal_version": "2.0.12", "osv": "MAL-2026-11651", "drop": "tarball gone"}
+{"name": "@onereach/ssml-editor", "mal_version": "2.0.13", "osv": "MAL-2026-11651", "drop": "tarball gone"}
+{"name": "@onereach/ssml-editor", "mal_version": "2.0.14", "osv": "MAL-2026-11651", "drop": "tarball gone"}
+{"name": "@onereach/step-components", "mal_version": "0.1.37", "osv": "MAL-2026-11652", "drop": "tarball gone"}
+{"name": "@onereach/step-components", "mal_version": "0.1.38", "osv": "MAL-2026-11652", "drop": "tarball gone"}
+{"name": "@onereach/step-components", "mal_version": "0.1.39", "osv": "MAL-2026-11652", "drop": "tarball gone"}
+{"name": "@onereach/step-conversation", "mal_version": "1.0.41", "osv": "MAL-2026-11653", "drop": "tarball gone"}
+{"name": "@onereach/step-conversation", "mal_version": "1.0.42", "osv": "MAL-2026-11653", "drop": "tarball gone"}
+{"name": "@onereach/step-conversation", "mal_version": "1.0.43", "osv": "MAL-2026-11653", "drop": "tarball gone"}
+{"name": "@onereach/step-run-snowflake-query", "mal_version": "0.1.1", "osv": "MAL-2026-11654", "drop": "tarball gone"}
+{"name": "@onereach/step-run-snowflake-query", "mal_version": "0.1.2", "osv": "MAL-2026-11654", "drop": "tarball gone"}
+{"name": "@onereach/step-run-snowflake-query", "mal_version": "0.1.3", "osv": "MAL-2026-11654", "drop": "tarball gone"}
+{"name": "@onereach/step-voice", "mal_version": "7.0.32", "osv": "MAL-2026-11655", "drop": "tarball gone"}
+{"name": "@onereach/step-voice", "mal_version": "7.0.33", "osv": "MAL-2026-11655", "drop": "tarball gone"}
+{"name": "@onereach/step-voice", "mal_version": "7.0.34", "osv": "MAL-2026-11655", "drop": "tarball gone"}
+{"name": "@onereach/styles", "mal_version": "27.0.2", "osv": "MAL-2026-11656", "drop": "tarball gone"}
+{"name": "@onereach/styles", "mal_version": "27.0.3", "osv": "MAL-2026-11656", "drop": "tarball gone"}
+{"name": "@onereach/styles", "mal_version": "27.0.4", "osv": "MAL-2026-11656", "drop": "tarball gone"}
+{"name": "@onereach/time-interpreter", "mal_version": "1.0.30", "osv": "MAL-2026-11657", "drop": "tarball gone"}
+{"name": "@onereach/time-interpreter", "mal_version": "1.0.31", "osv": "MAL-2026-11657", "drop": "tarball gone"}
+{"name": "@onereach/time-interpreter", "mal_version": "1.0.32", "osv": "MAL-2026-11657", "drop": "tarball gone"}
+{"name": "@onereach/types-contacts-api", "mal_version": "9.0.8", "osv": "MAL-2026-11659", "drop": "tarball gone"}
+{"name": "@onereach/types-contacts-api", "mal_version": "9.0.9", "osv": "MAL-2026-11659", "drop": "tarball gone"}
+{"name": "@onereach/types-contacts-api", "mal_version": "9.0.10", "osv": "MAL-2026-11659", "drop": "tarball gone"}
+{"name": "@onereach/ui-components", "mal_version": "27.0.2", "osv": "MAL-2026-11660", "drop": "tarball gone"}
+{"name": "@onereach/ui-components", "mal_version": "27.0.3", "osv": "MAL-2026-11660", "drop": "tarball gone"}
+{"name": "@onereach/ui-components", "mal_version": "27.0.4", "osv": "MAL-2026-11660", "drop": "tarball gone"}
+{"name": "@onereach/ui-components-common", "mal_version": "27.0.2", "osv": "MAL-2026-11661", "drop": "tarball gone"}
+{"name": "@onereach/ui-components-common", "mal_version": "27.0.3", "osv": "MAL-2026-11661", "drop": "tarball gone"}
+{"name": "@onereach/ui-components-common", "mal_version": "27.0.4", "osv": "MAL-2026-11661", "drop": "tarball gone"}
+{"name": "@onereach/ui-components-vue2", "mal_version": "27.0.2", "osv": "MAL-2026-11662", "drop": "tarball gone"}
+{"name": "@onereach/ui-components-vue2", "mal_version": "27.0.3", "osv": "MAL-2026-11662", "drop": "tarball gone"}
+{"name": "@onereach/ui-components-vue2", "mal_version": "27.0.4", "osv": "MAL-2026-11662", "drop": "tarball gone"}
+{"name": "@onereach/v-event-calendar", "mal_version": "0.1.22", "osv": "MAL-2026-11663", "drop": "tarball gone"}
+{"name": "@onereach/v-event-calendar", "mal_version": "0.1.23", "osv": "MAL-2026-11663", "drop": "tarball gone"}
+{"name": "@onereach/v-event-calendar", "mal_version": "0.1.24", "osv": "MAL-2026-11663", "drop": "tarball gone"}
+{"name": "@onereach/webform", "mal_version": "0.3.13", "osv": "MAL-2026-11664", "drop": "tarball gone"}
+{"name": "@onereach/webform", "mal_version": "0.3.14", "osv": "MAL-2026-11664", "drop": "tarball gone"}
+{"name": "@onereach/webform", "mal_version": "0.3.15", "osv": "MAL-2026-11664", "drop": "tarball gone"}
+{"name": "@or-sdk/account-settings", "mal_version": "1.3.6", "osv": "MAL-2026-11665", "drop": "tarball gone"}
+{"name": "@or-sdk/account-settings", "mal_version": "1.3.7", "osv": "MAL-2026-11665", "drop": "tarball gone"}
+{"name": "@or-sdk/account-settings", "mal_version": "1.3.8", "osv": "MAL-2026-11665", "drop": "tarball gone"}
+{"name": "@or-sdk/accounts", "mal_version": "2.3.5", "osv": "MAL-2026-11666", "drop": "tarball gone"}
+{"name": "@or-sdk/accounts", "mal_version": "2.3.6", "osv": "MAL-2026-11666", "drop": "tarball gone"}
+{"name": "@or-sdk/accounts", "mal_version": "2.3.7", "osv": "MAL-2026-11666", "drop": "tarball gone"}
+{"name": "@or-sdk/adapters", "mal_version": "0.3.6", "osv": "MAL-2026-11667", "drop": "tarball gone"}
+{"name": "@or-sdk/adapters", "mal_version": "0.3.7", "osv": "MAL-2026-11667", "drop": "tarball gone"}
+{"name": "@or-sdk/adapters", "mal_version": "0.3.8", "osv": "MAL-2026-11667", "drop": "tarball gone"}
+{"name": "@or-sdk/agents", "mal_version": "4.21.3", "osv": "MAL-2026-11668", "drop": "tarball gone"}
+{"name": "@or-sdk/agents", "mal_version": "4.21.4", "osv": "MAL-2026-11668", "drop": "tarball gone"}
+{"name": "@or-sdk/agents", "mal_version": "4.21.5", "osv": "MAL-2026-11668", "drop": "tarball gone"}
+{"name": "@or-sdk/api-tokens", "mal_version": "1.4.2", "osv": "MAL-2026-11669", "drop": "tarball gone"}
+{"name": "@or-sdk/api-tokens", "mal_version": "1.4.3", "osv": "MAL-2026-11669", "drop": "tarball gone"}
+{"name": "@or-sdk/api-tokens", "mal_version": "1.4.4", "osv": "MAL-2026-11669", "drop": "tarball gone"}
+{"name": "@or-sdk/api-tokens-lambda", "mal_version": "1.4.2", "osv": "MAL-2026-11670", "drop": "tarball gone"}
+{"name": "@or-sdk/api-tokens-lambda", "mal_version": "1.4.3", "osv": "MAL-2026-11670", "drop": "tarball gone"}
+{"name": "@or-sdk/api-tokens-lambda", "mal_version": "1.4.4", "osv": "MAL-2026-11670", "drop": "tarball gone"}
+{"name": "@or-sdk/apps", "mal_version": "1.2.6", "osv": "MAL-2026-11671", "drop": "tarball gone"}
+{"name": "@or-sdk/apps", "mal_version": "1.2.7", "osv": "MAL-2026-11671", "drop": "tarball gone"}
+{"name": "@or-sdk/apps", "mal_version": "1.2.8", "osv": "MAL-2026-11671", "drop": "tarball gone"}
+{"name": "@or-sdk/auth", "mal_version": "0.38.1", "osv": "MAL-2026-11672", "drop": "tarball gone"}
+{"name": "@or-sdk/auth", "mal_version": "0.38.2", "osv": "MAL-2026-11672", "drop": "tarball gone"}
+{"name": "@or-sdk/auth", "mal_version": "0.38.3", "osv": "MAL-2026-11672", "drop": "tarball gone"}
+{"name": "@or-sdk/authorizer", "mal_version": "0.26.7", "osv": "MAL-2026-11673", "drop": "tarball gone"}
+{"name": "@or-sdk/authorizer", "mal_version": "0.26.8", "osv": "MAL-2026-11673", "drop": "tarball gone"}
+{"name": "@or-sdk/authorizer", "mal_version": "0.26.9", "osv": "MAL-2026-11673", "drop": "tarball gone"}
+{"name": "@or-sdk/base", "mal_version": "0.44.4", "osv": "MAL-2026-11674", "drop": "tarball gone"}
+{"name": "@or-sdk/base", "mal_version": "0.44.5", "osv": "MAL-2026-11674", "drop": "tarball gone"}
+{"name": "@or-sdk/base", "mal_version": "0.44.6", "osv": "MAL-2026-11674", "drop": "tarball gone"}
+{"name": "@or-sdk/billing", "mal_version": "27.2.1", "osv": "MAL-2026-11675", "drop": "tarball gone"}
+{"name": "@or-sdk/billing", "mal_version": "27.2.2", "osv": "MAL-2026-11675", "drop": "tarball gone"}
+{"name": "@or-sdk/billing", "mal_version": "27.2.3", "osv": "MAL-2026-11675", "drop": "tarball gone"}
+{"name": "@or-sdk/billing-internal", "mal_version": "27.2.1", "osv": "MAL-2026-11676", "drop": "tarball gone"}
+{"name": "@or-sdk/billing-internal", "mal_version": "27.2.2", "osv": "MAL-2026-11676", "drop": "tarball gone"}
+{"name": "@or-sdk/billing-internal", "mal_version": "27.2.3", "osv": "MAL-2026-11676", "drop": "tarball gone"}
+{"name": "@or-sdk/bot-templates", "mal_version": "2.2.5", "osv": "MAL-2026-11677", "drop": "tarball gone"}
+{"name": "@or-sdk/bot-templates", "mal_version": "2.2.6", "osv": "MAL-2026-11677", "drop": "tarball gone"}
+{"name": "@or-sdk/bot-templates", "mal_version": "2.2.7", "osv": "MAL-2026-11677", "drop": "tarball gone"}
+{"name": "@or-sdk/bots", "mal_version": "1.7.1", "osv": "MAL-2026-11678", "drop": "tarball gone"}
+{"name": "@or-sdk/bots", "mal_version": "1.7.2", "osv": "MAL-2026-11678", "drop": "tarball gone"}
+{"name": "@or-sdk/bots", "mal_version": "1.7.3", "osv": "MAL-2026-11678", "drop": "tarball gone"}
+{"name": "@or-sdk/card-templates", "mal_version": "2.2.5", "osv": "MAL-2026-11679", "drop": "tarball gone"}
+{"name": "@or-sdk/card-templates", "mal_version": "2.2.6", "osv": "MAL-2026-11679", "drop": "tarball gone"}
+{"name": "@or-sdk/card-templates", "mal_version": "2.2.7", "osv": "MAL-2026-11679", "drop": "tarball gone"}
+{"name": "@or-sdk/cards", "mal_version": "1.2.5", "osv": "MAL-2026-11680", "drop": "tarball gone"}
+{"name": "@or-sdk/cards", "mal_version": "1.2.6", "osv": "MAL-2026-11680", "drop": "tarball gone"}
+{"name": "@or-sdk/cards", "mal_version": "1.2.7", "osv": "MAL-2026-11680", "drop": "tarball gone"}
+{"name": "@or-sdk/ccp", "mal_version": "10.15.4", "osv": "MAL-2026-11681", "drop": "tarball gone"}
+{"name": "@or-sdk/ccp", "mal_version": "10.15.5", "osv": "MAL-2026-11681", "drop": "tarball gone"}
+{"name": "@or-sdk/ccp", "mal_version": "10.15.6", "osv": "MAL-2026-11681", "drop": "tarball gone"}
+{"name": "@or-sdk/chat", "mal_version": "0.3.1", "osv": "MAL-2026-11682", "drop": "tarball gone"}
+{"name": "@or-sdk/chat", "mal_version": "0.3.2", "osv": "MAL-2026-11682", "drop": "tarball gone"}
+{"name": "@or-sdk/chat", "mal_version": "0.3.3", "osv": "MAL-2026-11682", "drop": "tarball gone"}
+{"name": "@or-sdk/contacts", "mal_version": "4.7.5", "osv": "MAL-2026-11683", "drop": "tarball gone"}
+{"name": "@or-sdk/contacts", "mal_version": "4.7.6", "osv": "MAL-2026-11683", "drop": "tarball gone"}
+{"name": "@or-sdk/contacts", "mal_version": "4.7.7", "osv": "MAL-2026-11683", "drop": "tarball gone"}
+{"name": "@or-sdk/content-request", "mal_version": "0.2.6", "osv": "MAL-2026-11684", "drop": "tarball gone"}
+{"name": "@or-sdk/content-request", "mal_version": "0.2.7", "osv": "MAL-2026-11684", "drop": "tarball gone"}
+{"name": "@or-sdk/content-request", "mal_version": "0.2.8", "osv": "MAL-2026-11684", "drop": "tarball gone"}
+{"name": "@or-sdk/data-hub", "mal_version": "0.26.5", "osv": "MAL-2026-11685", "drop": "tarball gone"}
+{"name": "@or-sdk/data-hub", "mal_version": "0.26.6", "osv": "MAL-2026-11685", "drop": "tarball gone"}
+{"name": "@or-sdk/data-hub", "mal_version": "0.26.7", "osv": "MAL-2026-11685", "drop": "tarball gone"}
+{"name": "@or-sdk/data-hub-svc", "mal_version": "2.3.5", "osv": "MAL-2026-11686", "drop": "tarball gone"}
+{"name": "@or-sdk/data-hub-svc", "mal_version": "2.3.6", "osv": "MAL-2026-11686", "drop": "tarball gone"}
+{"name": "@or-sdk/data-hub-svc", "mal_version": "2.3.7", "osv": "MAL-2026-11686", "drop": "tarball gone"}
+{"name": "@or-sdk/deployer", "mal_version": "1.7.5", "osv": "MAL-2026-11687", "drop": "tarball gone"}
+{"name": "@or-sdk/deployer", "mal_version": "1.7.6", "osv": "MAL-2026-11687", "drop": "tarball gone"}
+{"name": "@or-sdk/deployer", "mal_version": "1.7.7", "osv": "MAL-2026-11687", "drop": "tarball gone"}
+{"name": "@or-sdk/deployments", "mal_version": "2.1.5", "osv": "MAL-2026-11688", "drop": "tarball gone"}
+{"name": "@or-sdk/deployments", "mal_version": "2.1.6", "osv": "MAL-2026-11688", "drop": "tarball gone"}
+{"name": "@or-sdk/deployments", "mal_version": "2.1.7", "osv": "MAL-2026-11688", "drop": "tarball gone"}
+{"name": "@or-sdk/discovery", "mal_version": "1.12.1", "osv": "MAL-2026-11689", "drop": "tarball gone"}
+{"name": "@or-sdk/discovery", "mal_version": "1.12.2", "osv": "MAL-2026-11689", "drop": "tarball gone"}
+{"name": "@or-sdk/discovery", "mal_version": "1.12.3", "osv": "MAL-2026-11689", "drop": "tarball gone"}
+{"name": "@or-sdk/druid", "mal_version": "1.4.7", "osv": "MAL-2026-11690", "drop": "tarball gone"}
+{"name": "@or-sdk/druid", "mal_version": "1.4.8", "osv": "MAL-2026-11690", "drop": "tarball gone"}
+{"name": "@or-sdk/druid", "mal_version": "1.4.9", "osv": "MAL-2026-11690", "drop": "tarball gone"}
+{"name": "@or-sdk/event-manager", "mal_version": "1.1.5", "osv": "MAL-2026-11691", "drop": "tarball gone"}
+{"name": "@or-sdk/event-manager", "mal_version": "1.1.6", "osv": "MAL-2026-11691", "drop": "tarball gone"}
+{"name": "@or-sdk/event-manager", "mal_version": "1.1.7", "osv": "MAL-2026-11691", "drop": "tarball gone"}
+{"name": "@or-sdk/files", "mal_version": "3.11.6", "osv": "MAL-2026-11692", "drop": "tarball gone"}
+{"name": "@or-sdk/files", "mal_version": "3.11.7", "osv": "MAL-2026-11692", "drop": "tarball gone"}
+{"name": "@or-sdk/files", "mal_version": "3.11.8", "osv": "MAL-2026-11692", "drop": "tarball gone"}
+{"name": "@or-sdk/files-sync-node", "mal_version": "0.1.8", "osv": "MAL-2026-11693", "drop": "tarball gone"}
+{"name": "@or-sdk/files-sync-node", "mal_version": "0.1.9", "osv": "MAL-2026-11693", "drop": "tarball gone"}
+{"name": "@or-sdk/files-sync-node", "mal_version": "0.1.10", "osv": "MAL-2026-11693", "drop": "tarball gone"}
+{"name": "@or-sdk/flow-templates", "mal_version": "2.1.5", "osv": "MAL-2026-11694", "drop": "tarball gone"}
+{"name": "@or-sdk/flow-templates", "mal_version": "2.1.6", "osv": "MAL-2026-11694", "drop": "tarball gone"}
+{"name": "@or-sdk/flow-templates", "mal_version": "2.1.7", "osv": "MAL-2026-11694", "drop": "tarball gone"}
+{"name": "@or-sdk/flows", "mal_version": "2.7.8", "osv": "MAL-2026-11695", "drop": "tarball gone"}
+{"name": "@or-sdk/flows", "mal_version": "2.7.9", "osv": "MAL-2026-11695", "drop": "tarball gone"}
+{"name": "@or-sdk/flows", "mal_version": "2.7.10", "osv": "MAL-2026-11695", "drop": "tarball gone"}
+{"name": "@or-sdk/graph", "mal_version": "1.10.5", "osv": "MAL-2026-11696", "drop": "tarball gone"}
+{"name": "@or-sdk/graph", "mal_version": "1.10.6", "osv": "MAL-2026-11696", "drop": "tarball gone"}
+{"name": "@or-sdk/graph", "mal_version": "1.10.7", "osv": "MAL-2026-11696", "drop": "tarball gone"}
+{"name": "@or-sdk/hitl", "mal_version": "0.41.1", "osv": "MAL-2026-11697", "drop": "tarball gone"}
+{"name": "@or-sdk/hitl", "mal_version": "0.41.2", "osv": "MAL-2026-11697", "drop": "tarball gone"}
+{"name": "@or-sdk/hitl", "mal_version": "0.41.3", "osv": "MAL-2026-11697", "drop": "tarball gone"}
+{"name": "@or-sdk/identifiers", "mal_version": "0.27.6", "osv": "MAL-2026-11698", "drop": "tarball gone"}
+{"name": "@or-sdk/identifiers", "mal_version": "0.27.7", "osv": "MAL-2026-11698", "drop": "tarball gone"}
+{"name": "@or-sdk/identifiers", "mal_version": "0.27.8", "osv": "MAL-2026-11698", "drop": "tarball gone"}
+{"name": "@or-sdk/idw", "mal_version": "9.0.4", "osv": "MAL-2026-11699", "drop": "tarball gone"}
+{"name": "@or-sdk/idw", "mal_version": "9.0.5", "osv": "MAL-2026-11699", "drop": "tarball gone"}
+{"name": "@or-sdk/idw", "mal_version": "9.0.6", "osv": "MAL-2026-11699", "drop": "tarball gone"}
+{"name": "@or-sdk/idw-public", "mal_version": "1.6.6", "osv": "MAL-2026-11700", "drop": "tarball gone"}
+{"name": "@or-sdk/idw-public", "mal_version": "1.6.7", "osv": "MAL-2026-11700", "drop": "tarball gone"}
+{"name": "@or-sdk/idw-public", "mal_version": "1.6.8", "osv": "MAL-2026-11700", "drop": "tarball gone"}
+{"name": "@or-sdk/idw-skill", "mal_version": "1.4.1", "osv": "MAL-2026-11701", "drop": "tarball gone"}
+{"name": "@or-sdk/idw-skill", "mal_version": "1.4.2", "osv": "MAL-2026-11701", "drop": "tarball gone"}
+{"name": "@or-sdk/idw-skill", "mal_version": "1.4.3", "osv": "MAL-2026-11701", "drop": "tarball gone"}
+{"name": "@or-sdk/invitations", "mal_version": "1.4.8", "osv": "MAL-2026-11702", "drop": "tarball gone"}
+{"name": "@or-sdk/invitations", "mal_version": "1.4.9", "osv": "MAL-2026-11702", "drop": "tarball gone"}
+{"name": "@or-sdk/invitations", "mal_version": "1.4.10", "osv": "MAL-2026-11702", "drop": "tarball gone"}
+{"name": "@or-sdk/key-value-storage", "mal_version": "0.28.6", "osv": "MAL-2026-11703", "drop": "tarball gone"}
+{"name": "@or-sdk/key-value-storage", "mal_version": "0.28.7", "osv": "MAL-2026-11703", "drop": "tarball gone"}
+{"name": "@or-sdk/key-value-storage", "mal_version": "0.28.8", "osv": "MAL-2026-11703", "drop": "tarball gone"}
+{"name": "@or-sdk/keys", "mal_version": "1.2.6", "osv": "MAL-2026-11704", "drop": "tarball gone"}
+{"name": "@or-sdk/keys", "mal_version": "1.2.7", "osv": "MAL-2026-11704", "drop": "tarball gone"}
+{"name": "@or-sdk/keys", "mal_version": "1.2.8", "osv": "MAL-2026-11704", "drop": "tarball gone"}
+{"name": "@or-sdk/knowledge-models", "mal_version": "0.25.5", "osv": "MAL-2026-11705", "drop": "tarball gone"}
+{"name": "@or-sdk/knowledge-models", "mal_version": "0.25.6", "osv": "MAL-2026-11705", "drop": "tarball gone"}
+{"name": "@or-sdk/knowledge-models", "mal_version": "0.25.7", "osv": "MAL-2026-11705", "drop": "tarball gone"}
+{"name": "@or-sdk/library", "mal_version": "0.5.6", "osv": "MAL-2026-11706", "drop": "tarball gone"}
+{"name": "@or-sdk/library", "mal_version": "0.5.7", "osv": "MAL-2026-11706", "drop": "tarball gone"}
+{"name": "@or-sdk/library", "mal_version": "0.5.8", "osv": "MAL-2026-11706", "drop": "tarball gone"}
+{"name": "@or-sdk/library-categories", "mal_version": "0.2.6", "osv": "MAL-2026-11707", "drop": "tarball gone"}
+{"name": "@or-sdk/library-categories", "mal_version": "0.2.7", "osv": "MAL-2026-11707", "drop": "tarball gone"}
+{"name": "@or-sdk/library-categories", "mal_version": "0.2.8", "osv": "MAL-2026-11707", "drop": "tarball gone"}
+{"name": "@or-sdk/library-source", "mal_version": "0.4.5", "osv": "MAL-2026-11708", "drop": "tarball gone"}
+{"name": "@or-sdk/library-source", "mal_version": "0.4.6", "osv": "MAL-2026-11708", "drop": "tarball gone"}
+{"name": "@or-sdk/library-source", "mal_version": "0.4.7", "osv": "MAL-2026-11708", "drop": "tarball gone"}
+{"name": "@or-sdk/library-types-v1", "mal_version": "9.0.1", "osv": "MAL-2026-11709", "drop": "tarball gone"}
+{"name": "@or-sdk/library-types-v1", "mal_version": "9.0.2", "osv": "MAL-2026-11709", "drop": "tarball gone"}
+{"name": "@or-sdk/library-types-v1", "mal_version": "9.0.3", "osv": "MAL-2026-11709", "drop": "tarball gone"}
+{"name": "@or-sdk/library-types-v2", "mal_version": "9.0.1", "osv": "MAL-2026-11710", "drop": "tarball gone"}
+{"name": "@or-sdk/library-types-v2", "mal_version": "9.0.2", "osv": "MAL-2026-11710", "drop": "tarball gone"}
+{"name": "@or-sdk/library-types-v2", "mal_version": "9.0.3", "osv": "MAL-2026-11710", "drop": "tarball gone"}
+{"name": "@or-sdk/lookup", "mal_version": "1.25.1", "osv": "MAL-2026-11711", "drop": "tarball gone"}
+{"name": "@or-sdk/lookup", "mal_version": "1.25.2", "osv": "MAL-2026-11711", "drop": "tarball gone"}
+{"name": "@or-sdk/lookup", "mal_version": "1.25.3", "osv": "MAL-2026-11711", "drop": "tarball gone"}
+{"name": "@or-sdk/markdowner", "mal_version": "0.5.1", "osv": "MAL-2026-11712", "drop": "tarball gone"}
+{"name": "@or-sdk/markdowner", "mal_version": "0.5.2", "osv": "MAL-2026-11712", "drop": "tarball gone"}
+{"name": "@or-sdk/markdowner", "mal_version": "0.5.3", "osv": "MAL-2026-11712", "drop": "tarball gone"}
+{"name": "@or-sdk/mcp-tools", "mal_version": "0.5.2", "osv": "MAL-2026-11713", "drop": "tarball gone"}
+{"name": "@or-sdk/mcp-tools", "mal_version": "0.5.3", "osv": "MAL-2026-11713", "drop": "tarball gone"}
+{"name": "@or-sdk/mcp-tools", "mal_version": "0.5.4", "osv": "MAL-2026-11713", "drop": "tarball gone"}
+{"name": "@or-sdk/notifications", "mal_version": "1.7.5", "osv": "MAL-2026-11714", "drop": "tarball gone"}
+{"name": "@or-sdk/notifications", "mal_version": "1.7.6", "osv": "MAL-2026-11714", "drop": "tarball gone"}
+{"name": "@or-sdk/notifications", "mal_version": "1.7.7", "osv": "MAL-2026-11714", "drop": "tarball gone"}
+{"name": "@or-sdk/password", "mal_version": "1.3.6", "osv": "MAL-2026-11715", "drop": "tarball gone"}
+{"name": "@or-sdk/password", "mal_version": "1.3.7", "osv": "MAL-2026-11715", "drop": "tarball gone"}
+{"name": "@or-sdk/password", "mal_version": "1.3.8", "osv": "MAL-2026-11715", "drop": "tarball gone"}
+{"name": "@or-sdk/payments", "mal_version": "3.2.5", "osv": "MAL-2026-11716", "drop": "tarball gone"}
+{"name": "@or-sdk/payments", "mal_version": "3.2.6", "osv": "MAL-2026-11716", "drop": "tarball gone"}
+{"name": "@or-sdk/payments", "mal_version": "3.2.7", "osv": "MAL-2026-11716", "drop": "tarball gone"}
+{"name": "@or-sdk/permissions", "mal_version": "2.8.1", "osv": "MAL-2026-11717", "drop": "tarball gone"}
+{"name": "@or-sdk/permissions", "mal_version": "2.8.2", "osv": "MAL-2026-11717", "drop": "tarball gone"}
+{"name": "@or-sdk/permissions", "mal_version": "2.8.3", "osv": "MAL-2026-11717", "drop": "tarball gone"}
+{"name": "@or-sdk/permissions-cli", "mal_version": "1.4.1", "osv": "MAL-2026-11718", "drop": "tarball gone"}
+{"name": "@or-sdk/permissions-cli", "mal_version": "1.4.2", "osv": "MAL-2026-11718", "drop": "tarball gone"}
+{"name": "@or-sdk/permissions-cli", "mal_version": "1.4.3", "osv": "MAL-2026-11718", "drop": "tarball gone"}
+{"name": "@or-sdk/permissions-lambda", "mal_version": "2.5.1", "osv": "MAL-2026-11719", "drop": "tarball gone"}
+{"name": "@or-sdk/permissions-lambda", "mal_version": "2.5.2", "osv": "MAL-2026-11719", "drop": "tarball gone"}
+{"name": "@or-sdk/permissions-lambda", "mal_version": "2.5.3", "osv": "MAL-2026-11719", "drop": "tarball gone"}
+{"name": "@or-sdk/pgsql", "mal_version": "1.5.1", "osv": "MAL-2026-11720", "drop": "tarball gone"}
+{"name": "@or-sdk/pgsql", "mal_version": "1.5.2", "osv": "MAL-2026-11720", "drop": "tarball gone"}
+{"name": "@or-sdk/pgsql", "mal_version": "1.5.3", "osv": "MAL-2026-11720", "drop": "tarball gone"}
+{"name": "@or-sdk/providers", "mal_version": "0.3.6", "osv": "MAL-2026-11721", "drop": "tarball gone"}
+{"name": "@or-sdk/providers", "mal_version": "0.3.7", "osv": "MAL-2026-11721", "drop": "tarball gone"}
+{"name": "@or-sdk/providers", "mal_version": "0.3.8", "osv": "MAL-2026-11721", "drop": "tarball gone"}
+{"name": "@or-sdk/qna", "mal_version": "3.4.2", "osv": "MAL-2026-11722", "drop": "tarball gone"}
+{"name": "@or-sdk/qna", "mal_version": "3.4.3", "osv": "MAL-2026-11722", "drop": "tarball gone"}
+{"name": "@or-sdk/qna", "mal_version": "3.4.4", "osv": "MAL-2026-11722", "drop": "tarball gone"}
+{"name": "@or-sdk/queue-manager", "mal_version": "1.4.6", "osv": "MAL-2026-11723", "drop": "tarball gone"}
+{"name": "@or-sdk/queue-manager", "mal_version": "1.4.7", "osv": "MAL-2026-11723", "drop": "tarball gone"}
+{"name": "@or-sdk/queue-manager", "mal_version": "1.4.8", "osv": "MAL-2026-11723", "drop": "tarball gone"}
+{"name": "@or-sdk/sdk-api", "mal_version": "0.29.2", "osv": "MAL-2026-11724", "drop": "tarball gone"}
+{"name": "@or-sdk/sdk-api", "mal_version": "0.29.3", "osv": "MAL-2026-11724", "drop": "tarball gone"}
+{"name": "@or-sdk/sdk-api", "mal_version": "0.29.4", "osv": "MAL-2026-11724", "drop": "tarball gone"}
+{"name": "@or-sdk/settings", "mal_version": "0.25.6", "osv": "MAL-2026-11725", "drop": "tarball gone"}
+{"name": "@or-sdk/settings", "mal_version": "0.25.7", "osv": "MAL-2026-11725", "drop": "tarball gone"}
+{"name": "@or-sdk/settings", "mal_version": "0.25.8", "osv": "MAL-2026-11725", "drop": "tarball gone"}
+{"name": "@or-sdk/sku-builder", "mal_version": "2.5.1", "osv": "MAL-2026-11726", "drop": "tarball gone"}
+{"name": "@or-sdk/sku-builder", "mal_version": "2.5.2", "osv": "MAL-2026-11726", "drop": "tarball gone"}
+{"name": "@or-sdk/sku-builder", "mal_version": "2.5.3", "osv": "MAL-2026-11726", "drop": "tarball gone"}
+{"name": "@or-sdk/source", "mal_version": "2.1.5", "osv": "MAL-2026-11727", "drop": "tarball gone"}
+{"name": "@or-sdk/source", "mal_version": "2.1.6", "osv": "MAL-2026-11727", "drop": "tarball gone"}
+{"name": "@or-sdk/source", "mal_version": "2.1.7", "osv": "MAL-2026-11727", "drop": "tarball gone"}
+{"name": "@or-sdk/source-api", "mal_version": "1.1.1", "osv": "MAL-2026-11728", "drop": "tarball gone"}
+{"name": "@or-sdk/source-api", "mal_version": "1.1.2", "osv": "MAL-2026-11728", "drop": "tarball gone"}
+{"name": "@or-sdk/source-api", "mal_version": "1.1.3", "osv": "MAL-2026-11728", "drop": "tarball gone"}
+{"name": "@or-sdk/step-templates", "mal_version": "2.2.5", "osv": "MAL-2026-11729", "drop": "tarball gone"}
+{"name": "@or-sdk/step-templates", "mal_version": "2.2.6", "osv": "MAL-2026-11729", "drop": "tarball gone"}
+{"name": "@or-sdk/step-templates", "mal_version": "2.2.7", "osv": "MAL-2026-11729", "drop": "tarball gone"}
+{"name": "@or-sdk/store", "mal_version": "2.1.5", "osv": "MAL-2026-11730", "drop": "tarball gone"}
+{"name": "@or-sdk/store", "mal_version": "2.1.6", "osv": "MAL-2026-11730", "drop": "tarball gone"}
+{"name": "@or-sdk/store", "mal_version": "2.1.7", "osv": "MAL-2026-11730", "drop": "tarball gone"}
+{"name": "@or-sdk/tables", "mal_version": "0.28.5", "osv": "MAL-2026-11731", "drop": "tarball gone"}
+{"name": "@or-sdk/tables", "mal_version": "0.28.6", "osv": "MAL-2026-11731", "drop": "tarball gone"}
+{"name": "@or-sdk/tables", "mal_version": "0.28.7", "osv": "MAL-2026-11731", "drop": "tarball gone"}
+{"name": "@or-sdk/tags", "mal_version": "1.1.5", "osv": "MAL-2026-11732", "drop": "tarball gone"}
+{"name": "@or-sdk/tags", "mal_version": "1.1.6", "osv": "MAL-2026-11732", "drop": "tarball gone"}
+{"name": "@or-sdk/tags", "mal_version": "1.1.7", "osv": "MAL-2026-11732", "drop": "tarball gone"}
+{"name": "@or-sdk/tickets", "mal_version": "1.9.5", "osv": "MAL-2026-11733", "drop": "tarball gone"}
+{"name": "@or-sdk/tickets", "mal_version": "1.9.6", "osv": "MAL-2026-11733", "drop": "tarball gone"}
+{"name": "@or-sdk/tickets", "mal_version": "1.9.7", "osv": "MAL-2026-11733", "drop": "tarball gone"}
+{"name": "@or-sdk/transcripts", "mal_version": "1.2.5", "osv": "MAL-2026-11734", "drop": "tarball gone"}
+{"name": "@or-sdk/transcripts", "mal_version": "1.2.6", "osv": "MAL-2026-11734", "drop": "tarball gone"}
+{"name": "@or-sdk/transcripts", "mal_version": "1.2.7", "osv": "MAL-2026-11734", "drop": "tarball gone"}
+{"name": "@or-sdk/users", "mal_version": "3.8.1", "osv": "MAL-2026-11735", "drop": "tarball gone"}
+{"name": "@or-sdk/users", "mal_version": "3.8.2", "osv": "MAL-2026-11735", "drop": "tarball gone"}
+{"name": "@or-sdk/users", "mal_version": "3.8.3", "osv": "MAL-2026-11735", "drop": "tarball gone"}
+{"name": "@or-sdk/view-templates", "mal_version": "2.2.5", "osv": "MAL-2026-11736", "drop": "tarball gone"}
+{"name": "@or-sdk/view-templates", "mal_version": "2.2.6", "osv": "MAL-2026-11736", "drop": "tarball gone"}
+{"name": "@or-sdk/view-templates", "mal_version": "2.2.7", "osv": "MAL-2026-11736", "drop": "tarball gone"}
+{"name": "@or-sdk/views", "mal_version": "3.1.5", "osv": "MAL-2026-11737", "drop": "tarball gone"}
+{"name": "@or-sdk/views", "mal_version": "3.1.6", "osv": "MAL-2026-11737", "drop": "tarball gone"}
+{"name": "@or-sdk/views", "mal_version": "3.1.7", "osv": "MAL-2026-11737", "drop": "tarball gone"}
+{"name": "@ornikar/apollo-link-timeout", "mal_version": "1.4.2", "osv": "MAL-2026-11739", "drop": "tarball gone"}
+{"name": "@ornikar/apollo-link-timeout", "mal_version": "1.4.3", "osv": "MAL-2026-11739", "drop": "tarball gone"}
+{"name": "@ornikar/apollo-link-timeout", "mal_version": "1.4.4", "osv": "MAL-2026-11739", "drop": "tarball gone"}
+{"name": "@ornikar/babel-preset-base", "mal_version": "6.0.3", "osv": "MAL-2026-11740", "drop": "tarball gone"}
+{"name": "@ornikar/babel-preset-base", "mal_version": "6.0.4", "osv": "MAL-2026-11740", "drop": "tarball gone"}
+{"name": "@ornikar/babel-preset-base", "mal_version": "6.0.5", "osv": "MAL-2026-11740", "drop": "tarball gone"}
+{"name": "@ornikar/babel-preset-kitt-universal", "mal_version": "8.0.3", "osv": "MAL-2026-11741", "drop": "tarball gone"}
+{"name": "@ornikar/babel-preset-kitt-universal", "mal_version": "8.0.4", "osv": "MAL-2026-11741", "drop": "tarball gone"}
+{"name": "@ornikar/babel-preset-kitt-universal", "mal_version": "8.0.5", "osv": "MAL-2026-11741", "drop": "tarball gone"}
+{"name": "@ornikar/babel-preset-react", "mal_version": "6.1.4", "osv": "MAL-2026-11742", "drop": "tarball gone"}
+{"name": "@ornikar/babel-preset-react", "mal_version": "6.1.5", "osv": "MAL-2026-11742", "drop": "tarball gone"}
+{"name": "@ornikar/babel-preset-react", "mal_version": "6.1.6", "osv": "MAL-2026-11742", "drop": "tarball gone"}
+{"name": "@ornikar/browserslist-config", "mal_version": "8.0.3", "osv": "MAL-2026-11743", "drop": "tarball gone"}
+{"name": "@ornikar/browserslist-config", "mal_version": "8.0.4", "osv": "MAL-2026-11743", "drop": "tarball gone"}
+{"name": "@ornikar/browserslist-config", "mal_version": "8.0.5", "osv": "MAL-2026-11743", "drop": "tarball gone"}
+{"name": "@ornikar/commitlint-config", "mal_version": "8.3.2", "osv": "MAL-2026-11744", "drop": "tarball gone"}
+{"name": "@ornikar/commitlint-config", "mal_version": "8.3.3", "osv": "MAL-2026-11744", "drop": "tarball gone"}
+{"name": "@ornikar/commitlint-config", "mal_version": "8.3.4", "osv": "MAL-2026-11744", "drop": "tarball gone"}
+{"name": "@ornikar/eslint-config", "mal_version": "24.0.1", "osv": "MAL-2026-11745", "drop": "tarball gone"}
+{"name": "@ornikar/eslint-config", "mal_version": "24.0.2", "osv": "MAL-2026-11745", "drop": "tarball gone"}
+{"name": "@ornikar/eslint-config", "mal_version": "24.0.3", "osv": "MAL-2026-11745", "drop": "tarball gone"}
+{"name": "@ornikar/eslint-config-babel", "mal_version": "24.0.1", "osv": "MAL-2026-11746", "drop": "tarball gone"}
+{"name": "@ornikar/eslint-config-babel", "mal_version": "24.0.2", "osv": "MAL-2026-11746", "drop": "tarball gone"}
+{"name": "@ornikar/eslint-config-babel", "mal_version": "24.0.3", "osv": "MAL-2026-11746", "drop": "tarball gone"}
+{"name": "@ornikar/eslint-config-babel-use", "mal_version": "13.2.1", "osv": "MAL-2026-11747", "drop": "tarball gone"}
+{"name": "@ornikar/eslint-config-babel-use", "mal_version": "13.2.2", "osv": "MAL-2026-11747", "drop": "tarball gone"}
+{"name": "@ornikar/eslint-config-babel-use", "mal_version": "13.2.3", "osv": "MAL-2026-11747", "drop": "tarball gone"}
+{"name": "@ornikar/eslint-config-formatjs", "mal_version": "24.0.1", "osv": "MAL-2026-11748", "drop": "tarball gone"}
+{"name": "@ornikar/eslint-config-formatjs", "mal_version": "24.0.2", "osv": "MAL-2026-11748", "drop": "tarball gone"}
+{"name": "@ornikar/eslint-config-formatjs", "mal_version": "24.0.3", "osv": "MAL-2026-11748", "drop": "tarball gone"}
+{"name": "@ornikar/eslint-config-node", "mal_version": "12.2.1", "osv": "MAL-2026-11749", "drop": "tarball gone"}
+{"name": "@ornikar/eslint-config-node", "mal_version": "12.2.2", "osv": "MAL-2026-11749", "drop": "tarball gone"}
+{"name": "@ornikar/eslint-config-node", "mal_version": "12.2.3", "osv": "MAL-2026-11749", "drop": "tarball gone"}
+{"name": "@ornikar/eslint-config-react", "mal_version": "24.0.1", "osv": "MAL-2026-11750", "drop": "tarball gone"}
+{"name": "@ornikar/eslint-config-react", "mal_version": "24.0.2", "osv": "MAL-2026-11750", "drop": "tarball gone"}
+{"name": "@ornikar/eslint-config-react", "mal_version": "24.0.3", "osv": "MAL-2026-11750", "drop": "tarball gone"}
+{"name": "@ornikar/eslint-config-typescript", "mal_version": "24.0.1", "osv": "MAL-2026-11751", "drop": "tarball gone"}
+{"name": "@ornikar/eslint-config-typescript", "mal_version": "24.0.2", "osv": "MAL-2026-11751", "drop": "tarball gone"}
+{"name": "@ornikar/eslint-config-typescript", "mal_version": "24.0.3", "osv": "MAL-2026-11751", "drop": "tarball gone"}
+{"name": "@ornikar/eslint-config-typescript-nestjs", "mal_version": "24.0.1", "osv": "MAL-2026-11752", "drop": "tarball gone"}
+{"name": "@ornikar/eslint-config-typescript-nestjs", "mal_version": "24.0.2", "osv": "MAL-2026-11752", "drop": "tarball gone"}
+{"name": "@ornikar/eslint-config-typescript-nestjs", "mal_version": "24.0.3", "osv": "MAL-2026-11752", "drop": "tarball gone"}
+{"name": "@ornikar/eslint-config-typescript-react", "mal_version": "24.0.1", "osv": "MAL-2026-11753", "drop": "tarball gone"}
+{"name": "@ornikar/eslint-config-typescript-react", "mal_version": "24.0.2", "osv": "MAL-2026-11753", "drop": "tarball gone"}
+{"name": "@ornikar/eslint-config-typescript-react", "mal_version": "24.0.3", "osv": "MAL-2026-11753", "drop": "tarball gone"}
+{"name": "@ornikar/eslint-plugin-neverthrow", "mal_version": "1.3.1", "osv": "MAL-2026-11754", "drop": "tarball gone"}
+{"name": "@ornikar/eslint-plugin-neverthrow", "mal_version": "1.3.2", "osv": "MAL-2026-11754", "drop": "tarball gone"}
+{"name": "@ornikar/eslint-plugin-neverthrow", "mal_version": "1.3.3", "osv": "MAL-2026-11754", "drop": "tarball gone"}
+{"name": "@ornikar/eslint-plugin-ornikar", "mal_version": "24.0.1", "osv": "MAL-2026-11755", "drop": "tarball gone"}
+{"name": "@ornikar/eslint-plugin-ornikar", "mal_version": "24.0.2", "osv": "MAL-2026-11755", "drop": "tarball gone"}
+{"name": "@ornikar/eslint-plugin-ornikar", "mal_version": "24.0.3", "osv": "MAL-2026-11755", "drop": "tarball gone"}
+{"name": "@ornikar/graphql-config", "mal_version": "1.1.1", "osv": "MAL-2026-11756", "drop": "tarball gone"}
+{"name": "@ornikar/graphql-config", "mal_version": "1.1.2", "osv": "MAL-2026-11756", "drop": "tarball gone"}
+{"name": "@ornikar/graphql-config", "mal_version": "1.1.3", "osv": "MAL-2026-11756", "drop": "tarball gone"}
+{"name": "@ornikar/intl-config", "mal_version": "10.0.2", "osv": "MAL-2026-11757", "drop": "tarball gone"}
+{"name": "@ornikar/intl-config", "mal_version": "10.0.3", "osv": "MAL-2026-11757", "drop": "tarball gone"}
+{"name": "@ornikar/intl-config", "mal_version": "10.0.4", "osv": "MAL-2026-11757", "drop": "tarball gone"}
+{"name": "@ornikar/jest-config", "mal_version": "13.0.3", "osv": "MAL-2026-11758", "drop": "tarball gone"}
+{"name": "@ornikar/jest-config", "mal_version": "13.0.4", "osv": "MAL-2026-11758", "drop": "tarball gone"}
+{"name": "@ornikar/jest-config", "mal_version": "13.0.5", "base_version": "13.0.2", "osv": "MAL-2026-11758", "discovered": "2026-08-04", "mal_published": "2026-08-04T10:19:41.728Z", "tgz": "extra/@ornikar__jest-config@13.0.5.tgz", "missing_files": 11, "label": "compromise"}
+{"name": "@ornikar/jest-config-react", "mal_version": "18.0.2", "osv": "MAL-2026-11759", "drop": "tarball gone"}
+{"name": "@ornikar/jest-config-react", "mal_version": "18.0.3", "osv": "MAL-2026-11759", "drop": "tarball gone"}
+{"name": "@ornikar/jest-config-react", "mal_version": "18.0.4", "osv": "MAL-2026-11759", "drop": "tarball gone"}
+{"name": "@ornikar/jest-config-react-native", "mal_version": "17.0.2", "osv": "MAL-2026-11760", "drop": "tarball gone"}
+{"name": "@ornikar/jest-config-react-native", "mal_version": "17.0.3", "osv": "MAL-2026-11760", "drop": "tarball gone"}
+{"name": "@ornikar/jest-config-react-native", "mal_version": "17.0.4", "osv": "MAL-2026-11760", "drop": "tarball gone"}
+{"name": "@ornikar/jest-config-react-native-web", "mal_version": "12.0.3", "osv": "MAL-2026-11761", "drop": "tarball gone"}
+{"name": "@ornikar/jest-config-react-native-web", "mal_version": "12.0.4", "osv": "MAL-2026-11761", "drop": "tarball gone"}
+{"name": "@ornikar/jest-config-react-native-web", "mal_version": "12.0.5", "osv": "MAL-2026-11761", "drop": "tarball gone"}
+{"name": "@ornikar/kitt2", "mal_version": "1.0.1", "osv": "MAL-2026-11762", "drop": "tarball gone"}
+{"name": "@ornikar/kitt2", "mal_version": "1.0.2", "osv": "MAL-2026-11762", "drop": "tarball gone"}
+{"name": "@ornikar/kitt2", "mal_version": "1.0.3", "osv": "MAL-2026-11762", "drop": "tarball gone"}
+{"name": "@ornikar/lerna-config", "mal_version": "11.0.1", "osv": "MAL-2026-11763", "drop": "tarball gone"}
+{"name": "@ornikar/lerna-config", "mal_version": "11.0.2", "osv": "MAL-2026-11763", "drop": "tarball gone"}
+{"name": "@ornikar/lerna-config", "mal_version": "11.0.3", "osv": "MAL-2026-11763", "drop": "tarball gone"}
+{"name": "@ornikar/monorepo-config", "mal_version": "14.3.2", "osv": "MAL-2026-11764", "drop": "tarball gone"}
+{"name": "@ornikar/monorepo-config", "mal_version": "14.3.3", "osv": "MAL-2026-11764", "drop": "tarball gone"}
+{"name": "@ornikar/monorepo-config", "mal_version": "14.3.4", "osv": "MAL-2026-11764", "drop": "tarball gone"}
+{"name": "@ornikar/postcss-config", "mal_version": "9.1.2", "osv": "MAL-2026-11765", "drop": "tarball gone"}
+{"name": "@ornikar/postcss-config", "mal_version": "9.1.3", "osv": "MAL-2026-11765", "drop": "tarball gone"}
+{"name": "@ornikar/postcss-config", "mal_version": "9.1.4", "osv": "MAL-2026-11765", "drop": "tarball gone"}
+{"name": "@ornikar/prettier-config", "mal_version": "9.0.3", "osv": "MAL-2026-11766", "drop": "tarball gone"}
+{"name": "@ornikar/prettier-config", "mal_version": "9.0.4", "osv": "MAL-2026-11766", "drop": "tarball gone"}
+{"name": "@ornikar/prettier-config", "mal_version": "9.0.5", "osv": "MAL-2026-11766", "drop": "tarball gone"}
+{"name": "@ornikar/prismic-components", "mal_version": "0.0.2", "osv": "MAL-2026-11767", "drop": "tarball gone"}
+{"name": "@ornikar/prismic-components", "mal_version": "0.0.3", "osv": "MAL-2026-11767", "drop": "tarball gone"}
+{"name": "@ornikar/prismic-components", "mal_version": "0.0.4", "osv": "MAL-2026-11767", "drop": "tarball gone"}
+{"name": "@ornikar/react-modern-calendar-datepicker", "mal_version": "3.2.1", "osv": "MAL-2026-11768", "drop": "tarball gone"}
+{"name": "@ornikar/react-modern-calendar-datepicker", "mal_version": "3.2.2", "osv": "MAL-2026-11768", "drop": "tarball gone"}
+{"name": "@ornikar/react-modern-calendar-datepicker", "mal_version": "3.2.3", "osv": "MAL-2026-11768", "drop": "tarball gone"}
+{"name": "@ornikar/react-native-svg-transformer", "mal_version": "1.0.6", "osv": "MAL-2026-11769", "drop": "tarball gone"}
+{"name": "@ornikar/react-native-svg-transformer", "mal_version": "1.0.7", "osv": "MAL-2026-11769", "drop": "tarball gone"}
+{"name": "@ornikar/react-native-svg-transformer", "mal_version": "1.0.8", "osv": "MAL-2026-11769", "drop": "tarball gone"}
+{"name": "@ornikar/renovate-config", "mal_version": "9.0.2", "osv": "MAL-2026-11770", "drop": "tarball gone"}
+{"name": "@ornikar/renovate-config", "mal_version": "9.0.3", "osv": "MAL-2026-11770", "drop": "tarball gone"}
+{"name": "@ornikar/renovate-config", "mal_version": "9.0.4", "osv": "MAL-2026-11770", "drop": "tarball gone"}
+{"name": "@ornikar/repo-config", "mal_version": "15.3.3", "osv": "MAL-2026-11771", "drop": "tarball gone"}
+{"name": "@ornikar/repo-config", "mal_version": "15.3.4", "osv": "MAL-2026-11771", "drop": "tarball gone"}
+{"name": "@ornikar/repo-config", "mal_version": "15.3.5", "osv": "MAL-2026-11771", "drop": "tarball gone"}
+{"name": "@ornikar/repo-config-react", "mal_version": "13.0.8", "osv": "MAL-2026-11772", "drop": "tarball gone"}
+{"name": "@ornikar/repo-config-react", "mal_version": "13.0.9", "osv": "MAL-2026-11772", "drop": "tarball gone"}
+{"name": "@ornikar/repo-config-react", "mal_version": "13.0.10", "osv": "MAL-2026-11772", "drop": "tarball gone"}
+{"name": "@ornikar/repo-config-react-legacy-css", "mal_version": "15.1.2", "osv": "MAL-2026-11773", "drop": "tarball gone"}
+{"name": "@ornikar/repo-config-react-legacy-css", "mal_version": "15.1.3", "osv": "MAL-2026-11773", "drop": "tarball gone"}
+{"name": "@ornikar/repo-config-react-legacy-css", "mal_version": "15.1.4", "osv": "MAL-2026-11773", "drop": "tarball gone"}
+{"name": "@ornikar/rollup-config", "mal_version": "11.1.2", "osv": "MAL-2026-11774", "drop": "tarball gone"}
+{"name": "@ornikar/rollup-config", "mal_version": "11.1.3", "osv": "MAL-2026-11774", "drop": "tarball gone"}
+{"name": "@ornikar/rollup-config", "mal_version": "11.1.4", "osv": "MAL-2026-11774", "drop": "tarball gone"}
+{"name": "@ornikar/rollup-plugin-postcss", "mal_version": "2.0.5", "osv": "MAL-2026-11775", "drop": "tarball gone"}
+{"name": "@ornikar/rollup-plugin-postcss", "mal_version": "2.0.6", "osv": "MAL-2026-11775", "drop": "tarball gone"}
+{"name": "@ornikar/rollup-plugin-postcss", "mal_version": "2.0.7", "osv": "MAL-2026-11775", "drop": "tarball gone"}
+{"name": "@ornikar/slate-react-fork", "mal_version": "1.0.1", "osv": "MAL-2026-11776", "drop": "tarball gone"}
+{"name": "@ornikar/slate-react-fork", "mal_version": "1.0.2", "osv": "MAL-2026-11776", "drop": "tarball gone"}
+{"name": "@ornikar/slate-react-fork", "mal_version": "1.0.3", "osv": "MAL-2026-11776", "drop": "tarball gone"}
+{"name": "@ornikar/storybook-config", "mal_version": "12.1.2", "osv": "MAL-2026-11777", "drop": "tarball gone"}
+{"name": "@ornikar/storybook-config", "mal_version": "12.1.3", "osv": "MAL-2026-11777", "drop": "tarball gone"}
+{"name": "@ornikar/storybook-config", "mal_version": "12.1.4", "osv": "MAL-2026-11777", "drop": "tarball gone"}
+{"name": "@ornikar/stylelint-config", "mal_version": "14.0.3", "osv": "MAL-2026-11778", "drop": "tarball gone"}
+{"name": "@ornikar/stylelint-config", "mal_version": "14.0.4", "osv": "MAL-2026-11778", "drop": "tarball gone"}
+{"name": "@ornikar/stylelint-config", "mal_version": "14.0.5", "osv": "MAL-2026-11778", "drop": "tarball gone"}
+{"name": "@ornikar/typed-css-modules-loader", "mal_version": "0.8.2", "osv": "MAL-2026-11779", "drop": "tarball gone"}
+{"name": "@ornikar/typed-css-modules-loader", "mal_version": "0.8.3", "osv": "MAL-2026-11779", "drop": "tarball gone"}
+{"name": "@ornikar/typed-css-modules-loader", "mal_version": "0.8.4", "osv": "MAL-2026-11779", "drop": "tarball gone"}
+{"name": "@ornikar/webpack-config", "mal_version": "12.0.2", "osv": "MAL-2026-11780", "drop": "tarball gone"}
+{"name": "@ornikar/webpack-config", "mal_version": "12.0.3", "osv": "MAL-2026-11780", "drop": "tarball gone"}
+{"name": "@ornikar/webpack-config", "mal_version": "12.0.4", "osv": "MAL-2026-11780", "drop": "tarball gone"}
+{"name": "@picsart/ai-sdk", "mal_version": "3.32.2", "osv": "MAL-2026-11781", "drop": "tarball gone"}
+{"name": "@picsart/gen-ai", "mal_version": "2.55.11", "osv": "MAL-2026-11782", "drop": "tarball gone"}
+{"name": "@polymarkets/clob-client-v2", "mal_version": "1.0.6", "base_version": "1.0.5", "osv": "MAL-2026-14050", "discovered": "2026-08-14", "mal_published": "2026-08-08T23:10:02.670Z", "tgz": "extra/@polymarkets__clob-client-v2@1.0.6.tgz", "missing_files": 0, "label": "automated"}
+{"name": "@postman-cse/okta-aio-darwin-arm64", "mal_version": "0.11.6", "base_version": "0.11.5", "osv": "MAL-2026-14580", "discovered": "2026-08-23", "mal_published": "2026-08-21T20:27:03.003Z", "tgz": "extra/@postman-cse__okta-aio-darwin-arm64@0.11.6.tgz", "missing_files": 0, "label": "automated"}
+{"name": "@qlik/api", "mal_version": "2.14.2", "base_version": "2.14.1", "osv": "MAL-2026-11783", "discovered": "2026-08-04", "mal_published": "2026-08-04T10:46:39.136Z", "tgz": "extra/@qlik__api@2.14.2.tgz", "missing_files": 216, "label": "compromise"}
+{"name": "@qlik/browserslist-config", "mal_version": "3.0.2", "base_version": "3.0.1", "osv": "MAL-2026-11784", "discovered": "2026-08-04", "mal_published": "2026-08-04T10:46:36.073Z", "tgz": "extra/@qlik__browserslist-config@3.0.2.tgz", "missing_files": 5, "label": "compromise"}
+{"name": "@qlik/carbon-core", "mal_version": "2.1.1", "osv": "MAL-2026-11785", "drop": "tarball gone"}
+{"name": "@qlik/carboncopy", "mal_version": "1.1.6", "osv": "MAL-2026-11786", "drop": "tarball gone"}
+{"name": "@qlik/design-tokens", "mal_version": "1.3.13", "osv": "MAL-2026-11787", "drop": "tarball gone"}
+{"name": "@qlik/dts-bundler", "mal_version": "2.0.3", "osv": "MAL-2026-11788", "drop": "tarball gone"}
+{"name": "@qlik/embed-react", "mal_version": "2.5.3", "base_version": "2.5.2", "osv": "MAL-2026-11789", "discovered": "2026-08-04", "mal_published": "2026-08-04T10:46:36.028Z", "tgz": "extra/@qlik__embed-react@2.5.3.tgz", "missing_files": 6, "label": "compromise"}
+{"name": "@qlik/embed-runtime", "mal_version": "1.6.4", "base_version": "1.6.3", "osv": "MAL-2026-11790", "discovered": "2026-08-04", "mal_published": "2026-08-04T10:46:36.987Z", "tgz": "extra/@qlik__embed-runtime@1.6.4.tgz", "missing_files": 14, "label": "compromise"}
+{"name": "@qlik/embed-svelte", "mal_version": "1.1.4", "osv": "MAL-2026-11791", "drop": "tarball gone"}
+{"name": "@qlik/embed-web-components", "mal_version": "1.7.3", "base_version": "1.7.2", "osv": "MAL-2026-11792", "discovered": "2026-08-04", "mal_published": "2026-08-04T10:46:36.803Z", "tgz": "extra/@qlik__embed-web-components@1.7.3.tgz", "missing_files": 6, "label": "compromise"}
+{"name": "@qlik/eslint-config", "mal_version": "2.0.20", "osv": "MAL-2026-11793", "drop": "tarball gone"}
+{"name": "@qlik/eslint-config-base", "mal_version": "0.1.1", "osv": "MAL-2026-11794", "drop": "tarball gone"}
+{"name": "@qlik/eslint-config-react", "mal_version": "0.1.1", "osv": "MAL-2026-11795", "drop": "tarball gone"}
+{"name": "@qlik/eslint-config-svelte", "mal_version": "0.1.1", "osv": "MAL-2026-11796", "drop": "tarball gone"}
+{"name": "@qlik/eslint-config-vue", "mal_version": "0.1.1", "osv": "MAL-2026-11797", "drop": "tarball gone"}
+{"name": "@qlik/oxfmt-config", "mal_version": "0.1.6", "base_version": "0.1.5", "osv": "MAL-2026-11799", "discovered": "2026-08-04", "mal_published": "2026-08-04T10:46:37.161Z", "tgz": "extra/@qlik__oxfmt-config@0.1.6.tgz", "missing_files": 8, "label": "compromise"}
+{"name": "@qlik/oxlint-config", "mal_version": "0.7.2", "base_version": "0.7.1", "osv": "MAL-2026-11800", "discovered": "2026-08-04", "mal_published": "2026-08-04T10:46:36.093Z", "tgz": "extra/@qlik__oxlint-config@0.7.2.tgz", "missing_files": 22, "label": "compromise"}
+{"name": "@qlik/prettier-config", "mal_version": "1.0.3", "osv": "MAL-2026-11801", "drop": "tarball gone"}
+{"name": "@qlik/react-native-simple-grid", "mal_version": "1.5.5", "osv": "MAL-2026-11802", "drop": "tarball gone"}
+{"name": "@qlik/runtime-module-loader", "mal_version": "1.5.1", "osv": "MAL-2026-11803", "drop": "tarball gone"}
+{"name": "@qlik/sdk", "mal_version": "0.28.1", "base_version": "0.28.0", "osv": "MAL-2026-11804", "discovered": "2026-08-04", "mal_published": "2026-08-04T10:46:38.824Z", "tgz": "extra/@qlik__sdk@0.28.1.tgz", "missing_files": 160, "label": "compromise"}
+{"name": "@qlik/sprout-gesture", "mal_version": "0.0.13", "osv": "MAL-2026-11806", "drop": "tarball gone"}
+{"name": "@qlik/sprout-icons", "mal_version": "0.12.3", "osv": "MAL-2026-11807", "drop": "tarball gone"}
+{"name": "@qlik/sprout-react", "mal_version": "6.45.3", "osv": "MAL-2026-11808", "drop": "tarball gone"}
+{"name": "@qlik/tsconfig", "mal_version": "1.0.3", "base_version": "1.0.2", "osv": "MAL-2026-11810", "discovered": "2026-08-04", "mal_published": "2026-08-04T10:46:37.075Z", "tgz": "extra/@qlik__tsconfig@1.0.3.tgz", "missing_files": 9, "label": "compromise"}
+{"name": "@servicetitan/acquisition-functions", "mal_version": "5.22.1", "osv": "MAL-2026-11811", "drop": "tarball gone"}
+{"name": "@servicetitan/acquisition-functions", "mal_version": "5.22.2", "osv": "MAL-2026-11811", "drop": "tarball gone"}
+{"name": "@servicetitan/acquisition-functions", "mal_version": "5.22.3", "osv": "MAL-2026-11811", "drop": "tarball gone"}
+{"name": "@servicetitan/admin-layout", "mal_version": "2.4.3", "osv": "MAL-2026-11812", "drop": "tarball gone"}
+{"name": "@servicetitan/admin-layout", "mal_version": "2.4.4", "osv": "MAL-2026-11812", "drop": "tarball gone"}
+{"name": "@servicetitan/admin-layout", "mal_version": "2.4.5", "osv": "MAL-2026-11812", "drop": "tarball gone"}
+{"name": "@servicetitan/admin-sql-table", "mal_version": "1.0.14", "osv": "MAL-2026-11813", "drop": "tarball gone"}
+{"name": "@servicetitan/admin-sql-table", "mal_version": "1.0.15", "osv": "MAL-2026-11813", "drop": "tarball gone"}
+{"name": "@servicetitan/admin-sql-table", "mal_version": "1.0.16", "osv": "MAL-2026-11813", "drop": "tarball gone"}
+{"name": "@servicetitan/ajax-handlers", "mal_version": "38.1.1", "osv": "MAL-2026-11814", "drop": "tarball gone"}
+{"name": "@servicetitan/ajax-handlers", "mal_version": "38.1.2", "osv": "MAL-2026-11814", "drop": "tarball gone"}
+{"name": "@servicetitan/ajax-handlers", "mal_version": "38.1.3", "osv": "MAL-2026-11814", "drop": "tarball gone"}
+{"name": "@servicetitan/anvil-css-utilities", "mal_version": "14.5.4", "osv": "MAL-2026-11815", "drop": "tarball gone"}
+{"name": "@servicetitan/anvil-css-utilities", "mal_version": "14.5.5", "osv": "MAL-2026-11815", "drop": "tarball gone"}
+{"name": "@servicetitan/anvil-css-utilities", "mal_version": "14.5.6", "osv": "MAL-2026-11815", "drop": "tarball gone"}
+{"name": "@servicetitan/anvil-fonts", "mal_version": "14.5.4", "osv": "MAL-2026-11816", "drop": "tarball gone"}
+{"name": "@servicetitan/anvil-fonts", "mal_version": "14.5.5", "osv": "MAL-2026-11816", "drop": "tarball gone"}
+{"name": "@servicetitan/anvil-fonts", "mal_version": "14.5.6", "osv": "MAL-2026-11816", "drop": "tarball gone"}
+{"name": "@servicetitan/anvil-icon", "mal_version": "0.5.1", "osv": "MAL-2026-11817", "drop": "tarball gone"}
+{"name": "@servicetitan/anvil-icon", "mal_version": "0.5.2", "osv": "MAL-2026-11817", "drop": "tarball gone"}
+{"name": "@servicetitan/anvil-icon", "mal_version": "0.5.3", "osv": "MAL-2026-11817", "drop": "tarball gone"}
+{"name": "@servicetitan/anvil-icons", "mal_version": "14.5.4", "osv": "MAL-2026-11818", "drop": "tarball gone"}
+{"name": "@servicetitan/anvil-icons", "mal_version": "14.5.5", "osv": "MAL-2026-11818", "drop": "tarball gone"}
+{"name": "@servicetitan/anvil-icons", "mal_version": "14.5.6", "osv": "MAL-2026-11818", "drop": "tarball gone"}
+{"name": "@servicetitan/anvil-react", "mal_version": "0.11.3", "osv": "MAL-2026-11819", "drop": "tarball gone"}
+{"name": "@servicetitan/anvil-react", "mal_version": "0.11.4", "osv": "MAL-2026-11819", "drop": "tarball gone"}
+{"name": "@servicetitan/anvil-react", "mal_version": "0.11.5", "osv": "MAL-2026-11819", "drop": "tarball gone"}
+{"name": "@servicetitan/anvil-themes", "mal_version": "14.5.4", "osv": "MAL-2026-11820", "drop": "tarball gone"}
+{"name": "@servicetitan/anvil-themes", "mal_version": "14.5.5", "osv": "MAL-2026-11820", "drop": "tarball gone"}
+{"name": "@servicetitan/anvil-themes", "mal_version": "14.5.6", "osv": "MAL-2026-11820", "drop": "tarball gone"}
+{"name": "@servicetitan/anvil-token", "mal_version": "0.4.1", "osv": "MAL-2026-11821", "drop": "tarball gone"}
+{"name": "@servicetitan/anvil-token", "mal_version": "0.4.2", "osv": "MAL-2026-11821", "drop": "tarball gone"}
+{"name": "@servicetitan/anvil-token", "mal_version": "0.4.3", "osv": "MAL-2026-11821", "drop": "tarball gone"}
+{"name": "@servicetitan/anvil2", "mal_version": "3.9.1", "osv": "MAL-2026-11822", "drop": "tarball gone"}
+{"name": "@servicetitan/anvil2", "mal_version": "3.9.2", "osv": "MAL-2026-11822", "drop": "tarball gone"}
+{"name": "@servicetitan/anvil2", "mal_version": "3.9.3", "osv": "MAL-2026-11822", "drop": "tarball gone"}
+{"name": "@servicetitan/anvil2-codemods", "mal_version": "0.11.2", "osv": "MAL-2026-11823", "drop": "tarball gone"}
+{"name": "@servicetitan/anvil2-codemods", "mal_version": "0.11.3", "osv": "MAL-2026-11823", "drop": "tarball gone"}
+{"name": "@servicetitan/anvil2-codemods", "mal_version": "0.11.4", "osv": "MAL-2026-11823", "drop": "tarball gone"}
+{"name": "@servicetitan/anvil2-ext-atlas", "mal_version": "4.0.2", "osv": "MAL-2026-11824", "drop": "tarball gone"}
+{"name": "@servicetitan/anvil2-ext-atlas", "mal_version": "4.0.3", "osv": "MAL-2026-11824", "drop": "tarball gone"}
+{"name": "@servicetitan/anvil2-ext-atlas", "mal_version": "4.0.4", "osv": "MAL-2026-11824", "drop": "tarball gone"}
+{"name": "@servicetitan/anvil2-ext-charts", "mal_version": "0.2.4", "osv": "MAL-2026-11825", "drop": "tarball gone"}
+{"name": "@servicetitan/anvil2-ext-charts", "mal_version": "0.2.5", "osv": "MAL-2026-11825", "drop": "tarball gone"}
+{"name": "@servicetitan/anvil2-ext-charts", "mal_version": "0.2.6", "osv": "MAL-2026-11825", "drop": "tarball gone"}
+{"name": "@servicetitan/anvil2-ext-common", "mal_version": "0.7.1", "osv": "MAL-2026-11826", "drop": "tarball gone"}
+{"name": "@servicetitan/anvil2-ext-common", "mal_version": "0.7.2", "osv": "MAL-2026-11826", "drop": "tarball gone"}
+{"name": "@servicetitan/anvil2-ext-common", "mal_version": "0.7.3", "osv": "MAL-2026-11826", "drop": "tarball gone"}
+{"name": "@servicetitan/anvil2-ext-mwv", "mal_version": "0.0.5", "osv": "MAL-2026-11827", "drop": "tarball gone"}
+{"name": "@servicetitan/anvil2-ext-mwv", "mal_version": "0.0.6", "osv": "MAL-2026-11827", "drop": "tarball gone"}
+{"name": "@servicetitan/anvil2-ext-mwv", "mal_version": "0.0.7", "osv": "MAL-2026-11827", "drop": "tarball gone"}
+{"name": "@servicetitan/anvil2-illustrations", "mal_version": "1.0.2", "osv": "MAL-2026-11828", "drop": "tarball gone"}
+{"name": "@servicetitan/anvil2-illustrations", "mal_version": "1.0.3", "osv": "MAL-2026-11828", "drop": "tarball gone"}
+{"name": "@servicetitan/anvil2-illustrations", "mal_version": "1.0.4", "osv": "MAL-2026-11828", "drop": "tarball gone"}
+{"name": "@servicetitan/assist-ui", "mal_version": "2.1.1", "osv": "MAL-2026-11830", "drop": "tarball gone"}
+{"name": "@servicetitan/assist-ui", "mal_version": "2.1.2", "osv": "MAL-2026-11830", "drop": "tarball gone"}
+{"name": "@servicetitan/assist-ui", "mal_version": "2.1.3", "osv": "MAL-2026-11830", "drop": "tarball gone"}
+{"name": "@servicetitan/assist-utils", "mal_version": "1.1.2", "osv": "MAL-2026-11831", "drop": "tarball gone"}
+{"name": "@servicetitan/assist-utils", "mal_version": "1.1.3", "osv": "MAL-2026-11831", "drop": "tarball gone"}
+{"name": "@servicetitan/assist-utils", "mal_version": "1.1.4", "osv": "MAL-2026-11831", "drop": "tarball gone"}
+{"name": "@servicetitan/carto-react-kit", "mal_version": "0.8.4", "osv": "MAL-2026-11835", "drop": "tarball gone"}
+{"name": "@servicetitan/carto-react-kit", "mal_version": "0.8.5", "osv": "MAL-2026-11835", "drop": "tarball gone"}
+{"name": "@servicetitan/carto-react-kit", "mal_version": "0.8.6", "osv": "MAL-2026-11835", "drop": "tarball gone"}
+{"name": "@servicetitan/carto-tokens", "mal_version": "0.3.1", "osv": "MAL-2026-11837", "drop": "tarball gone"}
+{"name": "@servicetitan/carto-tokens", "mal_version": "0.3.2", "osv": "MAL-2026-11837", "drop": "tarball gone"}
+{"name": "@servicetitan/carto-tokens", "mal_version": "0.3.3", "osv": "MAL-2026-11837", "drop": "tarball gone"}
+{"name": "@servicetitan/component-usage", "mal_version": "28.5.1", "osv": "MAL-2026-11838", "drop": "tarball gone"}
+{"name": "@servicetitan/component-usage", "mal_version": "28.5.2", "osv": "MAL-2026-11838", "drop": "tarball gone"}
+{"name": "@servicetitan/component-usage", "mal_version": "28.5.3", "osv": "MAL-2026-11838", "drop": "tarball gone"}
+{"name": "@servicetitan/confirm", "mal_version": "41.3.1", "osv": "MAL-2026-11839", "drop": "tarball gone"}
+{"name": "@servicetitan/confirm", "mal_version": "41.3.2", "osv": "MAL-2026-11839", "drop": "tarball gone"}
+{"name": "@servicetitan/confirm", "mal_version": "41.3.3", "osv": "MAL-2026-11839", "drop": "tarball gone"}
+{"name": "@servicetitan/confirm-navigation", "mal_version": "41.3.1", "osv": "MAL-2026-11840", "drop": "tarball gone"}
+{"name": "@servicetitan/confirm-navigation", "mal_version": "41.3.2", "osv": "MAL-2026-11840", "drop": "tarball gone"}
+{"name": "@servicetitan/confirm-navigation", "mal_version": "41.3.3", "osv": "MAL-2026-11840", "drop": "tarball gone"}
+{"name": "@servicetitan/contentful", "mal_version": "0.0.3", "osv": "MAL-2026-11841", "drop": "tarball gone"}
+{"name": "@servicetitan/contentful", "mal_version": "0.0.4", "osv": "MAL-2026-11841", "drop": "tarball gone"}
+{"name": "@servicetitan/contentful", "mal_version": "0.0.5", "osv": "MAL-2026-11841", "drop": "tarball gone"}
+{"name": "@servicetitan/contentful-proxy", "mal_version": "1.1.12", "osv": "MAL-2026-11842", "drop": "tarball gone"}
+{"name": "@servicetitan/contentful-proxy", "mal_version": "1.1.13", "osv": "MAL-2026-11842", "drop": "tarball gone"}
+{"name": "@servicetitan/contentful-proxy", "mal_version": "1.1.14", "osv": "MAL-2026-11842", "drop": "tarball gone"}
+{"name": "@servicetitan/cp-api", "mal_version": "1.115.1", "osv": "MAL-2026-11843", "drop": "tarball gone"}
+{"name": "@servicetitan/cp-api", "mal_version": "1.115.2", "osv": "MAL-2026-11843", "drop": "tarball gone"}
+{"name": "@servicetitan/cp-api", "mal_version": "1.115.3", "osv": "MAL-2026-11843", "drop": "tarball gone"}
+{"name": "@servicetitan/cp-mfe", "mal_version": "1.115.1", "osv": "MAL-2026-11844", "drop": "tarball gone"}
+{"name": "@servicetitan/cp-mfe", "mal_version": "1.115.2", "osv": "MAL-2026-11844", "drop": "tarball gone"}
+{"name": "@servicetitan/cp-mfe", "mal_version": "1.115.3", "osv": "MAL-2026-11844", "drop": "tarball gone"}
+{"name": "@servicetitan/cp-mfe-dev", "mal_version": "1.115.1", "osv": "MAL-2026-11845", "drop": "tarball gone"}
+{"name": "@servicetitan/cp-mfe-dev", "mal_version": "1.115.2", "osv": "MAL-2026-11845", "drop": "tarball gone"}
+{"name": "@servicetitan/cp-mfe-dev", "mal_version": "1.115.3", "osv": "MAL-2026-11845", "drop": "tarball gone"}
+{"name": "@servicetitan/cp-react-hooks", "mal_version": "1.115.1", "osv": "MAL-2026-11846", "drop": "tarball gone"}
+{"name": "@servicetitan/cp-react-hooks", "mal_version": "1.115.2", "osv": "MAL-2026-11846", "drop": "tarball gone"}
+{"name": "@servicetitan/cp-react-hooks", "mal_version": "1.115.3", "osv": "MAL-2026-11846", "drop": "tarball gone"}
+{"name": "@servicetitan/cp-ui", "mal_version": "1.115.1", "osv": "MAL-2026-11847", "drop": "tarball gone"}
+{"name": "@servicetitan/cp-ui", "mal_version": "1.115.2", "osv": "MAL-2026-11847", "drop": "tarball gone"}
+{"name": "@servicetitan/cp-ui", "mal_version": "1.115.3", "osv": "MAL-2026-11847", "drop": "tarball gone"}
+{"name": "@servicetitan/culture", "mal_version": "41.3.1", "osv": "MAL-2026-11848", "drop": "tarball gone"}
+{"name": "@servicetitan/culture", "mal_version": "41.3.2", "osv": "MAL-2026-11848", "drop": "tarball gone"}
+{"name": "@servicetitan/culture", "mal_version": "41.3.3", "osv": "MAL-2026-11848", "drop": "tarball gone"}
+{"name": "@servicetitan/data-query", "mal_version": "41.3.1", "osv": "MAL-2026-11849", "drop": "tarball gone"}
+{"name": "@servicetitan/data-query", "mal_version": "41.3.2", "osv": "MAL-2026-11849", "drop": "tarball gone"}
+{"name": "@servicetitan/data-query", "mal_version": "41.3.3", "osv": "MAL-2026-11849", "drop": "tarball gone"}
+{"name": "@servicetitan/datadog-rum", "mal_version": "38.1.1", "osv": "MAL-2026-11850", "drop": "tarball gone"}
+{"name": "@servicetitan/datadog-rum", "mal_version": "38.1.2", "osv": "MAL-2026-11850", "drop": "tarball gone"}
+{"name": "@servicetitan/datadog-rum", "mal_version": "38.1.3", "osv": "MAL-2026-11850", "drop": "tarball gone"}
+{"name": "@servicetitan/datetime-utils", "mal_version": "41.3.1", "osv": "MAL-2026-11851", "drop": "tarball gone"}
+{"name": "@servicetitan/datetime-utils", "mal_version": "41.3.2", "osv": "MAL-2026-11851", "drop": "tarball gone"}
+{"name": "@servicetitan/datetime-utils", "mal_version": "41.3.3", "osv": "MAL-2026-11851", "drop": "tarball gone"}
+{"name": "@servicetitan/design-system", "mal_version": "14.5.4", "osv": "MAL-2026-11852", "drop": "tarball gone"}
+{"name": "@servicetitan/design-system", "mal_version": "14.5.5", "osv": "MAL-2026-11852", "drop": "tarball gone"}
+{"name": "@servicetitan/design-system", "mal_version": "14.5.6", "osv": "MAL-2026-11852", "drop": "tarball gone"}
+{"name": "@servicetitan/docs-anvil-uikit-contrib", "mal_version": "41.3.1", "osv": "MAL-2026-11853", "drop": "tarball gone"}
+{"name": "@servicetitan/docs-anvil-uikit-contrib", "mal_version": "41.3.2", "osv": "MAL-2026-11853", "drop": "tarball gone"}
+{"name": "@servicetitan/docs-anvil-uikit-contrib", "mal_version": "41.3.3", "osv": "MAL-2026-11853", "drop": "tarball gone"}
+{"name": "@servicetitan/docs-uikit", "mal_version": "38.1.1", "osv": "MAL-2026-11854", "drop": "tarball gone"}
+{"name": "@servicetitan/docs-uikit", "mal_version": "38.1.2", "osv": "MAL-2026-11854", "drop": "tarball gone"}
+{"name": "@servicetitan/docs-uikit", "mal_version": "38.1.3", "osv": "MAL-2026-11854", "drop": "tarball gone"}
+{"name": "@servicetitan/document-title", "mal_version": "2.4.1", "osv": "MAL-2026-11855", "drop": "tarball gone"}
+{"name": "@servicetitan/document-title", "mal_version": "2.4.2", "osv": "MAL-2026-11855", "drop": "tarball gone"}
+{"name": "@servicetitan/document-title", "mal_version": "2.4.3", "osv": "MAL-2026-11855", "drop": "tarball gone"}
+{"name": "@servicetitan/dte-pdf-editor", "mal_version": "1.76.1", "osv": "MAL-2026-11856", "drop": "tarball gone"}
+{"name": "@servicetitan/dte-pdf-editor", "mal_version": "1.76.2", "osv": "MAL-2026-11856", "drop": "tarball gone"}
+{"name": "@servicetitan/dte-pdf-editor", "mal_version": "1.76.3", "osv": "MAL-2026-11856", "drop": "tarball gone"}
+{"name": "@servicetitan/dte-unlayer", "mal_version": "0.150.1", "osv": "MAL-2026-11857", "drop": "tarball gone"}
+{"name": "@servicetitan/dte-unlayer", "mal_version": "0.150.2", "osv": "MAL-2026-11857", "drop": "tarball gone"}
+{"name": "@servicetitan/dte-unlayer", "mal_version": "0.150.3", "osv": "MAL-2026-11857", "drop": "tarball gone"}
+{"name": "@servicetitan/eh-module-communication", "mal_version": "0.2.1", "osv": "MAL-2026-11858", "drop": "tarball gone"}
+{"name": "@servicetitan/eh-module-communication", "mal_version": "0.2.2", "osv": "MAL-2026-11858", "drop": "tarball gone"}
+{"name": "@servicetitan/eh-module-communication", "mal_version": "0.2.3", "osv": "MAL-2026-11858", "drop": "tarball gone"}
+{"name": "@servicetitan/error-boundary", "mal_version": "38.1.1", "osv": "MAL-2026-11859", "drop": "tarball gone"}
+{"name": "@servicetitan/error-boundary", "mal_version": "38.1.2", "osv": "MAL-2026-11859", "drop": "tarball gone"}
+{"name": "@servicetitan/error-boundary", "mal_version": "38.1.3", "osv": "MAL-2026-11859", "drop": "tarball gone"}
+{"name": "@servicetitan/eslint-config", "mal_version": "38.1.1", "osv": "MAL-2026-11860", "drop": "tarball gone"}
+{"name": "@servicetitan/eslint-config", "mal_version": "38.1.2", "osv": "MAL-2026-11860", "drop": "tarball gone"}
+{"name": "@servicetitan/eslint-config", "mal_version": "38.1.3", "osv": "MAL-2026-11860", "drop": "tarball gone"}
+{"name": "@servicetitan/eslint-plugin", "mal_version": "38.1.1", "osv": "MAL-2026-11861", "drop": "tarball gone"}
+{"name": "@servicetitan/eslint-plugin", "mal_version": "38.1.2", "osv": "MAL-2026-11861", "drop": "tarball gone"}
+{"name": "@servicetitan/eslint-plugin", "mal_version": "38.1.3", "osv": "MAL-2026-11861", "drop": "tarball gone"}
+{"name": "@servicetitan/eslint-plugin-decorators-declare", "mal_version": "12.8.15", "osv": "MAL-2026-11862", "drop": "tarball gone"}
+{"name": "@servicetitan/eslint-plugin-decorators-declare", "mal_version": "12.8.16", "osv": "MAL-2026-11862", "drop": "tarball gone"}
+{"name": "@servicetitan/eslint-plugin-decorators-declare", "mal_version": "12.8.17", "osv": "MAL-2026-11862", "drop": "tarball gone"}
+{"name": "@servicetitan/eslint-plugin-folder-schema", "mal_version": "38.1.1", "osv": "MAL-2026-11863", "drop": "tarball gone"}
+{"name": "@servicetitan/eslint-plugin-folder-schema", "mal_version": "38.1.2", "osv": "MAL-2026-11863", "drop": "tarball gone"}
+{"name": "@servicetitan/eslint-plugin-folder-schema", "mal_version": "38.1.3", "osv": "MAL-2026-11863", "drop": "tarball gone"}
+{"name": "@servicetitan/eslint-plugin-mobx-6", "mal_version": "12.8.15", "osv": "MAL-2026-11864", "drop": "tarball gone"}
+{"name": "@servicetitan/eslint-plugin-mobx-6", "mal_version": "12.8.16", "osv": "MAL-2026-11864", "drop": "tarball gone"}
+{"name": "@servicetitan/eslint-plugin-mobx-6", "mal_version": "12.8.17", "base_version": "12.8.14", "osv": "MAL-2026-11864", "discovered": "2026-08-04", "mal_published": "2026-08-04T10:53:19.715Z", "tgz": "extra/@servicetitan__eslint-plugin-mobx-6@12.8.17.tgz", "missing_files": 5, "label": "compromise"}
+{"name": "@servicetitan/eslint-plugin-processors-stub", "mal_version": "12.8.15", "osv": "MAL-2026-11865", "drop": "tarball gone"}
+{"name": "@servicetitan/eslint-plugin-processors-stub", "mal_version": "12.8.16", "osv": "MAL-2026-11865", "drop": "tarball gone"}
+{"name": "@servicetitan/eslint-plugin-processors-stub", "mal_version": "12.8.17", "osv": "MAL-2026-11865", "drop": "tarball gone"}
+{"name": "@servicetitan/examples", "mal_version": "1.2.5", "base_version": "1.2.4", "osv": "MAL-2026-11866", "discovered": "2026-08-04", "mal_published": "2026-08-04T10:41:17.360Z", "tgz": "extra/@servicetitan__examples@1.2.5.tgz", "missing_files": 45, "label": "compromise"}
+{"name": "@servicetitan/examples", "mal_version": "1.2.6", "base_version": "1.2.4", "osv": "MAL-2026-11866", "discovered": "2026-08-04", "mal_published": "2026-08-04T10:42:41.154Z", "tgz": "extra/@servicetitan__examples@1.2.6.tgz", "missing_files": 45, "label": "compromise"}
+{"name": "@servicetitan/examples", "mal_version": "1.2.7", "base_version": "1.2.4", "osv": "MAL-2026-11866", "discovered": "2026-08-04", "mal_published": "2026-08-04T10:45:34.498Z", "tgz": "extra/@servicetitan__examples@1.2.7.tgz", "missing_files": 45, "label": "compromise"}
+{"name": "@servicetitan/feature-spotlight", "mal_version": "3.9.1", "osv": "MAL-2026-11867", "drop": "tarball gone"}
+{"name": "@servicetitan/feature-spotlight", "mal_version": "3.9.2", "osv": "MAL-2026-11867", "drop": "tarball gone"}
+{"name": "@servicetitan/feature-spotlight", "mal_version": "3.9.3", "osv": "MAL-2026-11867", "drop": "tarball gone"}
+{"name": "@servicetitan/folder-lint", "mal_version": "38.1.1", "osv": "MAL-2026-11868", "drop": "tarball gone"}
+{"name": "@servicetitan/folder-lint", "mal_version": "38.1.2", "osv": "MAL-2026-11868", "drop": "tarball gone"}
+{"name": "@servicetitan/folder-lint", "mal_version": "38.1.3", "osv": "MAL-2026-11868", "drop": "tarball gone"}
+{"name": "@servicetitan/forge", "mal_version": "0.5.1", "osv": "MAL-2026-11869", "drop": "tarball gone"}
+{"name": "@servicetitan/forge", "mal_version": "0.5.2", "osv": "MAL-2026-11869", "drop": "tarball gone"}
+{"name": "@servicetitan/forge", "mal_version": "0.5.3", "osv": "MAL-2026-11869", "drop": "tarball gone"}
+{"name": "@servicetitan/form", "mal_version": "41.3.1", "osv": "MAL-2026-11870", "drop": "tarball gone"}
+{"name": "@servicetitan/form", "mal_version": "41.3.2", "osv": "MAL-2026-11870", "drop": "tarball gone"}
+{"name": "@servicetitan/form", "mal_version": "41.3.3", "osv": "MAL-2026-11870", "drop": "tarball gone"}
+{"name": "@servicetitan/form-state", "mal_version": "41.3.1", "osv": "MAL-2026-11871", "drop": "tarball gone"}
+{"name": "@servicetitan/form-state", "mal_version": "41.3.2", "osv": "MAL-2026-11871", "drop": "tarball gone"}
+{"name": "@servicetitan/form-state", "mal_version": "41.3.3", "osv": "MAL-2026-11871", "drop": "tarball gone"}
+{"name": "@servicetitan/grid", "mal_version": "0.0.63", "base_version": "0.0.62", "osv": "MAL-2026-11872", "discovered": "2026-08-04", "mal_published": "2026-08-04T10:41:17.648Z", "tgz": "extra/@servicetitan__grid@0.0.63.tgz", "missing_files": 333, "label": "compromise"}
+{"name": "@servicetitan/grid", "mal_version": "0.0.64", "base_version": "0.0.62", "osv": "MAL-2026-11872", "discovered": "2026-08-04", "mal_published": "2026-08-04T10:42:41.107Z", "tgz": "extra/@servicetitan__grid@0.0.64.tgz", "missing_files": 333, "label": "compromise"}
+{"name": "@servicetitan/grid", "mal_version": "0.0.65", "base_version": "0.0.62", "osv": "MAL-2026-11872", "discovered": "2026-08-04", "mal_published": "2026-08-04T10:45:35.201Z", "tgz": "extra/@servicetitan__grid@0.0.65.tgz", "missing_files": 333, "label": "compromise"}
+{"name": "@servicetitan/hammer-icon", "mal_version": "1.2.1", "osv": "MAL-2026-11873", "drop": "tarball gone"}
+{"name": "@servicetitan/hammer-icon", "mal_version": "1.2.2", "osv": "MAL-2026-11873", "drop": "tarball gone"}
+{"name": "@servicetitan/hammer-icon", "mal_version": "1.2.3", "osv": "MAL-2026-11873", "drop": "tarball gone"}
+{"name": "@servicetitan/hammer-react", "mal_version": "1.42.2", "osv": "MAL-2026-11874", "drop": "tarball gone"}
+{"name": "@servicetitan/hammer-react", "mal_version": "1.42.3", "osv": "MAL-2026-11874", "drop": "tarball gone"}
+{"name": "@servicetitan/hammer-react", "mal_version": "1.42.4", "osv": "MAL-2026-11874", "drop": "tarball gone"}
+{"name": "@servicetitan/hammer-token", "mal_version": "3.1.1", "osv": "MAL-2026-11875", "drop": "tarball gone"}
+{"name": "@servicetitan/hammer-token", "mal_version": "3.1.2", "osv": "MAL-2026-11875", "drop": "tarball gone"}
+{"name": "@servicetitan/hammer-token", "mal_version": "3.1.3", "osv": "MAL-2026-11875", "drop": "tarball gone"}
+{"name": "@servicetitan/hash-browser-router", "mal_version": "38.1.1", "osv": "MAL-2026-11876", "drop": "tarball gone"}
+{"name": "@servicetitan/hash-browser-router", "mal_version": "38.1.2", "osv": "MAL-2026-11876", "drop": "tarball gone"}
+{"name": "@servicetitan/hash-browser-router", "mal_version": "38.1.3", "osv": "MAL-2026-11876", "drop": "tarball gone"}
+{"name": "@servicetitan/help-center", "mal_version": "1.0.8", "osv": "MAL-2026-11877", "drop": "tarball gone"}
+{"name": "@servicetitan/help-center", "mal_version": "1.0.9", "osv": "MAL-2026-11877", "drop": "tarball gone"}
+{"name": "@servicetitan/help-center", "mal_version": "1.0.10", "osv": "MAL-2026-11877", "drop": "tarball gone"}
+{"name": "@servicetitan/html-sketchapp", "mal_version": "4.2.8", "osv": "MAL-2026-11878", "drop": "tarball gone"}
+{"name": "@servicetitan/html-sketchapp", "mal_version": "4.2.9", "osv": "MAL-2026-11878", "drop": "tarball gone"}
+{"name": "@servicetitan/html-sketchapp", "mal_version": "4.2.10", "osv": "MAL-2026-11878", "drop": "tarball gone"}
+{"name": "@servicetitan/install", "mal_version": "38.1.1", "osv": "MAL-2026-11879", "drop": "tarball gone"}
+{"name": "@servicetitan/install", "mal_version": "38.1.2", "osv": "MAL-2026-11879", "drop": "tarball gone"}
+{"name": "@servicetitan/install", "mal_version": "38.1.3", "osv": "MAL-2026-11879", "drop": "tarball gone"}
+{"name": "@servicetitan/intl", "mal_version": "7.2.1", "osv": "MAL-2026-11880", "drop": "tarball gone"}
+{"name": "@servicetitan/intl", "mal_version": "7.2.2", "osv": "MAL-2026-11880", "drop": "tarball gone"}
+{"name": "@servicetitan/intl", "mal_version": "7.2.3", "osv": "MAL-2026-11880", "drop": "tarball gone"}
+{"name": "@servicetitan/json-render-react", "mal_version": "0.4.6", "osv": "MAL-2026-11881", "drop": "tarball gone"}
+{"name": "@servicetitan/json-render-react", "mal_version": "0.4.7", "osv": "MAL-2026-11881", "drop": "tarball gone"}
+{"name": "@servicetitan/json-render-react", "mal_version": "0.4.8", "osv": "MAL-2026-11881", "drop": "tarball gone"}
+{"name": "@servicetitan/kendo-theme", "mal_version": "0.0.27", "osv": "MAL-2026-11882", "drop": "tarball gone"}
+{"name": "@servicetitan/kendo-theme", "mal_version": "0.0.28", "osv": "MAL-2026-11882", "drop": "tarball gone"}
+{"name": "@servicetitan/kendo-theme", "mal_version": "0.0.29", "osv": "MAL-2026-11882", "drop": "tarball gone"}
+{"name": "@servicetitan/ko-bridge", "mal_version": "38.1.1", "osv": "MAL-2026-11883", "drop": "tarball gone"}
+{"name": "@servicetitan/ko-bridge", "mal_version": "38.1.2", "osv": "MAL-2026-11883", "drop": "tarball gone"}
+{"name": "@servicetitan/ko-bridge", "mal_version": "38.1.3", "osv": "MAL-2026-11883", "drop": "tarball gone"}
+{"name": "@servicetitan/launchdarkly-service", "mal_version": "38.1.1", "osv": "MAL-2026-11884", "drop": "tarball gone"}
+{"name": "@servicetitan/launchdarkly-service", "mal_version": "38.1.2", "osv": "MAL-2026-11884", "drop": "tarball gone"}
+{"name": "@servicetitan/launchdarkly-service", "mal_version": "38.1.3", "osv": "MAL-2026-11884", "drop": "tarball gone"}
+{"name": "@servicetitan/lazy-module", "mal_version": "38.1.1", "osv": "MAL-2026-11885", "drop": "tarball gone"}
+{"name": "@servicetitan/lazy-module", "mal_version": "38.1.2", "osv": "MAL-2026-11885", "drop": "tarball gone"}
+{"name": "@servicetitan/lazy-module", "mal_version": "38.1.3", "osv": "MAL-2026-11885", "drop": "tarball gone"}
+{"name": "@servicetitan/ld-type-generator", "mal_version": "0.2.1", "osv": "MAL-2026-11886", "drop": "tarball gone"}
+{"name": "@servicetitan/ld-type-generator", "mal_version": "0.2.2", "osv": "MAL-2026-11886", "drop": "tarball gone"}
+{"name": "@servicetitan/ld-type-generator", "mal_version": "0.2.3", "osv": "MAL-2026-11886", "drop": "tarball gone"}
+{"name": "@servicetitan/line-item-editor", "mal_version": "1.5.1", "osv": "MAL-2026-11887", "drop": "tarball gone"}
+{"name": "@servicetitan/line-item-editor", "mal_version": "1.5.2", "osv": "MAL-2026-11887", "drop": "tarball gone"}
+{"name": "@servicetitan/line-item-editor", "mal_version": "1.5.3", "osv": "MAL-2026-11887", "drop": "tarball gone"}
+{"name": "@servicetitan/link-item", "mal_version": "41.3.1", "osv": "MAL-2026-11888", "drop": "tarball gone"}
+{"name": "@servicetitan/link-item", "mal_version": "41.3.2", "osv": "MAL-2026-11888", "drop": "tarball gone"}
+{"name": "@servicetitan/link-item", "mal_version": "41.3.3", "osv": "MAL-2026-11888", "drop": "tarball gone"}
+{"name": "@servicetitan/log-service", "mal_version": "38.1.1", "osv": "MAL-2026-11889", "drop": "tarball gone"}
+{"name": "@servicetitan/log-service", "mal_version": "38.1.2", "osv": "MAL-2026-11889", "drop": "tarball gone"}
+{"name": "@servicetitan/log-service", "mal_version": "38.1.3", "osv": "MAL-2026-11889", "drop": "tarball gone"}
+{"name": "@servicetitan/marketing-form", "mal_version": "0.1.2", "osv": "MAL-2026-11892", "drop": "tarball gone"}
+{"name": "@servicetitan/marketing-form", "mal_version": "0.1.3", "osv": "MAL-2026-11892", "drop": "tarball gone"}
+{"name": "@servicetitan/marketing-form", "mal_version": "0.1.4", "osv": "MAL-2026-11892", "drop": "tarball gone"}
+{"name": "@servicetitan/marketing-integration-widgets", "mal_version": "1.0.40", "osv": "MAL-2026-11894", "drop": "tarball gone"}
+{"name": "@servicetitan/marketing-integration-widgets", "mal_version": "1.0.41", "osv": "MAL-2026-11894", "drop": "tarball gone"}
+{"name": "@servicetitan/marketing-integration-widgets", "mal_version": "1.0.42", "osv": "MAL-2026-11894", "drop": "tarball gone"}
+{"name": "@servicetitan/marketing-route", "mal_version": "1.2.1", "osv": "MAL-2026-11895", "drop": "tarball gone"}
+{"name": "@servicetitan/marketing-route", "mal_version": "1.2.2", "osv": "MAL-2026-11895", "drop": "tarball gone"}
+{"name": "@servicetitan/marketing-route", "mal_version": "1.2.3", "osv": "MAL-2026-11895", "drop": "tarball gone"}
+{"name": "@servicetitan/marketing-ui", "mal_version": "9.3.1", "base_version": "9.3.0", "osv": "MAL-2026-11896", "discovered": "2026-08-04", "mal_published": "2026-08-04T10:41:17.767Z", "tgz": "extra/@servicetitan__marketing-ui@9.3.1.tgz", "missing_files": 402, "label": "compromise"}
+{"name": "@servicetitan/marketing-ui", "mal_version": "9.3.2", "base_version": "9.3.0", "osv": "MAL-2026-11896", "discovered": "2026-08-04", "mal_published": "2026-08-04T10:42:41.017Z", "tgz": "extra/@servicetitan__marketing-ui@9.3.2.tgz", "missing_files": 402, "label": "compromise"}
+{"name": "@servicetitan/marketing-ui", "mal_version": "9.3.3", "osv": "MAL-2026-11896", "drop": "tarball gone"}
+{"name": "@servicetitan/marketing-widgets", "mal_version": "1.0.1", "osv": "MAL-2026-11897", "drop": "tarball gone"}
+{"name": "@servicetitan/marketing-widgets", "mal_version": "1.0.2", "osv": "MAL-2026-11897", "drop": "tarball gone"}
+{"name": "@servicetitan/marketing-widgets", "mal_version": "1.0.3", "osv": "MAL-2026-11897", "drop": "tarball gone"}
+{"name": "@servicetitan/measure-sheet-data", "mal_version": "2.6.1", "osv": "MAL-2026-11898", "drop": "tarball gone"}
+{"name": "@servicetitan/measure-sheet-data", "mal_version": "2.6.2", "osv": "MAL-2026-11898", "drop": "tarball gone"}
+{"name": "@servicetitan/measure-sheet-data", "mal_version": "2.6.3", "base_version": "2.6.0", "osv": "MAL-2026-11898", "discovered": "2026-08-04", "mal_published": "2026-08-04T10:45:34.055Z", "tgz": "extra/@servicetitan__measure-sheet-data@2.6.3.tgz", "missing_files": 95, "label": "compromise"}
+{"name": "@servicetitan/mfe-quick-actions", "mal_version": "0.5.49", "osv": "MAL-2026-11899", "drop": "tarball gone"}
+{"name": "@servicetitan/mfe-quick-actions", "mal_version": "0.5.50", "osv": "MAL-2026-11899", "drop": "tarball gone"}
+{"name": "@servicetitan/mfe-quick-actions", "mal_version": "0.5.51", "osv": "MAL-2026-11899", "drop": "tarball gone"}
+{"name": "@servicetitan/micro-frontend", "mal_version": "0.0.4", "base_version": "0.0.3", "osv": "MAL-2026-11900", "discovered": "2026-08-04", "mal_published": "2026-08-04T10:41:17.101Z", "tgz": "extra/@servicetitan__micro-frontend@0.0.4.tgz", "missing_files": 30, "label": "compromise"}
+{"name": "@servicetitan/micro-frontend", "mal_version": "0.0.5", "base_version": "0.0.3", "osv": "MAL-2026-11900", "discovered": "2026-08-04", "mal_published": "2026-08-04T10:42:40.102Z", "tgz": "extra/@servicetitan__micro-frontend@0.0.5.tgz", "missing_files": 30, "label": "compromise"}
+{"name": "@servicetitan/micro-frontend", "mal_version": "0.0.6", "base_version": "0.0.3", "osv": "MAL-2026-11900", "discovered": "2026-08-04", "mal_published": "2026-08-04T10:45:33.650Z", "tgz": "extra/@servicetitan__micro-frontend@0.0.6.tgz", "missing_files": 30, "label": "compromise"}
+{"name": "@servicetitan/microfront", "mal_version": "0.0.2", "base_version": "0.0.1", "osv": "MAL-2026-11901", "discovered": "2026-08-04", "mal_published": "2026-08-04T10:41:16.894Z", "tgz": "extra/@servicetitan__microfront@0.0.2.tgz", "missing_files": 25, "label": "compromise"}
+{"name": "@servicetitan/microfront", "mal_version": "0.0.3", "base_version": "0.0.1", "osv": "MAL-2026-11901", "discovered": "2026-08-04", "mal_published": "2026-08-04T10:42:40.135Z", "tgz": "extra/@servicetitan__microfront@0.0.3.tgz", "missing_files": 25, "label": "compromise"}
+{"name": "@servicetitan/microfront", "mal_version": "0.0.4", "base_version": "0.0.1", "osv": "MAL-2026-11901", "discovered": "2026-08-04", "mal_published": "2026-08-04T10:45:33.904Z", "tgz": "extra/@servicetitan__microfront@0.0.4.tgz", "missing_files": 25, "label": "compromise"}
+{"name": "@servicetitan/microfront-auth", "mal_version": "0.0.5", "base_version": "0.0.4", "osv": "MAL-2026-11902", "discovered": "2026-08-04", "mal_published": "2026-08-04T10:41:16.889Z", "tgz": "extra/@servicetitan__microfront-auth@0.0.5.tgz", "missing_files": 20, "label": "compromise"}
+{"name": "@servicetitan/microfront-auth", "mal_version": "0.0.6", "base_version": "0.0.4", "osv": "MAL-2026-11902", "discovered": "2026-08-04", "mal_published": "2026-08-04T10:42:40.280Z", "tgz": "extra/@servicetitan__microfront-auth@0.0.6.tgz", "missing_files": 20, "label": "compromise"}
+{"name": "@servicetitan/microfront-auth", "mal_version": "0.0.7", "base_version": "0.0.4", "osv": "MAL-2026-11902", "discovered": "2026-08-04", "mal_published": "2026-08-04T10:45:33.779Z", "tgz": "extra/@servicetitan__microfront-auth@0.0.7.tgz", "missing_files": 20, "label": "compromise"}
+{"name": "@servicetitan/microfront-tests", "mal_version": "0.0.11", "osv": "MAL-2026-11903", "drop": "tarball gone"}
+{"name": "@servicetitan/microfront-tests", "mal_version": "0.0.12", "osv": "MAL-2026-11903", "drop": "tarball gone"}
+{"name": "@servicetitan/microfront-tests", "mal_version": "0.0.13", "osv": "MAL-2026-11903", "drop": "tarball gone"}
+{"name": "@servicetitan/microfront-utils", "mal_version": "1.4.1", "osv": "MAL-2026-11904", "drop": "tarball gone"}
+{"name": "@servicetitan/microfront-utils", "mal_version": "1.4.2", "osv": "MAL-2026-11904", "drop": "tarball gone"}
+{"name": "@servicetitan/microfront-utils", "mal_version": "1.4.3", "osv": "MAL-2026-11904", "drop": "tarball gone"}
+{"name": "@servicetitan/modularpayments-webfields", "mal_version": "1.0.53", "osv": "MAL-2026-11905", "drop": "tarball gone"}
+{"name": "@servicetitan/modularpayments-webfields", "mal_version": "1.0.54", "osv": "MAL-2026-11905", "drop": "tarball gone"}
+{"name": "@servicetitan/modularpayments-webfields", "mal_version": "1.0.55", "osv": "MAL-2026-11905", "drop": "tarball gone"}
+{"name": "@servicetitan/moneyout-api-client", "mal_version": "1.29.1", "osv": "MAL-2026-11906", "drop": "tarball gone"}
+{"name": "@servicetitan/moneyout-api-client", "mal_version": "1.29.2", "osv": "MAL-2026-11906", "drop": "tarball gone"}
+{"name": "@servicetitan/moneyout-api-client", "mal_version": "1.29.3", "osv": "MAL-2026-11906", "drop": "tarball gone"}
+{"name": "@servicetitan/navigation", "mal_version": "14.1.1", "osv": "MAL-2026-11908", "drop": "tarball gone"}
+{"name": "@servicetitan/navigation", "mal_version": "14.1.2", "osv": "MAL-2026-11908", "drop": "tarball gone"}
+{"name": "@servicetitan/navigation", "mal_version": "14.1.3", "osv": "MAL-2026-11908", "drop": "tarball gone"}
+{"name": "@servicetitan/notifications", "mal_version": "41.3.1", "osv": "MAL-2026-11909", "drop": "tarball gone"}
+{"name": "@servicetitan/notifications", "mal_version": "41.3.2", "osv": "MAL-2026-11909", "drop": "tarball gone"}
+{"name": "@servicetitan/notifications", "mal_version": "41.3.3", "osv": "MAL-2026-11909", "drop": "tarball gone"}
+{"name": "@servicetitan/onboarding-ui", "mal_version": "18.5.1", "osv": "MAL-2026-11910", "drop": "tarball gone"}
+{"name": "@servicetitan/onboarding-ui", "mal_version": "18.5.2", "osv": "MAL-2026-11910", "drop": "tarball gone"}
+{"name": "@servicetitan/onboarding-ui", "mal_version": "18.5.3", "osv": "MAL-2026-11910", "drop": "tarball gone"}
+{"name": "@servicetitan/quick-actions", "mal_version": "1.15.2", "osv": "MAL-2026-11911", "drop": "tarball gone"}
+{"name": "@servicetitan/quick-actions", "mal_version": "1.15.3", "osv": "MAL-2026-11911", "drop": "tarball gone"}
+{"name": "@servicetitan/quick-actions", "mal_version": "1.15.4", "osv": "MAL-2026-11911", "drop": "tarball gone"}
+{"name": "@servicetitan/react-hooks", "mal_version": "7.7.1", "osv": "MAL-2026-11912", "drop": "tarball gone"}
+{"name": "@servicetitan/react-hooks", "mal_version": "7.7.2", "osv": "MAL-2026-11912", "drop": "tarball gone"}
+{"name": "@servicetitan/react-hooks", "mal_version": "7.7.3", "osv": "MAL-2026-11912", "drop": "tarball gone"}
+{"name": "@servicetitan/react-ioc", "mal_version": "38.1.1", "osv": "MAL-2026-11913", "drop": "tarball gone"}
+{"name": "@servicetitan/react-ioc", "mal_version": "38.1.2", "osv": "MAL-2026-11913", "drop": "tarball gone"}
+{"name": "@servicetitan/react-ioc", "mal_version": "38.1.3", "osv": "MAL-2026-11913", "drop": "tarball gone"}
+{"name": "@servicetitan/responsive", "mal_version": "6.1.1", "osv": "MAL-2026-11914", "drop": "tarball gone"}
+{"name": "@servicetitan/responsive", "mal_version": "6.1.2", "osv": "MAL-2026-11914", "drop": "tarball gone"}
+{"name": "@servicetitan/responsive", "mal_version": "6.1.3", "osv": "MAL-2026-11914", "drop": "tarball gone"}
+{"name": "@servicetitan/restrict-imports", "mal_version": "38.1.1", "osv": "MAL-2026-11915", "drop": "tarball gone"}
+{"name": "@servicetitan/restrict-imports", "mal_version": "38.1.2", "osv": "MAL-2026-11915", "drop": "tarball gone"}
+{"name": "@servicetitan/restrict-imports", "mal_version": "38.1.3", "osv": "MAL-2026-11915", "drop": "tarball gone"}
+{"name": "@servicetitan/schema-comparison", "mal_version": "0.1.3", "osv": "MAL-2026-11916", "drop": "tarball gone"}
+{"name": "@servicetitan/schema-comparison", "mal_version": "0.1.4", "osv": "MAL-2026-11916", "drop": "tarball gone"}
+{"name": "@servicetitan/schema-comparison", "mal_version": "0.1.5", "osv": "MAL-2026-11916", "drop": "tarball gone"}
+{"name": "@servicetitan/skeleton", "mal_version": "9.2.4", "osv": "MAL-2026-11917", "drop": "tarball gone"}
+{"name": "@servicetitan/skeleton", "mal_version": "9.2.5", "osv": "MAL-2026-11917", "drop": "tarball gone"}
+{"name": "@servicetitan/skeleton", "mal_version": "9.2.6", "osv": "MAL-2026-11917", "drop": "tarball gone"}
+{"name": "@servicetitan/startup", "mal_version": "38.1.1", "osv": "MAL-2026-11923", "drop": "tarball gone"}
+{"name": "@servicetitan/startup", "mal_version": "38.1.2", "osv": "MAL-2026-11923", "drop": "tarball gone"}
+{"name": "@servicetitan/startup", "mal_version": "38.1.3", "osv": "MAL-2026-11923", "drop": "tarball gone"}
+{"name": "@servicetitan/startup-jest", "mal_version": "2.2.1", "osv": "MAL-2026-11924", "drop": "tarball gone"}
+{"name": "@servicetitan/startup-jest", "mal_version": "2.2.2", "osv": "MAL-2026-11924", "drop": "tarball gone"}
+{"name": "@servicetitan/startup-jest", "mal_version": "2.2.3", "osv": "MAL-2026-11924", "drop": "tarball gone"}
+{"name": "@servicetitan/startup-mfe-compat", "mal_version": "0.5.1", "osv": "MAL-2026-11925", "drop": "tarball gone"}
+{"name": "@servicetitan/startup-mfe-compat", "mal_version": "0.5.2", "osv": "MAL-2026-11925", "drop": "tarball gone"}
+{"name": "@servicetitan/startup-mfe-compat", "mal_version": "0.5.3", "osv": "MAL-2026-11925", "drop": "tarball gone"}
+{"name": "@servicetitan/startup-utils", "mal_version": "38.1.1", "osv": "MAL-2026-11926", "drop": "tarball gone"}
+{"name": "@servicetitan/startup-utils", "mal_version": "38.1.2", "osv": "MAL-2026-11926", "drop": "tarball gone"}
+{"name": "@servicetitan/startup-utils", "mal_version": "38.1.3", "osv": "MAL-2026-11926", "drop": "tarball gone"}
+{"name": "@servicetitan/stylelint-config", "mal_version": "38.1.1", "osv": "MAL-2026-11927", "drop": "tarball gone"}
+{"name": "@servicetitan/stylelint-config", "mal_version": "38.1.2", "osv": "MAL-2026-11927", "drop": "tarball gone"}
+{"name": "@servicetitan/stylelint-config", "mal_version": "38.1.3", "osv": "MAL-2026-11927", "drop": "tarball gone"}
+{"name": "@servicetitan/suppress-warnings", "mal_version": "34.0.1", "base_version": "34.0.0", "osv": "MAL-2026-11928", "discovered": "2026-08-04", "mal_published": "2026-02-03T00:06:10.952Z", "tgz": "extra/@servicetitan__suppress-warnings@34.0.1.tgz", "missing_files": 0, "label": "compromise"}
+{"name": "@servicetitan/suppress-warnings", "mal_version": "34.1.0", "base_version": "34.0.0", "osv": "MAL-2026-11928", "discovered": "2026-08-04", "mal_published": "2026-02-25T14:49:56.774Z", "tgz": "extra/@servicetitan__suppress-warnings@34.1.0.tgz", "missing_files": 0, "label": "compromise"}
+{"name": "@servicetitan/suppress-warnings", "mal_version": "34.2.0", "base_version": "34.0.0", "osv": "MAL-2026-11928", "discovered": "2026-08-04", "mal_published": "2026-03-02T21:06:39.918Z", "tgz": "extra/@servicetitan__suppress-warnings@34.2.0.tgz", "missing_files": 0, "label": "compromise"}
+{"name": "@servicetitan/table", "mal_version": "41.3.1", "base_version": "41.3.0", "osv": "MAL-2026-11929", "discovered": "2026-08-04", "mal_published": "2026-08-04T10:41:17.402Z", "tgz": "extra/@servicetitan__table@41.3.1.tgz", "missing_files": 440, "label": "compromise"}
+{"name": "@servicetitan/table", "mal_version": "41.3.2", "base_version": "41.3.0", "osv": "MAL-2026-11929", "discovered": "2026-08-04", "mal_published": "2026-08-04T10:42:40.796Z", "tgz": "extra/@servicetitan__table@41.3.2.tgz", "missing_files": 438, "label": "compromise"}
+{"name": "@servicetitan/table", "mal_version": "41.3.3", "base_version": "41.3.0", "osv": "MAL-2026-11929", "discovered": "2026-08-04", "mal_published": "2026-08-04T10:45:35.006Z", "tgz": "extra/@servicetitan__table@41.3.3.tgz", "missing_files": 438, "label": "compromise"}
+{"name": "@servicetitan/tanstack-query-mobx", "mal_version": "6.2.1", "osv": "MAL-2026-11930", "drop": "tarball gone"}
+{"name": "@servicetitan/tanstack-query-mobx", "mal_version": "6.2.2", "osv": "MAL-2026-11930", "drop": "tarball gone"}
+{"name": "@servicetitan/tanstack-query-mobx", "mal_version": "6.2.3", "osv": "MAL-2026-11930", "drop": "tarball gone"}
+{"name": "@servicetitan/temporal-lite", "mal_version": "3.4.1", "osv": "MAL-2026-11931", "drop": "tarball gone"}
+{"name": "@servicetitan/temporal-lite", "mal_version": "3.4.2", "osv": "MAL-2026-11931", "drop": "tarball gone"}
+{"name": "@servicetitan/temporal-lite", "mal_version": "3.4.3", "osv": "MAL-2026-11931", "drop": "tarball gone"}
+{"name": "@servicetitan/testing-library", "mal_version": "6.6.1", "osv": "MAL-2026-11932", "drop": "tarball gone"}
+{"name": "@servicetitan/testing-library", "mal_version": "6.6.2", "osv": "MAL-2026-11932", "drop": "tarball gone"}
+{"name": "@servicetitan/testing-library", "mal_version": "6.6.3", "osv": "MAL-2026-11932", "drop": "tarball gone"}
+{"name": "@servicetitan/thoughtspot-theme", "mal_version": "1.7.1", "osv": "MAL-2026-11933", "drop": "tarball gone"}
+{"name": "@servicetitan/thoughtspot-theme", "mal_version": "1.7.2", "osv": "MAL-2026-11933", "drop": "tarball gone"}
+{"name": "@servicetitan/thoughtspot-theme", "mal_version": "1.7.3", "osv": "MAL-2026-11933", "drop": "tarball gone"}
+{"name": "@servicetitan/time-zones", "mal_version": "3.8.1", "osv": "MAL-2026-11934", "drop": "tarball gone"}
+{"name": "@servicetitan/time-zones", "mal_version": "3.8.2", "osv": "MAL-2026-11934", "drop": "tarball gone"}
+{"name": "@servicetitan/time-zones", "mal_version": "3.8.3", "osv": "MAL-2026-11934", "drop": "tarball gone"}
+{"name": "@servicetitan/titan-chat-ui", "mal_version": "7.1.3", "osv": "MAL-2026-11935", "drop": "tarball gone"}
+{"name": "@servicetitan/titan-chat-ui", "mal_version": "7.1.4", "osv": "MAL-2026-11935", "drop": "tarball gone"}
+{"name": "@servicetitan/titan-chat-ui", "mal_version": "7.1.5", "osv": "MAL-2026-11935", "drop": "tarball gone"}
+{"name": "@servicetitan/titan-chat-ui-anvil2", "mal_version": "9.0.1", "osv": "MAL-2026-11936", "drop": "tarball gone"}
+{"name": "@servicetitan/titan-chat-ui-anvil2", "mal_version": "9.0.2", "osv": "MAL-2026-11936", "drop": "tarball gone"}
+{"name": "@servicetitan/titan-chat-ui-anvil2", "mal_version": "9.0.3", "osv": "MAL-2026-11936", "drop": "tarball gone"}
+{"name": "@servicetitan/titan-chat-ui-common", "mal_version": "9.0.1", "osv": "MAL-2026-11937", "drop": "tarball gone"}
+{"name": "@servicetitan/titan-chat-ui-common", "mal_version": "9.0.2", "osv": "MAL-2026-11937", "drop": "tarball gone"}
+{"name": "@servicetitan/titan-chat-ui-common", "mal_version": "9.0.3", "osv": "MAL-2026-11937", "drop": "tarball gone"}
+{"name": "@servicetitan/titan-chat-ui-cypress", "mal_version": "2.1.3", "osv": "MAL-2026-11938", "drop": "tarball gone"}
+{"name": "@servicetitan/titan-chat-ui-cypress", "mal_version": "2.1.4", "osv": "MAL-2026-11938", "drop": "tarball gone"}
+{"name": "@servicetitan/titan-chat-ui-cypress", "mal_version": "2.1.5", "osv": "MAL-2026-11938", "drop": "tarball gone"}
+{"name": "@servicetitan/titan-chatbot-api", "mal_version": "9.0.1", "osv": "MAL-2026-11939", "drop": "tarball gone"}
+{"name": "@servicetitan/titan-chatbot-api", "mal_version": "9.0.2", "osv": "MAL-2026-11939", "drop": "tarball gone"}
+{"name": "@servicetitan/titan-chatbot-api", "mal_version": "9.0.3", "osv": "MAL-2026-11939", "drop": "tarball gone"}
+{"name": "@servicetitan/titan-chatbot-client", "mal_version": "2.1.3", "osv": "MAL-2026-11940", "drop": "tarball gone"}
+{"name": "@servicetitan/titan-chatbot-client", "mal_version": "2.1.4", "osv": "MAL-2026-11940", "drop": "tarball gone"}
+{"name": "@servicetitan/titan-chatbot-client", "mal_version": "2.1.5", "osv": "MAL-2026-11940", "drop": "tarball gone"}
+{"name": "@servicetitan/titan-chatbot-ui", "mal_version": "7.1.3", "osv": "MAL-2026-11941", "drop": "tarball gone"}
+{"name": "@servicetitan/titan-chatbot-ui", "mal_version": "7.1.4", "osv": "MAL-2026-11941", "drop": "tarball gone"}
+{"name": "@servicetitan/titan-chatbot-ui", "mal_version": "7.1.5", "osv": "MAL-2026-11941", "drop": "tarball gone"}
+{"name": "@servicetitan/titan-chatbot-ui-anvil2", "mal_version": "9.0.1", "osv": "MAL-2026-11942", "drop": "tarball gone"}
+{"name": "@servicetitan/titan-chatbot-ui-anvil2", "mal_version": "9.0.2", "osv": "MAL-2026-11942", "drop": "tarball gone"}
+{"name": "@servicetitan/titan-chatbot-ui-anvil2", "mal_version": "9.0.3", "osv": "MAL-2026-11942", "drop": "tarball gone"}
+{"name": "@servicetitan/titan-chatbot-ui-cypress", "mal_version": "9.0.1", "osv": "MAL-2026-11943", "drop": "tarball gone"}
+{"name": "@servicetitan/titan-chatbot-ui-cypress", "mal_version": "9.0.2", "osv": "MAL-2026-11943", "drop": "tarball gone"}
+{"name": "@servicetitan/titan-chatbot-ui-cypress", "mal_version": "9.0.3", "osv": "MAL-2026-11943", "drop": "tarball gone"}
+{"name": "@servicetitan/tokens", "mal_version": "12.9.1", "osv": "MAL-2026-11944", "drop": "tarball gone"}
+{"name": "@servicetitan/tokens", "mal_version": "12.9.2", "osv": "MAL-2026-11944", "drop": "tarball gone"}
+{"name": "@servicetitan/tokens", "mal_version": "12.9.3", "osv": "MAL-2026-11944", "drop": "tarball gone"}
+{"name": "@servicetitan/toolbelt-shared-registry", "mal_version": "1.14.1", "osv": "MAL-2026-11945", "drop": "tarball gone"}
+{"name": "@servicetitan/toolbelt-shared-registry", "mal_version": "1.14.2", "osv": "MAL-2026-11945", "drop": "tarball gone"}
+{"name": "@servicetitan/toolbelt-shared-registry", "mal_version": "1.14.3", "osv": "MAL-2026-11945", "drop": "tarball gone"}
+{"name": "@servicetitan/uikit-docs", "mal_version": "22.11.1", "osv": "MAL-2026-11946", "drop": "tarball gone"}
+{"name": "@servicetitan/uikit-docs", "mal_version": "22.11.2", "osv": "MAL-2026-11946", "drop": "tarball gone"}
+{"name": "@servicetitan/uikit-docs", "mal_version": "22.11.3", "osv": "MAL-2026-11946", "drop": "tarball gone"}
+{"name": "@servicetitan/unit-tests", "mal_version": "0.0.2", "base_version": "0.0.1", "osv": "MAL-2026-11947", "discovered": "2026-08-04", "mal_published": "2026-08-04T10:41:16.856Z", "tgz": "extra/@servicetitan__unit-tests@0.0.2.tgz", "missing_files": 11, "label": "compromise"}
+{"name": "@servicetitan/unit-tests", "mal_version": "0.0.3", "base_version": "0.0.1", "osv": "MAL-2026-11947", "discovered": "2026-08-04", "mal_published": "2026-08-04T10:42:40.402Z", "tgz": "extra/@servicetitan__unit-tests@0.0.3.tgz", "missing_files": 11, "label": "compromise"}
+{"name": "@servicetitan/unit-tests", "mal_version": "0.0.4", "base_version": "0.0.1", "osv": "MAL-2026-11947", "discovered": "2026-08-04", "mal_published": "2026-08-04T10:45:33.495Z", "tgz": "extra/@servicetitan__unit-tests@0.0.4.tgz", "missing_files": 11, "label": "compromise"}
+{"name": "@servicetitan/va-mfe-loader", "mal_version": "1.1.1", "osv": "MAL-2026-11948", "drop": "tarball gone"}
+{"name": "@servicetitan/va-mfe-loader", "mal_version": "1.1.2", "osv": "MAL-2026-11948", "drop": "tarball gone"}
+{"name": "@servicetitan/va-mfe-loader", "mal_version": "1.1.3", "osv": "MAL-2026-11948", "drop": "tarball gone"}
+{"name": "@servicetitan/web-components", "mal_version": "38.1.1", "osv": "MAL-2026-11949", "drop": "tarball gone"}
+{"name": "@servicetitan/web-components", "mal_version": "38.1.2", "osv": "MAL-2026-11949", "drop": "tarball gone"}
+{"name": "@servicetitan/web-components", "mal_version": "38.1.3", "osv": "MAL-2026-11949", "drop": "tarball gone"}
+{"name": "@servicetitan/widget-platform", "mal_version": "5.6.1", "osv": "MAL-2026-11950", "drop": "tarball gone"}
+{"name": "@servicetitan/widget-platform", "mal_version": "5.6.2", "osv": "MAL-2026-11950", "drop": "tarball gone"}
+{"name": "@servicetitan/widget-platform", "mal_version": "5.6.3", "osv": "MAL-2026-11950", "drop": "tarball gone"}
+{"name": "@servicetitan/widget-platform-monolith", "mal_version": "5.6.1", "osv": "MAL-2026-11951", "drop": "tarball gone"}
+{"name": "@servicetitan/widget-platform-monolith", "mal_version": "5.6.2", "osv": "MAL-2026-11951", "drop": "tarball gone"}
+{"name": "@servicetitan/widget-platform-monolith", "mal_version": "5.6.3", "osv": "MAL-2026-11951", "drop": "tarball gone"}
+{"name": "@sheltr_/agent", "mal_version": "1.0.4", "base_version": "1.0.3", "osv": "MAL-2026-10469", "discovered": "2026-07-13", "mal_published": "2026-07-20T13:33:47.163Z", "tgz": "extra/@sheltr___agent@1.0.4.tgz", "missing_files": 0, "label": "automated"}
+{"name": "@stageflight-testbed/a", "mal_version": "0.1.7", "base_version": "0.1.6", "osv": "MAL-2026-13365", "discovered": "2026-08-05", "mal_published": "2026-07-30T23:03:11.558Z", "tgz": "extra/@stageflight-testbed__a@0.1.7.tgz", "missing_files": 0, "label": "automated"}
+{"name": "@syncraft-labs/core", "mal_version": "0.4.1", "osv": "MAL-2026-14367", "drop": "tarball gone"}
+{"name": "@syncraft-labs/react", "mal_version": "0.4.1", "osv": "MAL-2026-14368", "drop": "tarball gone"}
+{"name": "@syncraft-labs/vue", "mal_version": "0.4.1", "osv": "MAL-2026-14369", "drop": "tarball gone"}
+{"name": "@systemzero/baileys", "mal_version": "1.1.2", "base_version": "1.1.1", "osv": "MAL-2026-15820", "discovered": "2026-09-01", "mal_published": "2026-08-13T02:50:11.658Z", "tgz": "extra/@systemzero__baileys@1.1.2.tgz", "missing_files": 0, "label": "automated"}
+{"name": "@testrelic/appium-analytics", "mal_version": "1.1.1-next.88", "osv": "MAL-2026-15647", "drop": "tarball gone"}
+{"name": "@testrelic/playwright-analytics", "mal_version": "2.12.1-next.88", "osv": "MAL-2026-15565", "drop": "tarball gone"}
+{"name": "@testrelic/playwright-analytics", "mal_version": "2.13.0", "osv": "MAL-2026-15565", "drop": "tarball gone"}
+{"name": "@trackunit/iris-app-sdk-vite", "mal_version": "1.2.10-alpha-d785aff3531.0", "base_version": "1.2.9", "osv": "MAL-2026-13421", "discovered": "2026-08-06", "mal_published": "2026-08-06T12:46:20.170Z", "tgz": "extra/@trackunit__iris-app-sdk-vite@1.2.10-alpha-d785aff3531.0.tgz", "missing_files": 0, "label": "compromise"}
+{"name": "@umacloud/cli-darwin-arm64", "mal_version": "1.0.74", "osv": "MAL-2026-11953", "drop": "tarball gone"}
+{"name": "@umacloud/cli-darwin-x64", "mal_version": "1.0.74", "osv": "MAL-2026-11954", "drop": "tarball gone"}
+{"name": "@umacloud/cli-linux-arm64", "mal_version": "1.0.74", "osv": "MAL-2026-11955", "drop": "tarball gone"}
+{"name": "@umacloud/cli-linux-x64", "mal_version": "1.0.74", "osv": "MAL-2026-11958", "drop": "tarball gone"}
+{"name": "@umacloud/cli-win32-x64", "mal_version": "1.0.74", "osv": "MAL-2026-11959", "drop": "tarball gone"}
+{"name": "@umacloud/knowledge", "mal_version": "1.0.74", "osv": "MAL-2026-11960", "drop": "tarball gone"}
+{"name": "@velliajs/discord", "mal_version": "1.0.3", "base_version": "1.0.2", "osv": "MAL-2026-14051", "discovered": "2026-08-14", "mal_published": "2026-07-30T16:52:37.226Z", "tgz": "extra/@velliajs__discord@1.0.3.tgz", "missing_files": 0, "label": "automated"}
+{"name": "@velliajs/discord", "mal_version": "1.0.4", "base_version": "1.0.2", "osv": "MAL-2026-14051", "discovered": "2026-08-14", "mal_published": "2026-08-01T12:11:29.866Z", "tgz": "extra/@velliajs__discord@1.0.4.tgz", "missing_files": 0, "label": "automated"}
+{"name": "@velliajs/discord", "mal_version": "1.0.5", "base_version": "1.0.2", "osv": "MAL-2026-14051", "discovered": "2026-08-14", "mal_published": "2026-08-01T14:58:21.427Z", "tgz": "extra/@velliajs__discord@1.0.5.tgz", "missing_files": 0, "label": "automated"}
+{"name": "@vibelet/cli", "mal_version": "1.2.154", "base_version": "1.2.153", "osv": "MAL-2026-10720", "discovered": "2026-07-16", "mal_published": "2026-07-16T11:51:31.808Z", "tgz": "extra/@vibelet__cli@1.2.154.tgz", "missing_files": 0, "label": "automated"}
+{"name": "@whalent/agent", "mal_version": "0.3.230", "base_version": "0.3.229", "osv": "MAL-2026-10721", "discovered": "2026-07-16", "mal_published": "2026-07-15T15:52:33.842Z", "tgz": "extra/@whalent__agent@0.3.230.tgz", "missing_files": 0, "label": "automated"}
+{"name": "@whalent/agent", "mal_version": "0.3.231", "base_version": "0.3.229", "osv": "MAL-2026-10721", "discovered": "2026-07-16", "mal_published": "2026-07-15T16:18:11.114Z", "tgz": "extra/@whalent__agent@0.3.231.tgz", "missing_files": 0, "label": "automated"}
+{"name": "@whalent/agent", "mal_version": "0.3.232", "base_version": "0.3.229", "osv": "MAL-2026-10721", "discovered": "2026-07-16", "mal_published": "2026-07-15T17:06:38.002Z", "tgz": "extra/@whalent__agent@0.3.232.tgz", "missing_files": 0, "label": "automated"}
+{"name": "@whalent/agent-core", "mal_version": "0.3.230", "base_version": "0.3.229", "osv": "MAL-2026-10722", "discovered": "2026-07-16", "mal_published": "2026-07-15T15:51:46.140Z", "tgz": "extra/@whalent__agent-core@0.3.230.tgz", "missing_files": 0, "label": "automated"}
+{"name": "@whalent/agent-core", "mal_version": "0.3.231", "base_version": "0.3.229", "osv": "MAL-2026-10722", "discovered": "2026-07-16", "mal_published": "2026-07-15T16:17:30.443Z", "tgz": "extra/@whalent__agent-core@0.3.231.tgz", "missing_files": 0, "label": "automated"}
+{"name": "@whalent/agent-core", "mal_version": "0.3.232", "base_version": "0.3.229", "osv": "MAL-2026-10722", "discovered": "2026-07-16", "mal_published": "2026-07-15T17:06:04.546Z", "tgz": "extra/@whalent__agent-core@0.3.232.tgz", "missing_files": 0, "label": "automated"}
+{"name": "@workbench-stack/core", "mal_version": "3.9.8", "osv": "MAL-2026-11961", "drop": "tarball gone"}
+{"name": "@yeaft/webchat-agent", "mal_version": "1.0.171", "base_version": "1.0.170", "osv": "MAL-2026-10723", "discovered": "2026-07-16", "mal_published": "2026-07-16T03:08:28.972Z", "tgz": "extra/@yeaft__webchat-agent@1.0.171.tgz", "missing_files": 0, "label": "automated"}
+{"name": "@yeaft/webchat-agent", "mal_version": "1.0.172", "base_version": "1.0.170", "osv": "MAL-2026-10723", "discovered": "2026-07-16", "mal_published": "2026-07-16T11:59:41.024Z", "tgz": "extra/@yeaft__webchat-agent@1.0.172.tgz", "missing_files": 0, "label": "automated"}
+{"name": "@yeaft/webchat-agent", "mal_version": "1.0.173", "base_version": "1.0.170", "osv": "MAL-2026-10723", "discovered": "2026-07-16", "mal_published": "2026-07-17T03:34:15.256Z", "tgz": "extra/@yeaft__webchat-agent@1.0.173.tgz", "missing_files": 0, "label": "automated"}
+{"name": "agentgui", "mal_version": "1.0.1127", "base_version": "1.0.1126", "osv": "MAL-2026-14402", "discovered": "2026-08-24", "mal_published": "2026-08-09T23:03:52.778Z", "tgz": "extra/agentgui@1.0.1127.tgz", "missing_files": 78, "label": "automated"}
+{"name": "agenthub-multiagent-mcp", "mal_version": "1.57.0", "base_version": "1.56.1", "osv": "MAL-2026-13399", "discovered": "2026-08-06", "mal_published": "2026-08-06T10:09:03.856Z", "tgz": "extra/agenthub-multiagent-mcp@1.57.0.tgz", "missing_files": 0, "label": "automated"}
+{"name": "agentto", "mal_version": "0.5.36", "base_version": "0.5.35", "osv": "MAL-2026-10725", "discovered": "2026-07-16", "mal_published": "2026-07-16T08:08:48.710Z", "tgz": "extra/agentto@0.5.36.tgz", "missing_files": 0, "label": "automated"}
+{"name": "alipclutch-baileys", "mal_version": "8.6.58", "base_version": "8.6.57", "osv": "MAL-2026-12108", "discovered": "2026-08-05", "mal_published": "2026-08-05T02:02:43.170Z", "tgz": "extra/alipclutch-baileys@8.6.58.tgz", "missing_files": 0, "label": "automated"}
+{"name": "alipclutch-baileys", "mal_version": "8.6.59", "base_version": "8.6.57", "osv": "MAL-2026-12108", "discovered": "2026-08-05", "mal_published": "2026-08-05T02:09:32.180Z", "tgz": "extra/alipclutch-baileys@8.6.59.tgz", "missing_files": 0, "label": "automated"}
+{"name": "alipclutch-baileys", "mal_version": "8.6.60", "base_version": "8.6.57", "osv": "MAL-2026-12108", "discovered": "2026-08-05", "mal_published": "2026-08-05T02:11:45.130Z", "tgz": "extra/alipclutch-baileys@8.6.60.tgz", "missing_files": 0, "label": "automated"}
+{"name": "astro", "mal_version": "7.1.0", "base_version": "7.0.9", "osv": "MAL-2026-10726", "discovered": "2026-07-16", "mal_published": "2026-07-16T12:17:10.911Z", "tgz": "extra/astro@7.1.0.tgz", "missing_files": 0, "label": "automated"}
+{"name": "babel-plugin-linaria-css-to-undefined", "mal_version": "0.3.1", "osv": "MAL-2026-11962", "drop": "tarball gone"}
+{"name": "babel-plugin-linaria-css-to-undefined", "mal_version": "0.3.2", "osv": "MAL-2026-11962", "drop": "tarball gone"}
+{"name": "babel-plugin-linaria-css-to-undefined", "mal_version": "0.3.3", "osv": "MAL-2026-11962", "drop": "tarball gone"}
+{"name": "bvm-core", "mal_version": "1.1.42", "base_version": "1.1.41", "osv": "MAL-2026-10728", "discovered": "2026-07-16", "mal_published": "2026-07-16T09:16:26.125Z", "tgz": "extra/bvm-core@1.1.42.tgz", "missing_files": 0, "label": "automated"}
+{"name": "bvm-core", "mal_version": "1.1.43", "base_version": "1.1.41", "osv": "MAL-2026-10728", "discovered": "2026-07-16", "mal_published": "2026-07-16T09:23:44.741Z", "tgz": "extra/bvm-core@1.1.43.tgz", "missing_files": 0, "label": "automated"}
+{"name": "cache-manager", "mal_version": "7.2.10", "base_version": "7.2.9", "osv": "MAL-2026-11523", "discovered": "2026-08-04", "mal_published": "2026-08-04T10:14:41.662Z", "tgz": "extra/cache-manager@7.2.10.tgz", "missing_files": 7, "label": "compromise"}
+{"name": "cacheable", "mal_version": "2.5.1", "osv": "MAL-2026-11963", "drop": "tarball gone"}
+{"name": "cacheable-request", "mal_version": "13.0.20", "osv": "MAL-2026-11964", "drop": "tarball gone"}
+{"name": "channel-worker", "mal_version": "2.5.39", "base_version": "2.5.38", "osv": "MAL-2026-10729", "discovered": "2026-07-16", "mal_published": "2026-07-16T04:58:29.232Z", "tgz": "extra/channel-worker@2.5.39.tgz", "missing_files": 0, "label": "automated"}
+{"name": "chatcc-agent", "mal_version": "0.8.24", "base_version": "0.8.23", "osv": "MAL-2026-13259", "discovered": "2026-08-05", "mal_published": "2026-08-05T14:22:10.789Z", "tgz": "extra/chatcc-agent@0.8.24.tgz", "missing_files": 0, "label": "automated"}
+{"name": "clawtrl-wallet", "mal_version": "1.5.1", "base_version": "1.5.0", "osv": "MAL-2026-13367", "discovered": "2026-08-05", "mal_published": "2026-08-05T15:34:12.161Z", "tgz": "extra/clawtrl-wallet@1.5.1.tgz", "missing_files": 0, "label": "automated"}
+{"name": "codeam-cli", "mal_version": "2.61.1", "base_version": "2.61.0", "osv": "MAL-2026-10730", "discovered": "2026-07-16", "mal_published": "2026-07-15T23:40:54.447Z", "tgz": "extra/codeam-cli@2.61.1.tgz", "missing_files": 4, "label": "automated"}
+{"name": "codeam-cli", "mal_version": "2.61.3", "base_version": "2.61.2", "osv": "MAL-2026-10730", "discovered": "2026-07-16", "mal_published": "2026-07-16T02:49:02.965Z", "tgz": "extra/codeam-cli@2.61.3.tgz", "missing_files": 4, "label": "automated"}
+{"name": "conv-context-next", "mal_version": "1.0.1", "osv": "MAL-2026-11965", "drop": "tarball gone"}
+{"name": "conv-context-next", "mal_version": "1.0.2", "osv": "MAL-2026-11965", "drop": "tarball gone"}
+{"name": "conv-context-next", "mal_version": "1.0.3", "osv": "MAL-2026-11965", "drop": "tarball gone"}
+{"name": "deployowl", "mal_version": "2.1.0", "base_version": "2.0.1", "osv": "MAL-2026-10677", "discovered": "2026-07-15", "mal_published": "2026-06-16T12:40:03.579Z", "tgz": "extra/deployowl@2.1.0.tgz", "missing_files": 0, "label": "automated"}
+{"name": "ecto", "mal_version": "5.0.1", "osv": "MAL-2026-11966", "drop": "tarball gone"}
+{"name": "editable-contracts", "mal_version": "0.0.12", "osv": "MAL-2026-11967", "drop": "tarball gone"}
+{"name": "editable-contracts", "mal_version": "0.0.13", "osv": "MAL-2026-11967", "drop": "tarball gone"}
+{"name": "editable-contracts", "mal_version": "0.0.14", "osv": "MAL-2026-11967", "drop": "tarball gone"}
+{"name": "eslint-plugin-folder-schema", "mal_version": "1.0.6", "osv": "MAL-2026-11968", "drop": "tarball gone"}
+{"name": "eslint-plugin-folder-schema", "mal_version": "1.0.7", "osv": "MAL-2026-11968", "drop": "tarball gone"}
+{"name": "eslint-plugin-folder-schema", "mal_version": "1.0.8", "osv": "MAL-2026-11968", "drop": "tarball gone"}
+{"name": "example-js-project", "mal_version": "1.0.2", "osv": "MAL-2026-11969", "drop": "tarball gone"}
+{"name": "example-js-project", "mal_version": "1.0.3", "osv": "MAL-2026-11969", "drop": "tarball gone"}
+{"name": "example-js-project", "mal_version": "1.0.4", "osv": "MAL-2026-11969", "drop": "tarball gone"}
+{"name": "fa-mcp-sdk", "mal_version": "0.12.72", "base_version": "0.12.70", "osv": "MAL-2026-12789", "discovered": "2026-08-05", "mal_published": "2026-08-05T13:32:05.810Z", "tgz": "extra/fa-mcp-sdk@0.12.72.tgz", "missing_files": 1, "label": "automated"}
+{"name": "file-entry-cache", "mal_version": "11.1.6", "base_version": "11.1.5", "osv": "MAL-2026-11970", "discovered": "2026-08-04", "mal_published": "2026-08-04T10:13:02.348Z", "tgz": "extra/file-entry-cache@11.1.6.tgz", "missing_files": 6, "label": "compromise"}
+{"name": "flat-cache", "mal_version": "6.1.24", "osv": "MAL-2026-11971", "drop": "tarball gone"}
+{"name": "folder-lint", "mal_version": "1.0.6", "osv": "MAL-2026-11972", "drop": "tarball gone"}
+{"name": "folder-lint", "mal_version": "1.0.7", "osv": "MAL-2026-11972", "drop": "tarball gone"}
+{"name": "folder-lint", "mal_version": "1.0.8", "osv": "MAL-2026-11972", "drop": "tarball gone"}
+{"name": "frontend-orb", "mal_version": "4.4.1", "osv": "MAL-2026-11973", "drop": "tarball gone"}
+{"name": "frontend-orb", "mal_version": "4.4.2", "osv": "MAL-2026-11973", "drop": "tarball gone"}
+{"name": "frontend-orb", "mal_version": "4.4.3", "osv": "MAL-2026-11973", "drop": "tarball gone"}
+{"name": "fsbrowse", "mal_version": "0.2.28", "osv": "MAL-2026-13722", "drop": "tarball gone"}
+{"name": "gmail-changer", "mal_version": "2.0.2", "base_version": "2.0.1", "osv": "MAL-2026-10635", "discovered": "2026-07-15", "mal_published": "2026-06-20T12:18:29.954Z", "tgz": "extra/gmail-changer@2.0.2.tgz", "missing_files": 0, "label": "automated"}
+{"name": "godot-kit", "mal_version": "1.0.1786316795", "osv": "MAL-2026-13723", "drop": "tarball gone"}
+{"name": "gulp-jscrambler", "mal_version": "8.6.2", "base_version": "8.6.1", "osv": "MAL-2026-10673", "discovered": "2026-07-15", "mal_published": "2026-07-11T17:52:06.197Z", "tgz": "extra/gulp-jscrambler@8.6.2.tgz", "missing_files": 1, "label": "automated"}
+{"name": "hamus.js", "mal_version": "0.4.1", "osv": "MAL-2026-11974", "drop": "tarball gone"}
+{"name": "hexo-deployer-wrangler", "mal_version": "1.0.4", "osv": "MAL-2026-6491", "drop": "tarball gone"}
+{"name": "http-metrics-middleware", "mal_version": "2.2.2", "base_version": "2.2.1", "osv": "MAL-2026-11975", "discovered": "2026-08-04", "mal_published": "2026-08-04T10:46:36.883Z", "tgz": "extra/http-metrics-middleware@2.2.2.tgz", "missing_files": 14, "label": "compromise"}
+{"name": "jagproject", "mal_version": "28.1.0", "base_version": "28.0.0", "osv": "MAL-2026-13402", "discovered": "2026-08-06", "mal_published": "2026-08-06T10:55:58.207Z", "tgz": "extra/jagproject@28.1.0.tgz", "missing_files": 0, "label": "automated"}
+{"name": "jagproject", "mal_version": "28.2.0", "base_version": "28.0.0", "osv": "MAL-2026-13402", "discovered": "2026-08-06", "mal_published": "2026-08-06T11:07:20.911Z", "tgz": "extra/jagproject@28.2.0.tgz", "missing_files": 0, "label": "automated"}
+{"name": "jagproject", "mal_version": "28.3.0", "base_version": "28.0.0", "osv": "MAL-2026-13402", "discovered": "2026-08-06", "mal_published": "2026-08-06T11:32:41.191Z", "tgz": "extra/jagproject@28.3.0.tgz", "missing_files": 0, "label": "automated"}
+{"name": "jscrambler", "mal_version": "8.14.0", "base_version": "8.13.0", "osv": "MAL-2026-10187", "discovered": "2026-07-11", "mal_published": "2026-07-11T15:12:40.410Z", "tgz": "extra/jscrambler@8.14.0.tgz", "missing_files": 2, "label": "compromise"}
+{"name": "jscrambler", "mal_version": "8.16.0", "osv": "MAL-2026-10187", "drop": "tarball gone"}
+{"name": "jscrambler", "mal_version": "8.17.0", "osv": "MAL-2026-10187", "drop": "tarball gone"}
+{"name": "jscrambler-metro-plugin", "mal_version": "9.0.2", "osv": "MAL-2026-10674", "drop": "tarball gone"}
+{"name": "keyv", "mal_version": "6.0.0", "base_version": "5.6.0", "osv": "MAL-2026-11524", "discovered": "2026-08-04", "mal_published": "2026-08-04T09:35:00.763Z", "tgz": "extra/keyv@6.0.0.tgz", "missing_files": 3, "label": "compromise"}
+{"name": "n8n-nodes-social-facebook", "mal_version": "0.1.96", "base_version": "0.1.95", "osv": "MAL-2026-10536", "discovered": "2026-07-14", "mal_published": "2026-06-12T08:25:04.971Z", "tgz": "extra/n8n-nodes-social-facebook@0.1.96.tgz", "missing_files": 0, "label": "automated"}
+{"name": "n8n-nodes-social-facebook", "mal_version": "0.2.0", "base_version": "0.1.95", "osv": "MAL-2026-10536", "discovered": "2026-07-14", "mal_published": "2026-08-24T08:50:54.810Z", "tgz": "extra/n8n-nodes-social-facebook@0.2.0.tgz", "missing_files": 0, "label": "automated"}
+{"name": "native-frontend-orb", "mal_version": "1.1.4", "osv": "MAL-2026-11976", "drop": "tarball gone"}
+{"name": "native-frontend-orb", "mal_version": "1.1.5", "osv": "MAL-2026-11976", "drop": "tarball gone"}
+{"name": "native-frontend-orb", "mal_version": "1.1.6", "osv": "MAL-2026-11976", "drop": "tarball gone"}
+{"name": "netspeedutil", "mal_version": "1.0.13", "base_version": "1.0.12", "osv": "MAL-2026-10438", "discovered": "2026-07-13", "mal_published": "2026-06-23T04:31:04.791Z", "tgz": "extra/netspeedutil@1.0.13.tgz", "missing_files": 0, "label": "automated"}
+{"name": "new-native-tools-linux-x64-gnu", "mal_version": "3.1.40-as2-9923-378-1785154830", "base_version": "3.1.39", "osv": "MAL-2026-12402", "discovered": "2026-08-05", "mal_published": "2026-07-27T12:20:42.911Z", "tgz": "extra/new-native-tools-linux-x64-gnu@3.1.40-as2-9923-378-1785154830.tgz", "missing_files": 0, "label": "automated"}
+{"name": "new-native-tools-linux-x64-gnu", "mal_version": "3.1.40-as2-9962-369-1784812980", "base_version": "3.1.39", "osv": "MAL-2026-12402", "discovered": "2026-08-05", "mal_published": "2026-07-23T13:23:15.261Z", "tgz": "extra/new-native-tools-linux-x64-gnu@3.1.40-as2-9962-369-1784812980.tgz", "missing_files": 0, "label": "automated"}
+{"name": "new-native-tools-linux-x64-gnu", "mal_version": "3.1.40-browser-release-151-359-1784544869", "base_version": "3.1.39", "osv": "MAL-2026-12402", "discovered": "2026-08-05", "mal_published": "2026-07-20T10:54:41.703Z", "tgz": "extra/new-native-tools-linux-x64-gnu@3.1.40-browser-release-151-359-1784544869.tgz", "missing_files": 0, "label": "automated"}
+{"name": "patchwork-os", "mal_version": "1.1.0-beta.3.canary.414", "base_version": "1.1.0-beta.3.canary.413", "osv": "MAL-2026-10744", "discovered": "2026-07-16", "mal_published": "2026-07-16T12:43:36.718Z", "tgz": "extra/patchwork-os@1.1.0-beta.3.canary.414.tgz", "missing_files": 2, "label": "automated"}
+{"name": "patchwork-os", "mal_version": "1.1.0-beta.3.canary.415", "base_version": "1.1.0-beta.3.canary.413", "osv": "MAL-2026-10744", "discovered": "2026-07-16", "mal_published": "2026-07-16T13:17:22.508Z", "tgz": "extra/patchwork-os@1.1.0-beta.3.canary.415.tgz", "missing_files": 0, "label": "automated"}
+{"name": "patchwork-os", "mal_version": "1.1.0-beta.3.canary.416", "base_version": "1.1.0-beta.3.canary.413", "osv": "MAL-2026-10744", "discovered": "2026-07-16", "mal_published": "2026-07-16T13:28:12.327Z", "tgz": "extra/patchwork-os@1.1.0-beta.3.canary.416.tgz", "missing_files": 0, "label": "automated"}
+{"name": "picasso-plugin-hammer", "mal_version": "2.11.6", "osv": "MAL-2026-11977", "drop": "tarball gone"}
+{"name": "picasso-plugin-q", "mal_version": "2.11.6", "osv": "MAL-2026-11978", "drop": "tarball gone"}
+{"name": "picasso.js", "mal_version": "2.11.6", "base_version": "2.11.5", "osv": "MAL-2026-11979", "discovered": "2026-08-04", "mal_published": "2026-08-04T10:46:38.544Z", "tgz": "extra/picasso.js@2.11.6.tgz", "missing_files": 423, "label": "compromise"}
+{"name": "pob-test-package-in-monorepo", "mal_version": "5.2.1", "osv": "MAL-2026-11980", "drop": "tarball gone"}
+{"name": "pob-test-package-in-monorepo", "mal_version": "5.2.2", "osv": "MAL-2026-11980", "drop": "tarball gone"}
+{"name": "pob-test-package-in-monorepo", "mal_version": "5.2.3", "osv": "MAL-2026-11980", "drop": "tarball gone"}
+{"name": "pob-test-typescript-package-in-monorepo", "mal_version": "4.2.1", "osv": "MAL-2026-11981", "drop": "tarball gone"}
+{"name": "pob-test-typescript-package-in-monorepo", "mal_version": "4.2.2", "osv": "MAL-2026-11981", "drop": "tarball gone"}
+{"name": "pob-test-typescript-package-in-monorepo", "mal_version": "4.2.3", "osv": "MAL-2026-11981", "drop": "tarball gone"}
+{"name": "polipoli-pak", "mal_version": "1.0.1", "osv": "MAL-2026-10099", "drop": "tarball gone"}
+{"name": "polipoli-pak", "mal_version": "1.0.2", "osv": "MAL-2026-10099", "drop": "tarball gone"}
+{"name": "qlik-chart-modules", "mal_version": "1.1.1", "osv": "MAL-2026-11982", "drop": "tarball gone"}
+{"name": "qlik-modifiers", "mal_version": "0.10.1", "osv": "MAL-2026-11983", "drop": "tarball gone"}
+{"name": "qlik-object-conversion", "mal_version": "0.17.2", "osv": "MAL-2026-11984", "drop": "tarball gone"}
+{"name": "rwc-client", "mal_version": "0.29.10", "osv": "MAL-2026-11985", "drop": "tarball gone"}
+{"name": "rwc-client", "mal_version": "0.29.11", "osv": "MAL-2026-11985", "drop": "tarball gone"}
+{"name": "rwc-client", "mal_version": "0.29.12", "osv": "MAL-2026-11985", "drop": "tarball gone"}
+{"name": "sakuraai", "mal_version": "0.0.11", "base_version": "0.0.10", "osv": "MAL-2026-10746", "discovered": "2026-07-16", "mal_published": "2026-07-16T09:16:10.031Z", "tgz": "extra/sakuraai@0.0.11.tgz", "missing_files": 0, "label": "automated"}
+{"name": "sensorium-mcp", "mal_version": "3.0.95", "base_version": "3.0.94", "osv": "MAL-2026-10747", "discovered": "2026-07-16", "mal_published": "2026-07-15T21:32:22.011Z", "tgz": "extra/sensorium-mcp@3.0.95.tgz", "missing_files": 0, "label": "automated"}
+{"name": "server-hemera-mongo", "mal_version": "0.0.12", "osv": "MAL-2026-11986", "drop": "tarball gone"}
+{"name": "shadowx-fca", "mal_version": "10.1.0", "base_version": "9.0.0", "osv": "MAL-2026-13457", "discovered": "2026-08-06", "mal_published": "2026-07-31T13:39:27.850Z", "tgz": "extra/shadowx-fca@10.1.0.tgz", "missing_files": 0, "label": "automated"}
+{"name": "shadowx-fca", "mal_version": "10.6.0", "base_version": "10.5.0", "osv": "MAL-2026-13457", "discovered": "2026-08-06", "mal_published": "2026-09-05T05:21:05.217Z", "tgz": "extra/shadowx-fca@10.6.0.tgz", "missing_files": 0, "label": "automated"}
+{"name": "sn-listbox", "mal_version": "0.3.3", "osv": "MAL-2026-11987", "drop": "tarball gone"}
+{"name": "spoint", "mal_version": "0.1.695", "osv": "MAL-2026-13725", "drop": "tarball gone"}
+{"name": "spoint", "mal_version": "0.1.696", "osv": "MAL-2026-13725", "drop": "tarball gone"}
+{"name": "spoint", "mal_version": "0.1.697", "osv": "MAL-2026-13725", "drop": "tarball gone"}
+{"name": "squeez", "mal_version": "1.38.0", "base_version": "1.37.1", "osv": "MAL-2026-13458", "discovered": "2026-08-06", "mal_published": "2026-07-20T23:39:00.586Z", "tgz": "extra/squeez@1.38.0.tgz", "missing_files": 0, "label": "automated"}
+{"name": "squeez", "mal_version": "1.40.0", "base_version": "1.39.0", "osv": "MAL-2026-13458", "discovered": "2026-08-06", "mal_published": "2026-07-22T12:20:33.893Z", "tgz": "extra/squeez@1.40.0.tgz", "missing_files": 0, "label": "automated"}
+{"name": "squeez", "mal_version": "1.42.1", "base_version": "1.42.0", "osv": "MAL-2026-13458", "discovered": "2026-08-06", "mal_published": "2026-07-22T15:29:39.921Z", "tgz": "extra/squeez@1.42.1.tgz", "missing_files": 0, "label": "automated"}
+{"name": "stretchshop", "mal_version": "0.7.5", "base_version": "0.7.4", "osv": "MAL-2026-13460", "discovered": "2026-08-06", "mal_published": "2026-08-06T14:26:50.316Z", "tgz": "extra/stretchshop@0.7.5.tgz", "missing_files": 0, "label": "automated"}
+{"name": "trimprompt", "mal_version": "1.0.35", "base_version": "1.0.34", "osv": "MAL-2026-13462", "discovered": "2026-08-06", "mal_published": "2026-07-19T17:46:15.257Z", "tgz": "extra/trimprompt@1.0.35.tgz", "missing_files": 0, "label": "automated"}
+{"name": "trimprompt", "mal_version": "1.0.42", "base_version": "1.0.41", "osv": "MAL-2026-13462", "discovered": "2026-08-06", "mal_published": "2026-07-26T11:38:25.985Z", "tgz": "extra/trimprompt@1.0.42.tgz", "missing_files": 0, "label": "automated"}
+{"name": "trimprompt", "mal_version": "1.0.46", "base_version": "1.0.45", "osv": "MAL-2026-13462", "discovered": "2026-08-06", "mal_published": "2026-07-26T12:04:09.885Z", "tgz": "extra/trimprompt@1.0.46.tgz", "missing_files": 0, "label": "automated"}
+{"name": "tslint-folder-schema", "mal_version": "1.0.6", "osv": "MAL-2026-11988", "drop": "tarball gone"}
+{"name": "tslint-folder-schema", "mal_version": "1.0.7", "osv": "MAL-2026-11988", "drop": "tarball gone"}
+{"name": "tslint-folder-schema", "mal_version": "1.0.8", "osv": "MAL-2026-11988", "drop": "tarball gone"}
+{"name": "tt-help-cli-ycl", "mal_version": "1.4.57", "base_version": "1.4.56", "osv": "MAL-2026-12488", "discovered": "2026-08-05", "mal_published": "2026-08-05T07:54:43.654Z", "tgz": "extra/tt-help-cli-ycl@1.4.57.tgz", "missing_files": 1, "label": "automated"}
+{"name": "tt-help-cli-ycl", "mal_version": "1.4.58", "base_version": "1.4.56", "osv": "MAL-2026-12488", "discovered": "2026-08-05", "mal_published": "2026-08-05T10:46:47.436Z", "tgz": "extra/tt-help-cli-ycl@1.4.58.tgz", "missing_files": 1, "label": "automated"}
+{"name": "tt-help-cli-ycl", "mal_version": "1.4.59", "base_version": "1.4.56", "osv": "MAL-2026-12488", "discovered": "2026-08-05", "mal_published": "2026-08-05T11:23:01.086Z", "tgz": "extra/tt-help-cli-ycl@1.4.59.tgz", "missing_files": 1, "label": "automated"}
+{"name": "umadev", "mal_version": "1.0.74", "osv": "MAL-2026-11989", "drop": "tarball gone"}
+{"name": "verdaccio-okta-oauth", "mal_version": "38.1.1", "osv": "MAL-2026-11990", "drop": "tarball gone"}
+{"name": "verdaccio-okta-oauth", "mal_version": "38.1.2", "osv": "MAL-2026-11990", "drop": "tarball gone"}
+{"name": "verdaccio-okta-oauth", "mal_version": "38.1.3", "osv": "MAL-2026-11990", "drop": "tarball gone"}
+{"name": "verdaccio-tarball-local-storage", "mal_version": "38.1.1", "osv": "MAL-2026-11991", "drop": "tarball gone"}
+{"name": "verdaccio-tarball-local-storage", "mal_version": "38.1.2", "osv": "MAL-2026-11991", "drop": "tarball gone"}
+{"name": "verdaccio-tarball-local-storage", "mal_version": "38.1.3", "osv": "MAL-2026-11991", "drop": "tarball gone"}
+{"name": "w-screenctl", "mal_version": "1.0.4", "base_version": "1.0.3", "osv": "MAL-2026-13618", "discovered": "2026-08-07", "mal_published": "2026-07-22T13:03:39.294Z", "tgz": "extra/w-screenctl@1.0.4.tgz", "missing_files": 0, "label": "automated"}
+{"name": "w-screenctl", "mal_version": "1.0.6", "base_version": "1.0.5", "osv": "MAL-2026-13618", "discovered": "2026-08-07", "mal_published": "2026-07-23T10:44:47.587Z", "tgz": "extra/w-screenctl@1.0.6.tgz", "missing_files": 0, "label": "automated"}
+{"name": "w-screenctl", "mal_version": "1.0.7", "base_version": "1.0.5", "osv": "MAL-2026-13618", "discovered": "2026-08-07", "mal_published": "2026-08-07T16:04:17.574Z", "tgz": "extra/w-screenctl@1.0.7.tgz", "missing_files": 0, "label": "automated"}
+{"name": "workbench-browser-server", "mal_version": "0.0.2", "osv": "MAL-2026-11992", "drop": "tarball gone"}
+{"name": "yakuza0", "mal_version": "2.23.40-beta.3", "base_version": "2.23.37", "osv": "MAL-2026-13605", "discovered": "2026-08-07", "mal_published": "2026-08-07T06:53:59.083Z", "tgz": "extra/yakuza0@2.23.40-beta.3.tgz", "missing_files": 0, "label": "automated"}
+{"name": "yakuza0", "mal_version": "2.23.40", "base_version": "2.23.37", "osv": "MAL-2026-13605", "discovered": "2026-08-07", "mal_published": "2026-08-07T06:55:05.738Z", "tgz": "extra/yakuza0@2.23.40.tgz", "missing_files": 0, "label": "automated"}
+{"name": "ynastore-baileys", "mal_version": "1.0.21", "base_version": "1.0.20", "osv": "MAL-2026-13470", "discovered": "2026-08-06", "mal_published": "2026-08-05T11:19:01.400Z", "tgz": "extra/ynastore-baileys@1.0.21.tgz", "missing_files": 0, "label": "automated"}
+{"name": "zenntechinc-cli", "mal_version": "1.6.4", "osv": "MAL-2026-14539", "drop": "tarball gone"}
+{"name": "zenntechinc-cli", "mal_version": "1.6.6", "osv": "MAL-2026-14539", "drop": "tarball gone"}

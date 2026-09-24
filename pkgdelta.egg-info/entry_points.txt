@@ -1,0 +1,2 @@
+[console_scripts]
+pkgdelta = pkgdelta.cli:main

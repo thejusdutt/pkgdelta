@@ -1,0 +1,14 @@
+benign sample scanned by both: 1500 of 1500
+split  detector                   camps   macro  sample   benign flagged
+train  GuardDog high_risk            11   62.5%   97.0%      2/749    0.27%
+train  GuardDog suspicious+          11   80.1%   99.3%      7/749    0.93%
+train  GuardDog any threat rule      11   80.1%   99.3%     26/749    3.47%
+train  pkgdelta                      11   79.1%   99.4%      0/749    0.00%
+test   GuardDog high_risk            16   53.2%   42.4%      7/751    0.93%
+test   GuardDog suspicious+          16   70.2%   61.8%     11/751    1.46%
+test   GuardDog any threat rule      16   81.1%   83.5%     25/751    3.33%
+test   pkgdelta                      16   99.6%   98.4%      0/751    0.00%
+all    GuardDog high_risk            27   57.0%   77.0%      9/1500   0.60%
+all    GuardDog suspicious+          27   74.2%   85.6%     18/1500   1.20%
+all    GuardDog any threat rule      27   80.7%   93.5%     51/1500   3.40%
+all    pkgdelta                      27   91.2%   99.0%      0/1500   0.00%

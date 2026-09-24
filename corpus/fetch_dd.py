@@ -10,7 +10,7 @@ import urllib.parse
 import urllib.request
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent / "data"
-LIST = ROOT / "dd_files.txt"
+LIST = pathlib.Path(__file__).resolve().parent / "dd_files.txt"
 OUT = ROOT / "dd_zips"
 BASE = "https://raw.githubusercontent.com/DataDog/malicious-software-packages-dataset/main/"
 

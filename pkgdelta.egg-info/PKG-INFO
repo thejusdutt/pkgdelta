@@ -1,3 +1,11 @@
+Metadata-Version: 2.4
+Name: pkgdelta
+Version: 0.1.0
+Summary: Check each npm update against the package's own previous release. Catches account-takeover releases (Shai-Hulud, ChainDrop, axios) with a measured false-positive rate.
+License: Apache-2.0
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
 # pkgdelta
 
 Check each npm update against the package's own previous release.
