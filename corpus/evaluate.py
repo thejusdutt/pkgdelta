@@ -100,9 +100,24 @@ def summarize(results, split):
         micro = sum(r[2] for r in rows) / sum(r[1] for r in rows)
         print(f"  campaigns={len(rows)}  macro recall={macro:.1%}  per-sample recall={micro:.1%}")
     if extra:
-        print("  extra (post-dataset) samples:")
-        for x in extra:
-            print(f"    {x['name']}@{x['new']} blocked={x['blocked']} score={x['score']} {[f['rule'] for f in x['findings']]}")
+        print("  post-dataset holdout (OSV, published after 2026-06-26), by label kind:")
+        for kind in ("compromise", "automated"):
+            xs = [x for x in extra if x.get("label") == kind]
+            if not xs:
+                continue
+            byd = defaultdict(list)
+            for x in xs:
+                byd[x.get("discovered")].append(x["blocked"])
+            macro = sum(sum(v) / len(v) for v in byd.values()) / len(byd)
+            pk = defaultdict(list)
+            for x in xs:
+                pk[x["name"]].append(x["blocked"])
+            print(f"    {kind:10s} samples={len(xs):3d} packages={len(pk):3d} blocked={sum(x['blocked'] for x in xs):3d} "
+                  f"per-sample={sum(x['blocked'] for x in xs) / len(xs):6.1%} per-package={sum(any(v) for v in pk.values()) / len(pk):6.1%} "
+                  f"dates={len(byd)} macro-by-date={macro:6.1%}")
+            for x in sorted(xs, key=lambda x: (x.get("discovered") or "", x["name"])):
+                print(f"      {x.get('discovered')} {'BLOCK' if x['blocked'] else '  -  '} {x['name']}@{x['new']} "
+                      f"score={x['score']} {[f['rule'] for f in x['findings']]}")
     if ben:
         fp = sum(x["blocked"] for x in ben)
         pk = len({x["name"] for x in ben})

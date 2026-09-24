@@ -48,9 +48,34 @@ Benign updates: the last 6 real releases of each of the top 1,200 npm packages (
 
 On the train split the same rules block every sample that contains a payload, with 0 of 3,250 benign updates blocked.
 
-__V2_RESULTS__
+**v2, rules changed after looking at the held-out misses**
 
-__GUARDDOG_RESULTS__
+The held-out misses taught three things, so v2 adds them: dependencies that install from git or a URL (the May 2026 TanStack/antv wave has no payload in its tarball at all), shell commands hidden in base64 string literals, and a much higher file-size limit (the `@bitwarden/cli` payload was a 10 MB file that v1 skipped). Two bugs were also fixed on the way: `bash -c "$(curl …)"` was not recognised as download-and-run, and a dependency's age was read from `time.created`, which npm resets when it replaces a malicious package with a placeholder.
+
+Because these changes were made after seeing the 2026 results, the v2 numbers on that split are **not** a clean held-out result. They show what the rules can do; the post-June set below is v2's real test.
+
+| | Train (pre-2026) | 2026 (seen) |
+|---|---|---|
+| Macro recall | 79.1% | 99.6% |
+| Per-sample recall | 99.4% (859 / 864) | 98.4% (491 / 499) |
+| Benign updates blocked | 0 / 3,250 | 1 / 3,457 |
+
+Train macro recall stays at 79.1% because three of its eleven "campaigns" are single samples with no payload (see below). Every train sample that carries a payload is blocked.
+
+### Against GuardDog
+
+[GuardDog](https://github.com/DataDog/guarddog) 3.2.0 is the best open-source scanner in the March 2026 benchmark (93% F1 on standalone packages). It scans one version at a time. It ran in its own Docker image on the same malicious samples and on a fixed random 1,500 of the benign updates (the new version of each pair). Three GuardDog thresholds are shown so the comparison doesn't depend on picking one.
+
+| Held-out 2026 campaigns | Macro recall | Per-sample recall | Benign flagged (of 751) |
+|---|---|---|---|
+| GuardDog `high_risk` (its verdict) | 53.2% | 42.4% | 0.93% |
+| GuardDog `high_risk` or `suspicious` | 70.2% | 61.8% | 1.46% |
+| GuardDog, any `threat-*` rule | 81.1% | 83.5% | 3.33% |
+| **pkgdelta v1 (frozen)** | **92.7%** | **96.8%** | **0.00%** |
+
+On pre-2026 attacks GuardDog's own verdict catches 97% of samples. On 2026 attacks it catches 42%. The newer waves hide in places a single-version scan reads as normal: a git dependency, a 10 MB bundle, a `binding.gyp`. Comparing with the previous release does not depend on knowing the trick, only on the trick being new for this package.
+
+A fair caveat: pkgdelta's rules were written by someone who had read the 2025–26 incident reports, and GuardDog was not tuned on this dataset at all.
 
 __EXTRA_RESULTS__
 
