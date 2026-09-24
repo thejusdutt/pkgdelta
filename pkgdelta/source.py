@@ -165,7 +165,9 @@ def from_dd_zip(path: str | os.PathLike, password: bytes = b"infected") -> tuple
             except Exception:
                 info = {}
             continue
-        if "/package/" in n:
+        if n.startswith("package/"):
+            rel = n[len("package/"):]
+        elif "/package/" in n:
             rel = n.split("/package/", 1)[1]
         else:
             continue
