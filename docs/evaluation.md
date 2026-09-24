@@ -1,0 +1,111 @@
+# pkgdelta evaluation: 1,363 hijacked npm releases, 6,707 normal updates
+
+How well does comparing each npm release with the previous one catch account-takeover attacks, and how often does it block a normal update? This page has the full method and every number. The raw verdicts are in [`results/`](../results).
+
+Per-incident pages: [docs/incidents](incidents/README.md).
+
+Contents: [Why compare with the previous release](#why-compare-with-the-previous-release) · [Method](#method) · [Results](#results) · [Against GuardDog](#against-guarddog) · [Fresh holdout](#fresh-holdout-attacks-after-the-dataset-ends) · [Misses](#what-it-misses-and-why) · [Reproduce](#reproduce)
+
+## Why compare with the previous release
+
+Two facts from 2026:
+
+1. **Signatures don't help anymore.** `keyv@6.0.0` (ChainDrop, 4 Aug 2026) shipped with valid SLSA provenance. So did the TanStack and Red Hat releases in May and June. The build was real. The attacker just controlled what went into it.
+2. **Cooldowns are outsourced trust.** pnpm 11, Yarn 4.10 and Deno now wait 24 hours before installing a new version. That works only because a vendor scanner (Socket flagged `keyv@6.0.0` six minutes after publish) catches the attack first and npm pulls it. Nobody outside those vendors can check that work, and none of them publish a false-positive rate.
+
+The research on npm malware detection names the core problem: malware and normal code call the same APIs ("the capability–intent gap", [arXiv 2603.27549](https://arxiv.org/abs/2603.27549), March 2026). A scanner that looks at one version has to guess intent. A scanner that compares with the previous version does not: `debug` has no business reading `~/.ssh` in a patch release, whatever the API.
+
+That idea is not new. Amalfi (ICSE 2022) used "capabilities the package never used before" as ML features, but the code was never released. RogueOne (ICSE 2024) does differential data-flow analysis as a research prototype. pkgdelta is the practical version: deterministic rules, no model, no server, every finding points at a file and a line of evidence, and the false-positive rate is measured and published below.
+
+## Method
+
+Ground truth is the [DataDog malicious-software-packages-dataset](https://github.com/DataDog/malicious-software-packages-dataset), folder `samples/npm/compromised_lib`: 1,443 real malicious releases of existing packages (account takeovers), 2024-12 to 2026-06. For each one, the baseline is the newest earlier clean release still on the registry. 1,363 pairs remain (80 had no earlier release or the package is gone).
+
+Benign updates: the last 6 real releases of each of the top 1,200 npm packages ([npm-high-impact](https://github.com/wooorm/npm-high-impact)), 6,707 pairs, compared the same way.
+
+**How the test was kept honest**
+
+- Time split. Rules were written looking only at campaigns found before 2026-01-01 (11 campaigns, 864 samples) and half of the benign packages. Every 2026 campaign (16 campaigns, 499 samples) and the other benign half were held out.
+- The rules were committed (commit `c3484c5`) before the held-out run. One loader bug was fixed after (a zip layout, commit `5758d7a`); that fix touches no rule.
+- Shai-Hulud-style worms put one payload into hundreds of packages. Per-sample recall rewards that. The headline is the **macro average of per-campaign recall** (campaign = samples found within a day of each other).
+
+## Results
+
+**v1, frozen rules, held-out 2026 data**
+
+| | |
+|---|---|
+| Campaigns | 16 |
+| Macro recall (per campaign) | **92.7%** |
+| Per-sample recall | 96.8% (483 / 499) |
+| Benign updates blocked | **1 / 3,457 (0.03%)** |
+
+On the train split the same rules block every sample that contains a payload, with 0 of 3,250 benign updates blocked.
+
+**v2, rules changed after looking at the held-out misses**
+
+The held-out misses taught three things, so v2 adds them: dependencies that install from git or a URL (seven releases in the May 2026 waves, among them `@opensearch-project/opensearch` and `jest-canvas-mock`, changed nothing but `package.json`, where a git dependency appeared; see [TanStack](incidents/tanstack-mini-shai-hulud.md#the-git-dependency-trick)), shell commands hidden in base64 string literals, and a much higher file-size limit (the `@bitwarden/cli` payload was a 10 MB file that v1 skipped). Two bugs were also fixed on the way: `bash -c "$(curl …)"` was not recognised as download-and-run, and a dependency's age was read from `time.created`, which npm resets when it replaces a malicious package with a placeholder.
+
+Because these changes were made after seeing the 2026 results, the v2 numbers on that split are **not** a clean held-out result. They show what the rules can do; the post-June set below is v2's real test.
+
+| | Train (pre-2026) | 2026 (seen) |
+|---|---|---|
+| Macro recall | 79.1% | 99.6% |
+| Per-sample recall | 99.4% (859 / 864) | 98.4% (491 / 499) |
+| Benign updates blocked | 0 / 3,250 | 1 / 3,457 |
+
+Train macro recall stays at 79.1% because three of its eleven "campaigns" are single samples with no payload (see below). Every train sample that carries a payload is blocked.
+
+## Against GuardDog
+
+[GuardDog](https://github.com/DataDog/guarddog) was the best open-source scanner in the March 2026 benchmark (93% F1 on standalone packages); version 3.2.0 was used here. It scans one version at a time. It ran in its own Docker image on the same malicious samples and on a fixed random 1,500 of the benign updates (the new version of each pair). Three GuardDog thresholds are shown so the comparison doesn't depend on picking one.
+
+| Held-out 2026 campaigns | Macro recall | Per-sample recall | Benign flagged (of 751) |
+|---|---|---|---|
+| GuardDog `high_risk` (its verdict) | 53.2% | 42.4% | 0.93% |
+| GuardDog `high_risk` or `suspicious` | 70.2% | 61.8% | 1.46% |
+| GuardDog, any `threat-*` rule | 81.1% | 83.5% | 3.33% |
+| **pkgdelta v1 (frozen)** | **92.7%** | **96.8%** | **0.00%** |
+
+On pre-2026 attacks GuardDog's own verdict catches 97% of samples. On 2026 attacks it catches 42%. The newer waves hide in places a single-version scan reads as normal: a git dependency, a 10 MB bundle, a `binding.gyp`. Comparing with the previous release does not depend on knowing the trick, only on the trick being new for this package.
+
+A fair caveat: pkgdelta's rules were written by someone who had read the 2025–26 incident reports, and GuardDog was not tuned on this dataset at all.
+
+## Fresh holdout: attacks after the dataset ends
+
+v2's clean test. The DataDog dataset stops on 2026-06-25. I walked every OSV `MAL-2026-*` advisory published after that, kept npm versions that follow an established clean release (the clean release is at least 30 days older and in no malware advisory), took at most 3 versions per package, and recovered the tarballs from jsDelivr's cache: 180 releases from 109 packages. npm had already deleted them. 67 of the 180 copies are partial; jsDelivr kept `keyv@6.0.0`'s `setup.mjs` and `Math_Symbol.js` but lost `dist/`, which Socket found to be byte-identical to the clean `6.0.0-rc.1` anyway.
+
+The labels vary a lot in quality, so the set is split by what the advisory says:
+
+| Group | Releases | pkgdelta v1 (frozen) | pkgdelta v2 | GuardDog `high_risk` | GuardDog, any `threat-*` rule |
+|---|---|---|---|---|---|
+| ChainDrop worm, 2026-08-04 | 53 | 49 (92%) | **49 (92%)** | 49 (92%) | 49 (92%) |
+| Other advisories describing a hijacked release | 12 | 1 | 1 | 1 | 8 |
+| Advisories from one automated scanner judging the package | 115 | 7 | 12 | 57 | 90 |
+
+v2's rules added 5 catches on this set, all git-dependency injections (`@velliajs/discord` ×3, `@polymarkets/clob-client-v2`, `@devmikets/hyperliquid-sdk`), all in the automated group. On ChainDrop the frozen v1 rules already do everything v2 does: the worm uses the same `preinstall: node setup.mjs` shape as Shai-Hulud.
+
+- **ChainDrop**: both tools block the same 49 and miss the same 4. The 4 (`@keyv/compress-brotli`, three `@servicetitan/suppress-warnings` versions) differ from the previous release only in the version number and git hash; Socket's write-up says the `@keyv/*` 6.0.0 tarballs don't carry the payload.
+- **The other two groups** mostly say things like "9remote is a remote-shell tool" or "installs a daemon that accepts remote commands". That behaviour is the product and was in the previous release too. To check, I ran GuardDog on the previous clean release of every package in the set: **53 of its 57 `high_risk` hits and 88 of its 90 threat-rule hits on the automated group fire on the previous release as well**, and 7 of 8 in the middle group. Those are judgements about what the package is, not about a poisoned update. pkgdelta only answers the second question, by design. If you want the first one too, run a content scanner as well.
+- **One real miss worth naming**: `@injectivelabs/sdk-ts` 1.20.21 (July 2026) added a block to the wallet module, labelled as "key derivation telemetry", that builds its host from an array of character codes (`String.fromCharCode`) and posts the mnemonic there. pkgdelta only sees URLs written as text. Decoding character-code arrays the way base64 is decoded now is the obvious next rule. I did not add it, because this set is the only clean test v2 has left.
+
+## What it misses, and why
+
+- **No payload in the tarball.** Three `vant` 4.9.x samples and two `@rxap/ngx-bootstrap` samples differ from the previous release only in the version number. Either the dataset captured a clean copy or the attack was elsewhere. No content check can catch them.
+- **The payload lives in a new dependency that has since been deleted.** 119 Mastra releases (June 2026) added `easy-day-js`, a copy of `dayjs` published by an unrelated account: a clean version on 16 June, then `1.11.22` the next night with an install script that downloads and runs a second program ([MAL-2026-5979](https://osv.dev/vulnerability/MAL-2026-5979)). npm removed it within hours; the clean decoy is still there. pkgdelta flags that (medium) but does not block on it alone, because 3 of 6,707 benign updates look the same (4 with v1) (for example `fast-levenshtein` 3.0.0 switching to `fastest-levenshtein`). 111 of the 119 are still blocked, because they also dropped the build provenance the package used to have; the other 8 score 2 and pass ([details](incidents/mastra-easy-day-js.md)). The malicious `easy-day-js` version is gone from the registry, so its code can't be scanned after the fact.
+- **The one false positive** is `@octokit/openapi-types` 28 → 29: a first-time publisher, on a major release, without the build provenance every earlier release had. That is a real anomaly. A human should look.
+
+## Reproduce
+
+Every number on this page comes from files in [`results/`](../results): the pair lists (which clean release was used as the baseline for which malicious one), each detector's verdict on every pair, GuardDog's raw verdicts, and the comparison tables (`results/compare_*.txt`, written by `corpus/compare_guarddog.py` and `corpus/compare_extra.py`). To regenerate everything from scratch (about 3 GB of downloads and a few hours):
+
+```
+python corpus/fetch_dd.py        # 1,443 encrypted zips, never extracted to disk
+python corpus/build_mal.py       # malicious pairs + clean baselines
+python corpus/build_benign.py    # benign pairs
+python corpus/evaluate.py --split train
+python corpus/evaluate.py --split test
+python -m pytest
+```
+
+Samples stay in their encrypted zips and are read in memory. After the first read, a scrambled copy (every byte XOR 0x5A) is cached so later runs are fast. Nothing that can run, and nothing an antivirus would match, is written to disk.

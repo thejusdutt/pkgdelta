@@ -1,0 +1,3641 @@
+{
+"02-echo@0.0.7": [
+"MAL-2025-191025"
+],
+"@accordproject/concerto-linter-default-ruleset@3.24.1": [
+"MAL-2025-191173"
+],
+"@accordproject/concerto-metamodel@3.12.5": [
+"MAL-2025-191174"
+],
+"@accordproject/concerto-types@3.24.1": [
+"MAL-2025-191175"
+],
+"@accordproject/markdown-it-cicero@0.16.26": [
+"MAL-2025-191176"
+],
+"@accordproject/template-engine@2.7.2": [
+"MAL-2025-191177"
+],
+"@actbase/css-to-react-native-transform@1.0.3": [
+"MAL-2025-190706"
+],
+"@actbase/native@0.1.32": [
+"MAL-2025-191178"
+],
+"@actbase/node-server@1.1.19": [
+"MAL-2025-190707"
+],
+"@actbase/react-absolute@0.8.3": [
+"MAL-2025-190790"
+],
+"@actbase/react-daum-postcode@1.0.5": [
+"MAL-2025-190708"
+],
+"@actbase/react-kakaosdk@0.9.27": [
+"MAL-2025-190791"
+],
+"@actbase/react-native-actionsheet@1.0.3": [
+"MAL-2025-190792"
+],
+"@actbase/react-native-devtools@0.1.3": [
+"MAL-2025-190793"
+],
+"@actbase/react-native-fast-image@8.5.13": [
+"MAL-2025-190709"
+],
+"@actbase/react-native-kakao-channel@1.0.2": [
+"MAL-2025-190794"
+],
+"@actbase/react-native-kakao-navi@2.0.4": [
+"MAL-2025-190795"
+],
+"@actbase/react-native-less-transformer@1.0.6": [
+"MAL-2025-190710"
+],
+"@actbase/react-native-naver-login@1.0.1": [
+"MAL-2025-190711"
+],
+"@actbase/react-native-simple-video@1.0.13": [
+"MAL-2025-190796"
+],
+"@actbase/react-native-tiktok@1.1.3": [
+"MAL-2025-190712"
+],
+"@ahmedhfarag/ngx-perfect-scrollbar@20.0.20": [
+"MAL-2025-47369"
+],
+"@ahmedhfarag/ngx-virtual-scroller@4.0.4": [
+"MAL-2025-47370"
+],
+"@alexcolls/nuxt-socket.io@0.0.8": [
+"MAL-2025-191185"
+],
+"@alexcolls/nuxt-ux@0.6.2": [
+"MAL-2025-191186"
+],
+"@antstackio/eslint-config-antstack@0.0.3": [
+"MAL-2025-191187"
+],
+"@antstackio/express-graphql-proxy@0.2.8": [
+"MAL-2025-191188"
+],
+"@antstackio/graphql-body-parser@0.1.1": [
+"MAL-2025-191189"
+],
+"@antstackio/json-to-graphql@1.0.3": [
+"MAL-2025-191190"
+],
+"@antstackio/shelbysam@1.1.7": [
+"MAL-2025-191191"
+],
+"@antv/algorithm@0.3.26": [
+"MAL-2026-3850"
+],
+"@antv/ava-react@3.5.2": [
+"MAL-2026-3854"
+],
+"@antv/ava@3.6.1": [
+"MAL-2026-3853"
+],
+"@antv/data-samples@1.2.1": [
+"MAL-2026-3867"
+],
+"@antv/data-set@0.12.8": [
+"MAL-2026-3868"
+],
+"@antv/dumi-theme-antv@0.10.4": [
+"MAL-2026-3874"
+],
+"@antv/f-engine@1.11.0": [
+"MAL-2026-3882"
+],
+"@antv/f2-graphic@0.2.16": [
+"MAL-2026-3893"
+],
+"@antv/f6-core@0.2.2": [
+"MAL-2026-3902"
+],
+"@antv/f6@0.1.19": [
+"MAL-2026-3900"
+],
+"@antv/g-device-api@1.7.13": [
+"MAL-2026-3917"
+],
+"@antv/g-lite@2.8.0": [
+"MAL-2026-3921"
+],
+"@antv/g-lite@2.9.0": [
+"MAL-2026-3921"
+],
+"@antv/g2-extension-3d@0.3.0": [
+"MAL-2026-3975"
+],
+"@antv/g6-mobile@0.2.2": [
+"MAL-2026-3990"
+],
+"@antv/g6-pc@0.10.25": [
+"MAL-2026-3991"
+],
+"@antv/g6-pc@0.9.25": [
+"MAL-2026-3991"
+],
+"@antv/g@6.4.1": [
+"MAL-2026-3908"
+],
+"@antv/gi-assets-algorithm@2.4.19": [
+"MAL-2026-4000"
+],
+"@antv/gi-assets-scene@2.3.21": [
+"MAL-2026-4007"
+],
+"@antv/gi-assets-xlab@0.2.30": [
+"MAL-2026-4010"
+],
+"@antv/gi-assets-xlab@0.3.30": [
+"MAL-2026-4010"
+],
+"@antv/gpt-vis@1.1.0": [
+"MAL-2026-4020"
+],
+"@antv/insight-component@1.1.0": [
+"MAL-2026-4029"
+],
+"@antv/l7-component@2.27.10": [
+"MAL-2026-4034"
+],
+"@antv/l7-composite-layers@0.19.1": [
+"MAL-2026-4035"
+],
+"@antv/l7-core@2.27.10": [
+"MAL-2026-4036"
+],
+"@antv/l7-draw@3.2.5": [
+"MAL-2026-4038"
+],
+"@antv/l7-map@2.27.10": [
+"MAL-2026-4043"
+],
+"@antv/l7-source@2.27.10": [
+"MAL-2026-4051"
+],
+"@antv/li-aiearth-assets@0.5.7": [
+"MAL-2026-4059"
+],
+"@antv/li-aiearth-assets@0.6.7": [
+"MAL-2026-4059"
+],
+"@antv/lite-insight@2.2.1": [
+"MAL-2026-4066"
+],
+"@antv/mcp-server-chart@0.10.10": [
+"MAL-2026-4069"
+],
+"@antv/narrative-text-editor@0.3.20": [
+"MAL-2026-4072"
+],
+"@antv/narrative-text-editor@0.4.20": [
+"MAL-2026-4072"
+],
+"@antv/narrative-text-vis@0.5.16": [
+"MAL-2026-4074"
+],
+"@antv/s2-react-components@2.3.2": [
+"MAL-2026-4079"
+],
+"@antv/s2-react@2.5.1": [
+"MAL-2026-4078"
+],
+"@antv/scale@0.6.2": [
+"MAL-2026-4083"
+],
+"@antv/t8@0.5.0": [
+"MAL-2026-4087"
+],
+"@antv/x6-geometry@2.2.5": [
+"MAL-2026-3840"
+],
+"@antv/x6-react-components@2.1.9": [
+"MAL-2026-4113"
+],
+"@antv/x6-react-components@2.2.9": [
+"MAL-2026-4113"
+],
+"@art-ws/common@2.0.28": [
+"MAL-2025-47371"
+],
+"@art-ws/config-eslint@2.0.4": [
+"MAL-2025-47372"
+],
+"@art-ws/config-ts@2.0.7": [
+"MAL-2025-47373"
+],
+"@art-ws/config-ts@2.0.8": [
+"MAL-2025-47373"
+],
+"@art-ws/db-context@2.0.24": [
+"MAL-2025-47374"
+],
+"@art-ws/di-node@2.0.13": [
+"MAL-2025-47376"
+],
+"@art-ws/di@2.0.28": [
+"MAL-2025-47375"
+],
+"@art-ws/di@2.0.32": [
+"MAL-2025-47375"
+],
+"@art-ws/eslint@1.0.5": [
+"MAL-2025-47377"
+],
+"@art-ws/eslint@1.0.6": [
+"MAL-2025-47377"
+],
+"@art-ws/fastify-http-server@2.0.24": [
+"MAL-2025-47378"
+],
+"@art-ws/fastify-http-server@2.0.27": [
+"MAL-2025-47378"
+],
+"@art-ws/http-server@2.0.21": [
+"MAL-2025-47379"
+],
+"@art-ws/http-server@2.0.25": [
+"MAL-2025-47379"
+],
+"@art-ws/openapi@0.1.12": [
+"MAL-2025-47380"
+],
+"@art-ws/openapi@0.1.9": [
+"MAL-2025-47380"
+],
+"@art-ws/package-base@1.0.5": [
+"MAL-2025-47381"
+],
+"@art-ws/prettier@1.0.5": [
+"MAL-2025-47382"
+],
+"@art-ws/slf@2.0.15": [
+"MAL-2025-47383"
+],
+"@art-ws/slf@2.0.22": [
+"MAL-2025-47383"
+],
+"@art-ws/ssl-info@1.0.10": [
+"MAL-2025-47384"
+],
+"@art-ws/ssl-info@1.0.9": [
+"MAL-2025-47384"
+],
+"@art-ws/web-app@1.0.3": [
+"MAL-2025-47385"
+],
+"@arv-bedrock/logger@1.7.2": [
+"MAL-2026-11557"
+],
+"@aryanhussain/my-angular-lib@0.0.23": [
+"MAL-2025-190713"
+],
+"@asyncapi/avro-schema-parser@3.0.26": [
+"MAL-2025-190635"
+],
+"@asyncapi/bundler@0.6.6": [
+"MAL-2025-190652"
+],
+"@asyncapi/cli@4.1.3": [
+"MAL-2025-190653"
+],
+"@asyncapi/converter@1.6.4": [
+"MAL-2025-190654"
+],
+"@asyncapi/diff@0.5.1": [
+"MAL-2025-190655"
+],
+"@asyncapi/generator-components@0.3.3": [
+"MAL-2025-190656"
+],
+"@asyncapi/generator-helpers@0.2.2": [
+"MAL-2025-190657"
+],
+"@asyncapi/generator-react-sdk@1.1.4": [
+"MAL-2025-190637"
+],
+"@asyncapi/generator@2.8.6": [
+"MAL-2025-190636"
+],
+"@asyncapi/html-template@3.3.2": [
+"MAL-2025-190658"
+],
+"@asyncapi/java-spring-template@1.6.2": [
+"MAL-2025-190716"
+],
+"@asyncapi/java-template@0.3.5": [
+"MAL-2025-190717"
+],
+"@asyncapi/keeper@0.0.3": [
+"MAL-2025-190799"
+],
+"@asyncapi/markdown-template@1.6.8": [
+"MAL-2025-190659"
+],
+"@asyncapi/modelina@5.10.2": [
+"MAL-2025-190638"
+],
+"@asyncapi/modelina@5.10.3": [
+"MAL-2025-190638"
+],
+"@asyncapi/multi-parser@2.2.2": [
+"MAL-2025-190661"
+],
+"@asyncapi/nodejs-template@3.0.5": [
+"MAL-2025-190718"
+],
+"@asyncapi/nunjucks-filters@2.1.2": [
+"MAL-2025-190662"
+],
+"@asyncapi/openapi-schema-parser@3.0.26": [
+"MAL-2025-190639"
+],
+"@asyncapi/optimizer@1.0.6": [
+"MAL-2025-190663"
+],
+"@asyncapi/parser@3.4.1": [
+"MAL-2025-190640"
+],
+"@asyncapi/parser@3.4.2": [
+"MAL-2025-190640"
+],
+"@asyncapi/php-template@0.1.1": [
+"MAL-2025-190800"
+],
+"@asyncapi/problem@1.0.1": [
+"MAL-2025-190664"
+],
+"@asyncapi/protobuf-schema-parser@3.5.2": [
+"MAL-2025-190641"
+],
+"@asyncapi/protobuf-schema-parser@3.5.3": [
+"MAL-2025-190641"
+],
+"@asyncapi/python-paho-template@0.2.14": [
+"MAL-2025-190720"
+],
+"@asyncapi/react-component@2.6.7": [
+"MAL-2025-190642"
+],
+"@asyncapi/server-api@0.16.24": [
+"MAL-2025-190801"
+],
+"@asyncapi/specs@6.10.1": [
+"MAL-2025-190643"
+],
+"@asyncapi/specs@6.8.2": [
+"MAL-2025-190643"
+],
+"@asyncapi/specs@6.8.3": [
+"MAL-2025-190643"
+],
+"@asyncapi/studio@1.0.2": [
+"MAL-2025-190863"
+],
+"@asyncapi/studio@1.0.3": [
+"MAL-2025-190863"
+],
+"@beproduct/nestjs-auth@0.1.14": [
+"MAL-2026-3433"
+],
+"@beproduct/nestjs-auth@0.1.16": [
+"MAL-2026-3433"
+],
+"@beproduct/nestjs-auth@0.1.17": [
+"MAL-2026-3433"
+],
+"@beproduct/nestjs-auth@0.1.19": [
+"MAL-2026-3433"
+],
+"@beproduct/nestjs-auth@0.1.8": [
+"MAL-2026-3433"
+],
+"@bitwarden/cli@2026.4.0": [
+"MAL-2026-3020"
+],
+"@browserbasehq/bb9@1.2.21": [
+"MAL-2025-191193"
+],
+"@browserbasehq/director-ai@1.0.3": [
+"MAL-2025-191194"
+],
+"@browserbasehq/mcp@2.1.1": [
+"MAL-2025-191195"
+],
+"@browserbasehq/sdk-functions@0.0.4": [
+"MAL-2025-191197"
+],
+"@browserbasehq/stagehand@3.0.4": [
+"MAL-2025-191198"
+],
+"@cacheable/node-cache@3.1.2": [
+"MAL-2026-11560"
+],
+"@cap-js/db-service@2.10.1": [
+"MAL-2026-3176"
+],
+"@cap-js/postgres@2.2.2": [
+"MAL-2026-3177"
+],
+"@cap-js/sqlite@2.2.2": [
+"MAL-2026-3178"
+],
+"@clausehq/flows-step-mqtt@0.1.14": [
+"MAL-2025-191203"
+],
+"@clausehq/flows-step-sendgridemail@0.1.14": [
+"MAL-2025-191204"
+],
+"@clausehq/flows-step-taskscreateurl@0.1.14": [
+"MAL-2025-191205"
+],
+"@coveops/abi@2.0.1": [
+"MAL-2025-47025"
+],
+"@crowdstrike/commitlint@8.1.1": [
+"MAL-2025-47233"
+],
+"@crowdstrike/commitlint@8.1.2": [
+"MAL-2025-47233"
+],
+"@crowdstrike/falcon-shoelace@0.4.1": [
+"MAL-2025-47215"
+],
+"@crowdstrike/falcon-shoelace@0.4.2": [
+"MAL-2025-47215"
+],
+"@crowdstrike/foundry-js@0.19.1": [
+"MAL-2025-47234"
+],
+"@crowdstrike/foundry-js@0.19.2": [
+"MAL-2025-47234"
+],
+"@crowdstrike/glide-core@0.34.2": [
+"MAL-2025-47235"
+],
+"@crowdstrike/glide-core@0.34.3": [
+"MAL-2025-47235"
+],
+"@crowdstrike/logscale-file-editor@1.205.2": [
+"MAL-2025-47217"
+],
+"@crowdstrike/tailwind-toucan-base@5.0.1": [
+"MAL-2025-47237"
+],
+"@crowdstrike/tailwind-toucan-base@5.0.2": [
+"MAL-2025-47237"
+],
+"@ctrl/deluge@7.2.1": [
+"MAL-2025-47131"
+],
+"@ctrl/deluge@7.2.2": [
+"MAL-2025-47131"
+],
+"@ctrl/golang-template@1.4.2": [
+"MAL-2025-47132"
+],
+"@ctrl/golang-template@1.4.3": [
+"MAL-2025-47132"
+],
+"@ctrl/magnet-link@4.0.3": [
+"MAL-2025-47133"
+],
+"@ctrl/magnet-link@4.0.4": [
+"MAL-2025-47133"
+],
+"@ctrl/ngx-codemirror@7.0.1": [
+"MAL-2025-47134"
+],
+"@ctrl/ngx-codemirror@7.0.2": [
+"MAL-2025-47134"
+],
+"@ctrl/ngx-csv@6.0.1": [
+"MAL-2025-47135"
+],
+"@ctrl/ngx-csv@6.0.2": [
+"MAL-2025-47135"
+],
+"@ctrl/ngx-rightclick@4.0.1": [
+"MAL-2025-47137"
+],
+"@ctrl/ngx-rightclick@4.0.2": [
+"MAL-2025-47137"
+],
+"@ctrl/qbittorrent@9.7.1": [
+"MAL-2025-47138"
+],
+"@ctrl/qbittorrent@9.7.2": [
+"MAL-2025-47138"
+],
+"@ctrl/react-adsense@2.0.1": [
+"MAL-2025-47139"
+],
+"@ctrl/react-adsense@2.0.2": [
+"MAL-2025-47139"
+],
+"@ctrl/shared-torrent@6.3.1": [
+"MAL-2025-47140"
+],
+"@ctrl/shared-torrent@6.3.2": [
+"MAL-2025-47140"
+],
+"@ctrl/tinycolor@4.1.1": [
+"MAL-2025-47141"
+],
+"@ctrl/tinycolor@4.1.2": [
+"MAL-2025-47141"
+],
+"@ctrl/torrent-file@4.1.1": [
+"MAL-2025-47142"
+],
+"@ctrl/torrent-file@4.1.2": [
+"MAL-2025-47142"
+],
+"@ctrl/transmission@7.3.1": [
+"MAL-2025-47143"
+],
+"@ctrl/ts-base32@4.0.1": [
+"MAL-2025-47144"
+],
+"@ctrl/ts-base32@4.0.2": [
+"MAL-2025-47144"
+],
+"@deliveroo/reevent@1.0.1": [
+"MAL-2026-11563"
+],
+"@dev-blinq/cucumber-js@1.0.131": [
+"MAL-2025-191212"
+],
+"@dev-blinq/cucumber_client@1.0.738": [
+"MAL-2025-191213"
+],
+"@draftlab/auth@0.24.2": [
+"MAL-2026-3596"
+],
+"@draftlab/db@0.16.2": [
+"MAL-2026-3598"
+],
+"@duckdb/duckdb-wasm@1.29.2": [
+"MAL-2025-46991"
+],
+"@duckdb/node-api@1.3.3": [
+"MAL-2025-46992"
+],
+"@ensdomains/address-encoder@1.1.5": [
+"MAL-2025-190665"
+],
+"@ensdomains/blacklist@1.0.1": [
+"MAL-2025-190722"
+],
+"@ensdomains/ccip-read-dns-gateway@0.1.1": [
+"MAL-2025-190723"
+],
+"@ensdomains/ccip-read-worker-viem@0.0.4": [
+"MAL-2025-190725"
+],
+"@ensdomains/curvearithmetics@1.0.1": [
+"MAL-2025-190726"
+],
+"@ensdomains/cypress-metamask@1.2.1": [
+"MAL-2025-190803"
+],
+"@ensdomains/ensjs@4.0.3": [
+"MAL-2025-190933"
+],
+"@ensdomains/hardhat-chai-matchers-viem@0.1.15": [
+"MAL-2025-190733"
+],
+"@ensdomains/hardhat-toolbox-viem-extended@0.0.6": [
+"MAL-2025-190734"
+],
+"@ensdomains/react-ens-address@0.0.32": [
+"MAL-2025-190809"
+],
+"@ensdomains/renewal@0.0.13": [
+"MAL-2025-190810"
+],
+"@ensdomains/server-analytics@0.0.2": [
+"MAL-2025-190811"
+],
+"@ensdomains/subdomain-registrar@0.2.4": [
+"MAL-2025-190812"
+],
+"@ensdomains/test-utils@1.3.1": [
+"MAL-2025-190738"
+],
+"@ensdomains/thorin@0.6.51": [
+"MAL-2025-190739"
+],
+"@ensdomains/ui@3.4.6": [
+"MAL-2025-190813"
+],
+"@ensdomains/vite-plugin-i18next-loader@4.0.4": [
+"MAL-2025-190741"
+],
+"@ensdomains/web3modal@1.10.2": [
+"MAL-2025-190815"
+],
+"@everreal/validate-esmoduleinterop-imports@1.4.4": [
+"MAL-2025-191216"
+],
+"@everreal/validate-esmoduleinterop-imports@1.4.5": [
+"MAL-2025-191216"
+],
+"@faq-component/core@0.0.4": [
+"MAL-2025-191218"
+],
+"@faq-component/react@1.0.1": [
+"MAL-2025-191219"
+],
+"@hapheus/n8n-nodes-pgp@1.5.1": [
+"MAL-2025-191225"
+],
+"@hestjs/core@0.2.1": [
+"MAL-2025-47239"
+],
+"@hestjs/cqrs@0.1.6": [
+"MAL-2025-47240"
+],
+"@hestjs/demo@0.1.2": [
+"MAL-2025-47241"
+],
+"@hestjs/eslint-config@0.1.2": [
+"MAL-2025-47242"
+],
+"@hestjs/logger@0.1.6": [
+"MAL-2025-47243"
+],
+"@hestjs/scalar@0.1.7": [
+"MAL-2025-47244"
+],
+"@hestjs/validation@0.1.6": [
+"MAL-2025-47245"
+],
+"@hover-design/core@0.0.1": [
+"MAL-2025-191226"
+],
+"@ifelsedeveloper/protocol-contracts-svm-idl@0.1.2": [
+"MAL-2025-191235"
+],
+"@keyv/compress-brotli@6.0.0": [
+"MAL-2026-12009"
+],
+"@kvytech/cli@0.0.7": [
+"MAL-2025-190742"
+],
+"@kvytech/components@0.0.2": [
+"MAL-2025-190743"
+],
+"@kvytech/habbit-e2e-test@0.0.2": [
+"MAL-2025-191239"
+],
+"@kvytech/medusa-plugin-announcement@0.0.8": [
+"MAL-2025-190744"
+],
+"@kvytech/medusa-plugin-management@0.0.5": [
+"MAL-2025-190745"
+],
+"@kvytech/medusa-plugin-newsletter@0.0.5": [
+"MAL-2025-190816"
+],
+"@kvytech/medusa-plugin-product-reviews@0.0.9": [
+"MAL-2025-190746"
+],
+"@kvytech/medusa-plugin-promotion@0.0.2": [
+"MAL-2025-191240"
+],
+"@kvytech/web@0.0.2": [
+"MAL-2025-190747"
+],
+"@lessondesk/schoolbus@5.2.3": [
+"MAL-2025-191032"
+],
+"@markvivanco/app-version-checker@1.0.1": [
+"MAL-2025-190818"
+],
+"@markvivanco/app-version-checker@1.0.2": [
+"MAL-2025-190818"
+],
+"@mastra/agent-browser@0.3.2": [
+"MAL-2026-5996"
+],
+"@mastra/ai-sdk@1.4.6": [
+"MAL-2026-5939"
+],
+"@mastra/arize@1.2.3": [
+"MAL-2026-5998"
+],
+"@mastra/auth-auth0@1.0.2": [
+"MAL-2026-5999"
+],
+"@mastra/auth-better-auth@1.0.4": [
+"MAL-2026-6000"
+],
+"@mastra/auth-clerk@1.0.3": [
+"MAL-2026-6001"
+],
+"@mastra/auth-supabase@1.0.2": [
+"MAL-2026-6002"
+],
+"@mastra/auth-workos@1.5.3": [
+"MAL-2026-6003"
+],
+"@mastra/auth@1.0.3": [
+"MAL-2026-5940"
+],
+"@mastra/braintrust@1.1.4": [
+"MAL-2026-5941"
+],
+"@mastra/chroma@1.0.2": [
+"MAL-2026-6005"
+],
+"@mastra/claude@1.0.3": [
+"MAL-2026-6006"
+],
+"@mastra/clickhouse@1.10.1": [
+"MAL-2026-5942"
+],
+"@mastra/client-js@1.24.1": [
+"MAL-2026-6007"
+],
+"@mastra/cloudflare-d1@1.0.7": [
+"MAL-2026-6009"
+],
+"@mastra/cloudflare@1.4.2": [
+"MAL-2026-6008"
+],
+"@mastra/convex@1.2.2": [
+"MAL-2026-6010"
+],
+"@mastra/core@1.42.1": [
+"MAL-2026-6011"
+],
+"@mastra/couchbase@1.0.4": [
+"MAL-2026-6012"
+],
+"@mastra/cursor@0.2.1": [
+"MAL-2026-6013"
+],
+"@mastra/daytona@0.4.2": [
+"MAL-2026-6014"
+],
+"@mastra/deployer-cloudflare@1.1.44": [
+"MAL-2026-6016"
+],
+"@mastra/deployer-netlify@1.1.20": [
+"MAL-2026-6017"
+],
+"@mastra/deployer-vercel@1.1.38": [
+"MAL-2026-6018"
+],
+"@mastra/deployer@1.42.1": [
+"MAL-2026-6015"
+],
+"@mastra/docker@0.3.1": [
+"MAL-2026-6019"
+],
+"@mastra/duckdb@1.4.3": [
+"MAL-2026-5944"
+],
+"@mastra/dynamodb@1.0.9": [
+"MAL-2026-5945"
+],
+"@mastra/e2b@0.3.4": [
+"MAL-2026-6021"
+],
+"@mastra/editor@0.11.3": [
+"MAL-2026-5946"
+],
+"@mastra/express@1.3.31": [
+"MAL-2026-6022"
+],
+"@mastra/gcs@0.2.3": [
+"MAL-2026-6023"
+],
+"@mastra/github-signals@0.1.2": [
+"MAL-2026-6052"
+],
+"@mastra/hono@1.4.26": [
+"MAL-2026-5950"
+],
+"@mastra/inngest@1.5.2": [
+"MAL-2026-5951"
+],
+"@mastra/koa@1.5.14": [
+"MAL-2026-6025"
+],
+"@mastra/libsql@1.13.1": [
+"MAL-2026-5954"
+],
+"@mastra/mcp-docs-server@1.1.47": [
+"MAL-2026-5956"
+],
+"@mastra/mcp@1.10.1": [
+"MAL-2026-5955"
+],
+"@mastra/memory@1.20.4": [
+"MAL-2026-6028"
+],
+"@mastra/mongodb@1.9.3": [
+"MAL-2026-5957"
+],
+"@mastra/nestjs@0.1.15": [
+"MAL-2026-6030"
+],
+"@mastra/node-audio@0.1.8": [
+"MAL-2026-6054"
+],
+"@mastra/node-speaker@0.1.1": [
+"MAL-2026-6055"
+],
+"@mastra/otel-bridge@1.2.3": [
+"MAL-2026-5958"
+],
+"@mastra/otel-exporter@1.2.3": [
+"MAL-2026-6031"
+],
+"@mastra/pg@1.13.1": [
+"MAL-2026-5959"
+],
+"@mastra/pinecone@1.0.2": [
+"MAL-2026-6032"
+],
+"@mastra/playground-ui@33.0.1": [
+"MAL-2026-6033"
+],
+"@mastra/posthog@1.0.29": [
+"MAL-2026-5960"
+],
+"@mastra/qdrant@1.0.3": [
+"MAL-2026-6034"
+],
+"@mastra/rag@2.2.2": [
+"MAL-2026-5961"
+],
+"@mastra/react@1.0.1": [
+"MAL-2026-6056"
+],
+"@mastra/redis@1.1.3": [
+"MAL-2026-6074"
+],
+"@mastra/s3@0.5.3": [
+"MAL-2026-5962"
+],
+"@mastra/s3vectors@1.0.7": [
+"MAL-2026-6035"
+],
+"@mastra/schema-compat@1.2.12": [
+"MAL-2026-5963"
+],
+"@mastra/sentry@1.1.4": [
+"MAL-2026-5964"
+],
+"@mastra/server@2.1.1": [
+"MAL-2026-6036"
+],
+"@mastra/stagehand@0.2.5": [
+"MAL-2026-6037"
+],
+"@mastra/tavily@1.0.3": [
+"MAL-2026-6038"
+],
+"@mastra/temporal@0.1.14": [
+"MAL-2026-6039"
+],
+"@mastra/turbopuffer@1.0.3": [
+"MAL-2026-6040"
+],
+"@mastra/upstash@1.1.3": [
+"MAL-2026-6041"
+],
+"@mastra/vectorize@1.0.3": [
+"MAL-2026-6042"
+],
+"@mastra/voice-deepgram@0.12.2": [
+"MAL-2026-6044"
+],
+"@mastra/voice-elevenlabs@0.12.2": [
+"MAL-2026-6045"
+],
+"@mastra/voice-google-gemini-live@0.12.2": [
+"MAL-2026-6047"
+],
+"@mastra/voice-google@0.12.3": [
+"MAL-2026-6046"
+],
+"@mastra/voice-openai-realtime@0.12.6": [
+"MAL-2026-6049"
+],
+"@mastra/voice-openai@0.12.3": [
+"MAL-2026-6048"
+],
+"@mastra/voice-playai@0.12.2": [
+"MAL-2026-6057"
+],
+"@mcp-use/cli@2.2.6": [
+"MAL-2025-190867"
+],
+"@mcp-use/cli@2.2.7": [
+"MAL-2025-190867"
+],
+"@mcp-use/inspector@0.6.2": [
+"MAL-2025-190868"
+],
+"@mcp-use/inspector@0.6.3": [
+"MAL-2025-190868"
+],
+"@mcp-use/mcp-use@1.0.1": [
+"MAL-2025-190869"
+],
+"@mcp-use/mcp-use@1.0.2": [
+"MAL-2025-190869"
+],
+"@mesadev/rest@0.28.3": [
+"MAL-2026-3510"
+],
+"@mesadev/saguaro@0.4.22": [
+"MAL-2026-3599"
+],
+"@mesadev/sdk@0.28.3": [
+"MAL-2026-3600"
+],
+"@mistralai/mistralai-azure@1.7.1": [
+"MAL-2026-3511"
+],
+"@mistralai/mistralai-azure@1.7.2": [
+"MAL-2026-3511"
+],
+"@mistralai/mistralai-azure@1.7.3": [
+"MAL-2026-3511"
+],
+"@mistralai/mistralai-gcp@1.7.1": [
+"MAL-2026-3512"
+],
+"@mistralai/mistralai-gcp@1.7.2": [
+"MAL-2026-3512"
+],
+"@mistralai/mistralai-gcp@1.7.3": [
+"MAL-2026-3512"
+],
+"@nativescript-community/arraybuffers@1.1.6": [
+"MAL-2025-47146"
+],
+"@nativescript-community/arraybuffers@1.1.7": [
+"MAL-2025-47146"
+],
+"@nativescript-community/gesturehandler@2.0.35": [
+"MAL-2025-47147"
+],
+"@nativescript-community/perms@3.0.5": [
+"MAL-2025-47148"
+],
+"@nativescript-community/perms@3.0.6": [
+"MAL-2025-47148"
+],
+"@nativescript-community/perms@3.0.9": [
+"MAL-2025-47148"
+],
+"@nativescript-community/sentry@4.6.43": [
+"MAL-2025-47149"
+],
+"@nativescript-community/sqlite@3.5.4": [
+"MAL-2025-47150"
+],
+"@nativescript-community/sqlite@3.5.5": [
+"MAL-2025-47150"
+],
+"@nativescript-community/text@1.6.10": [
+"MAL-2025-47151"
+],
+"@nativescript-community/text@1.6.13": [
+"MAL-2025-47151"
+],
+"@nativescript-community/text@1.6.9": [
+"MAL-2025-47151"
+],
+"@nativescript-community/ui-collectionview@6.0.6": [
+"MAL-2025-47153"
+],
+"@nativescript-community/ui-document-picker@1.1.28": [
+"MAL-2025-47387"
+],
+"@nativescript-community/ui-drawer@0.1.30": [
+"MAL-2025-47154"
+],
+"@nativescript-community/ui-image@4.5.6": [
+"MAL-2025-47155"
+],
+"@nativescript-community/ui-label@1.3.35": [
+"MAL-2025-47388"
+],
+"@nativescript-community/ui-label@1.3.36": [
+"MAL-2025-47388"
+],
+"@nativescript-community/ui-material-bottom-navigation@7.2.73": [
+"MAL-2025-47389"
+],
+"@nativescript-community/ui-material-bottomsheet@7.2.72": [
+"MAL-2025-47156"
+],
+"@nativescript-community/ui-material-core-tabs@7.2.73": [
+"MAL-2025-47158"
+],
+"@nativescript-community/ui-material-core-tabs@7.2.75": [
+"MAL-2025-47158"
+],
+"@nativescript-community/ui-material-core-tabs@7.2.76": [
+"MAL-2025-47158"
+],
+"@nativescript-community/ui-material-core@7.2.73": [
+"MAL-2025-47157"
+],
+"@nativescript-community/ui-material-core@7.2.76": [
+"MAL-2025-47157"
+],
+"@nativescript-community/ui-material-tabs@7.2.73": [
+"MAL-2025-47159"
+],
+"@nativescript-community/ui-pager@14.1.36": [
+"MAL-2025-47160"
+],
+"@nativescript-community/ui-pager@14.1.38": [
+"MAL-2025-47160"
+],
+"@nativescript-community/ui-pulltorefresh@2.5.5": [
+"MAL-2025-47161"
+],
+"@nebula.js/cli-build@7.1.2": [
+"MAL-2026-11566"
+],
+"@nebula.js/cli-sense@7.1.2": [
+"MAL-2026-11567"
+],
+"@nebula.js/cli-serve@7.1.2": [
+"MAL-2026-11568"
+],
+"@nebula.js/cli@7.1.2": [
+"MAL-2026-11565"
+],
+"@nebula.js/sn-line-chart@2.7.1": [
+"MAL-2026-11575"
+],
+"@nebula.js/stardust@7.1.2": [
+"MAL-2026-11584"
+],
+"@nexe/config-manager@0.1.1": [
+"MAL-2025-47247"
+],
+"@nexe/eslint-config@0.1.1": [
+"MAL-2025-47248"
+],
+"@nexe/logger@0.1.3": [
+"MAL-2025-47249"
+],
+"@nstudio/angular@20.0.4": [
+"MAL-2025-47162"
+],
+"@nstudio/angular@20.0.5": [
+"MAL-2025-47162"
+],
+"@nstudio/focus@20.0.5": [
+"MAL-2025-47163"
+],
+"@nstudio/focus@20.0.6": [
+"MAL-2025-47163"
+],
+"@nstudio/nativescript-checkbox@2.0.6": [
+"MAL-2025-47164"
+],
+"@nstudio/nativescript-checkbox@2.0.7": [
+"MAL-2025-47164"
+],
+"@nstudio/nativescript-checkbox@2.0.9": [
+"MAL-2025-47164"
+],
+"@nstudio/nativescript-loading-indicator@5.0.1": [
+"MAL-2025-47165"
+],
+"@nstudio/nativescript-loading-indicator@5.0.2": [
+"MAL-2025-47165"
+],
+"@nstudio/nativescript-loading-indicator@5.0.4": [
+"MAL-2025-47165"
+],
+"@nstudio/ui-collectionview@5.1.11": [
+"MAL-2025-47166"
+],
+"@nstudio/ui-collectionview@5.1.12": [
+"MAL-2025-47166"
+],
+"@nstudio/ui-collectionview@5.1.14": [
+"MAL-2025-47166"
+],
+"@nstudio/web-angular@20.0.4": [
+"MAL-2025-47168"
+],
+"@nstudio/web@20.0.4": [
+"MAL-2025-47167"
+],
+"@nstudio/xplat-utils@20.0.5": [
+"MAL-2025-47170"
+],
+"@nstudio/xplat-utils@20.0.6": [
+"MAL-2025-47170"
+],
+"@nstudio/xplat@20.0.5": [
+"MAL-2025-47169"
+],
+"@nstudio/xplat@20.0.7": [
+"MAL-2025-47169"
+],
+"@nx/devkit@21.5.0": [
+"MAL-2025-41436"
+],
+"@nx/enterprise-cloud@3.2.0": [
+"MAL-2025-41437"
+],
+"@nx/eslint@21.5.0": [
+"MAL-2025-41438"
+],
+"@nx/js@21.5.0": [
+"MAL-2025-41439"
+],
+"@nx/node@21.5.0": [
+"MAL-2025-41441"
+],
+"@nx/workspace@21.5.0": [
+"MAL-2025-41442"
+],
+"@openclaw-cn/cli@1.4.1": [
+"MAL-2026-3841"
+],
+"@openclaw-cn/feishu@0.2.11": [
+"MAL-2026-3842"
+],
+"@openclaw-cn/libsignal@2.1.1": [
+"MAL-2026-3843"
+],
+"@opensearch-project/opensearch@3.5.3": [
+"MAL-2026-3434"
+],
+"@opensearch-project/opensearch@3.6.2": [
+"MAL-2026-3434"
+],
+"@opensearch-project/opensearch@3.7.0": [
+"MAL-2026-3434"
+],
+"@opensearch-project/opensearch@3.8.0": [
+"MAL-2026-3434"
+],
+"@operato/board@9.0.35": [
+"MAL-2025-47253"
+],
+"@operato/board@9.0.36": [
+"MAL-2025-47253"
+],
+"@operato/board@9.0.37": [
+"MAL-2025-47253"
+],
+"@operato/board@9.0.39": [
+"MAL-2025-47253"
+],
+"@operato/board@9.0.40": [
+"MAL-2025-47253"
+],
+"@operato/board@9.0.41": [
+"MAL-2025-47253"
+],
+"@operato/board@9.0.42": [
+"MAL-2025-47253"
+],
+"@operato/board@9.0.43": [
+"MAL-2025-47253"
+],
+"@operato/board@9.0.45": [
+"MAL-2025-47253"
+],
+"@operato/board@9.0.46": [
+"MAL-2025-47253"
+],
+"@operato/board@9.0.48": [
+"MAL-2025-47253"
+],
+"@operato/board@9.0.51": [
+"MAL-2025-47253"
+],
+"@operato/data-grist@9.0.29": [
+"MAL-2025-47254"
+],
+"@operato/data-grist@9.0.35": [
+"MAL-2025-47254"
+],
+"@operato/data-grist@9.0.36": [
+"MAL-2025-47254"
+],
+"@operato/data-grist@9.0.37": [
+"MAL-2025-47254"
+],
+"@operato/graphql@9.0.22": [
+"MAL-2025-47255"
+],
+"@operato/graphql@9.0.35": [
+"MAL-2025-47255"
+],
+"@operato/graphql@9.0.36": [
+"MAL-2025-47255"
+],
+"@operato/graphql@9.0.37": [
+"MAL-2025-47255"
+],
+"@operato/graphql@9.0.39": [
+"MAL-2025-47255"
+],
+"@operato/graphql@9.0.40": [
+"MAL-2025-47255"
+],
+"@operato/graphql@9.0.41": [
+"MAL-2025-47255"
+],
+"@operato/graphql@9.0.42": [
+"MAL-2025-47255"
+],
+"@operato/graphql@9.0.43": [
+"MAL-2025-47255"
+],
+"@operato/graphql@9.0.44": [
+"MAL-2025-47255"
+],
+"@operato/graphql@9.0.45": [
+"MAL-2025-47255"
+],
+"@operato/graphql@9.0.48": [
+"MAL-2025-47255"
+],
+"@operato/graphql@9.0.51": [
+"MAL-2025-47255"
+],
+"@operato/headroom@9.0.2": [
+"MAL-2025-47219"
+],
+"@operato/headroom@9.0.35": [
+"MAL-2025-47219"
+],
+"@operato/headroom@9.0.36": [
+"MAL-2025-47219"
+],
+"@operato/headroom@9.0.37": [
+"MAL-2025-47219"
+],
+"@operato/help@9.0.35": [
+"MAL-2025-47256"
+],
+"@operato/help@9.0.36": [
+"MAL-2025-47256"
+],
+"@operato/help@9.0.37": [
+"MAL-2025-47256"
+],
+"@operato/help@9.0.39": [
+"MAL-2025-47256"
+],
+"@operato/help@9.0.40": [
+"MAL-2025-47256"
+],
+"@operato/help@9.0.41": [
+"MAL-2025-47256"
+],
+"@operato/help@9.0.42": [
+"MAL-2025-47256"
+],
+"@operato/help@9.0.43": [
+"MAL-2025-47256"
+],
+"@operato/help@9.0.45": [
+"MAL-2025-47256"
+],
+"@operato/help@9.0.48": [
+"MAL-2025-47256"
+],
+"@operato/help@9.0.51": [
+"MAL-2025-47256"
+],
+"@operato/i18n@9.0.35": [
+"MAL-2025-47257"
+],
+"@operato/i18n@9.0.36": [
+"MAL-2025-47257"
+],
+"@operato/input@9.0.27": [
+"MAL-2025-47258"
+],
+"@operato/input@9.0.35": [
+"MAL-2025-47258"
+],
+"@operato/input@9.0.36": [
+"MAL-2025-47258"
+],
+"@operato/input@9.0.37": [
+"MAL-2025-47258"
+],
+"@operato/input@9.0.39": [
+"MAL-2025-47258"
+],
+"@operato/input@9.0.40": [
+"MAL-2025-47258"
+],
+"@operato/input@9.0.41": [
+"MAL-2025-47258"
+],
+"@operato/input@9.0.42": [
+"MAL-2025-47258"
+],
+"@operato/input@9.0.43": [
+"MAL-2025-47258"
+],
+"@operato/input@9.0.45": [
+"MAL-2025-47258"
+],
+"@operato/input@9.0.46": [
+"MAL-2025-47258"
+],
+"@operato/input@9.0.47": [
+"MAL-2025-47258"
+],
+"@operato/input@9.0.48": [
+"MAL-2025-47258"
+],
+"@operato/layout@9.0.35": [
+"MAL-2025-47259"
+],
+"@operato/layout@9.0.36": [
+"MAL-2025-47259"
+],
+"@operato/layout@9.0.37": [
+"MAL-2025-47259"
+],
+"@operato/popup@9.0.22": [
+"MAL-2025-47260"
+],
+"@operato/popup@9.0.35": [
+"MAL-2025-47260"
+],
+"@operato/popup@9.0.36": [
+"MAL-2025-47260"
+],
+"@operato/popup@9.0.37": [
+"MAL-2025-47260"
+],
+"@operato/popup@9.0.39": [
+"MAL-2025-47260"
+],
+"@operato/popup@9.0.40": [
+"MAL-2025-47260"
+],
+"@operato/popup@9.0.41": [
+"MAL-2025-47260"
+],
+"@operato/popup@9.0.42": [
+"MAL-2025-47260"
+],
+"@operato/popup@9.0.43": [
+"MAL-2025-47260"
+],
+"@operato/popup@9.0.44": [
+"MAL-2025-47260"
+],
+"@operato/popup@9.0.45": [
+"MAL-2025-47260"
+],
+"@operato/popup@9.0.48": [
+"MAL-2025-47260"
+],
+"@operato/popup@9.0.51": [
+"MAL-2025-47260"
+],
+"@operato/pull-to-refresh@9.0.35": [
+"MAL-2025-47261"
+],
+"@operato/pull-to-refresh@9.0.36": [
+"MAL-2025-47261"
+],
+"@operato/pull-to-refresh@9.0.37": [
+"MAL-2025-47261"
+],
+"@operato/pull-to-refresh@9.0.38": [
+"MAL-2025-47261"
+],
+"@operato/pull-to-refresh@9.0.39": [
+"MAL-2025-47261"
+],
+"@operato/pull-to-refresh@9.0.40": [
+"MAL-2025-47261"
+],
+"@operato/pull-to-refresh@9.0.41": [
+"MAL-2025-47261"
+],
+"@operato/pull-to-refresh@9.0.43": [
+"MAL-2025-47261"
+],
+"@operato/pull-to-refresh@9.0.44": [
+"MAL-2025-47261"
+],
+"@operato/pull-to-refresh@9.0.47": [
+"MAL-2025-47261"
+],
+"@operato/shell@9.0.22": [
+"MAL-2025-47262"
+],
+"@operato/shell@9.0.35": [
+"MAL-2025-47262"
+],
+"@operato/shell@9.0.36": [
+"MAL-2025-47262"
+],
+"@operato/shell@9.0.37": [
+"MAL-2025-47262"
+],
+"@operato/shell@9.0.39": [
+"MAL-2025-47262"
+],
+"@operato/styles@9.0.2": [
+"MAL-2025-47220"
+],
+"@operato/styles@9.0.35": [
+"MAL-2025-47220"
+],
+"@operato/styles@9.0.36": [
+"MAL-2025-47220"
+],
+"@operato/styles@9.0.37": [
+"MAL-2025-47220"
+],
+"@operato/utils@9.0.22": [
+"MAL-2025-47263"
+],
+"@operato/utils@9.0.35": [
+"MAL-2025-47263"
+],
+"@operato/utils@9.0.36": [
+"MAL-2025-47263"
+],
+"@operato/utils@9.0.37": [
+"MAL-2025-47263"
+],
+"@operato/utils@9.0.39": [
+"MAL-2025-47263"
+],
+"@operato/utils@9.0.40": [
+"MAL-2025-47263"
+],
+"@operato/utils@9.0.41": [
+"MAL-2025-47263"
+],
+"@operato/utils@9.0.42": [
+"MAL-2025-47263"
+],
+"@operato/utils@9.0.43": [
+"MAL-2025-47263"
+],
+"@operato/utils@9.0.45": [
+"MAL-2025-47263"
+],
+"@operato/utils@9.0.48": [
+"MAL-2025-47263"
+],
+"@operato/utils@9.0.50": [
+"MAL-2025-47263"
+],
+"@operato/utils@9.0.51": [
+"MAL-2025-47263"
+],
+"@orbitgtbelgium/mapbox-gl-draw-cut-polygon-mode@2.0.5": [
+"MAL-2025-191045"
+],
+"@orbitgtbelgium/mapbox-gl-draw-scale-rotate-mode@1.1.1": [
+"MAL-2025-190668"
+],
+"@orbitgtbelgium/orbit-components@1.2.9": [
+"MAL-2025-190669"
+],
+"@orbitgtbelgium/time-slider@1.0.187": [
+"MAL-2025-190670"
+],
+"@ornikar/jest-config@13.0.5": [
+"MAL-2026-11758"
+],
+"@osmanekrem/bmad@1.0.6": [
+"MAL-2025-191046"
+],
+"@osmanekrem/error-handler@1.2.2": [
+"MAL-2025-191047"
+],
+"@posthog/agent@1.24.1": [
+"MAL-2025-190748"
+],
+"@posthog/core@1.5.6": [
+"MAL-2025-190645"
+],
+"@posthog/currency-normalization-plugin@0.0.8": [
+"MAL-2025-190874"
+],
+"@posthog/databricks-plugin@0.0.8": [
+"MAL-2025-190876"
+],
+"@posthog/drop-events-on-property-plugin@0.0.8": [
+"MAL-2025-190946"
+],
+"@posthog/filter-out-plugin@0.0.8": [
+"MAL-2025-191290"
+],
+"@posthog/first-time-event-tracker@0.0.8": [
+"MAL-2025-190878"
+],
+"@posthog/heartbeat-plugin@0.0.8": [
+"MAL-2025-191291"
+],
+"@posthog/hedgehog-mode@0.0.42": [
+"MAL-2025-190882"
+],
+"@posthog/maxmind-plugin@0.1.6": [
+"MAL-2025-190885"
+],
+"@posthog/nextjs@0.0.3": [
+"MAL-2025-190886"
+],
+"@posthog/pagerduty-plugin@0.0.8": [
+"MAL-2025-190888"
+],
+"@posthog/piscina@3.2.1": [
+"MAL-2025-190750"
+],
+"@posthog/plugin-server@1.10.8": [
+"MAL-2025-190947"
+],
+"@posthog/postgres-plugin@0.0.8": [
+"MAL-2025-191298"
+],
+"@posthog/rrweb-player@0.0.31": [
+"MAL-2025-190891"
+],
+"@posthog/rrweb-record@0.0.31": [
+"MAL-2025-190752"
+],
+"@posthog/rrweb-replay@0.0.19": [
+"MAL-2025-191299"
+],
+"@posthog/rrweb@0.0.31": [
+"MAL-2025-190673"
+],
+"@posthog/taxonomy-plugin@0.0.8": [
+"MAL-2025-190894"
+],
+"@posthog/twitter-followers-plugin@0.0.8": [
+"MAL-2025-190896"
+],
+"@posthog/variance-plugin@0.0.8": [
+"MAL-2025-190898"
+],
+"@posthog/web-dev-server@1.0.5": [
+"MAL-2025-190899"
+],
+"@posthog/wizard@1.18.1": [
+"MAL-2025-190900"
+],
+"@postman/csv-parse@4.0.4": [
+"MAL-2025-190646"
+],
+"@postman/csv-parse@4.0.5": [
+"MAL-2025-190646"
+],
+"@postman/final-node-keytar@7.9.1": [
+"MAL-2025-190901"
+],
+"@postman/final-node-keytar@7.9.2": [
+"MAL-2025-190901"
+],
+"@postman/final-node-keytar@7.9.3": [
+"MAL-2025-190901"
+],
+"@postman/mcp-ui-client@5.5.1": [
+"MAL-2025-190902"
+],
+"@postman/mcp-ui-client@5.5.2": [
+"MAL-2025-190902"
+],
+"@postman/mcp-ui-client@5.5.3": [
+"MAL-2025-190902"
+],
+"@postman/node-keytar@7.9.4": [
+"MAL-2025-190754"
+],
+"@postman/node-keytar@7.9.5": [
+"MAL-2025-190754"
+],
+"@postman/node-keytar@7.9.6": [
+"MAL-2025-190754"
+],
+"@postman/pm-bin-linux-x64@1.24.3": [
+"MAL-2025-190903"
+],
+"@postman/pm-bin-linux-x64@1.24.4": [
+"MAL-2025-190903"
+],
+"@postman/pm-bin-linux-x64@1.24.5": [
+"MAL-2025-190903"
+],
+"@postman/pm-bin-macos-arm64@1.24.3": [
+"MAL-2025-190904"
+],
+"@postman/pm-bin-macos-arm64@1.24.4": [
+"MAL-2025-190904"
+],
+"@postman/pm-bin-macos-arm64@1.24.5": [
+"MAL-2025-190904"
+],
+"@postman/pm-bin-macos-x64@1.24.3": [
+"MAL-2025-190905"
+],
+"@postman/pm-bin-macos-x64@1.24.4": [
+"MAL-2025-190905"
+],
+"@postman/pm-bin-macos-x64@1.24.5": [
+"MAL-2025-190905"
+],
+"@postman/pm-bin-windows-x64@1.24.3": [
+"MAL-2025-190906"
+],
+"@postman/pm-bin-windows-x64@1.24.4": [
+"MAL-2025-190906"
+],
+"@postman/pm-bin-windows-x64@1.24.5": [
+"MAL-2025-190906"
+],
+"@postman/postman-collection-fork@4.3.3": [
+"MAL-2025-190907"
+],
+"@postman/postman-collection-fork@4.3.4": [
+"MAL-2025-190907"
+],
+"@postman/postman-collection-fork@4.3.5": [
+"MAL-2025-190907"
+],
+"@postman/postman-mcp-cli@1.0.3": [
+"MAL-2025-190908"
+],
+"@postman/postman-mcp-cli@1.0.4": [
+"MAL-2025-190908"
+],
+"@postman/postman-mcp-server@2.4.11": [
+"MAL-2025-190909"
+],
+"@postman/postman-mcp-server@2.4.12": [
+"MAL-2025-190909"
+],
+"@postman/pretty-ms@6.1.1": [
+"MAL-2025-190910"
+],
+"@postman/pretty-ms@6.1.2": [
+"MAL-2025-190910"
+],
+"@postman/pretty-ms@6.1.3": [
+"MAL-2025-190910"
+],
+"@postman/tunnel-agent@0.6.5": [
+"MAL-2025-190647"
+],
+"@postman/tunnel-agent@0.6.6": [
+"MAL-2025-190647"
+],
+"@postman/wdio-allure-reporter@0.0.7": [
+"MAL-2025-190912"
+],
+"@postman/wdio-allure-reporter@0.0.8": [
+"MAL-2025-190912"
+],
+"@postman/wdio-allure-reporter@0.0.9": [
+"MAL-2025-190912"
+],
+"@postman/wdio-junit-reporter@0.0.4": [
+"MAL-2025-190913"
+],
+"@postman/wdio-junit-reporter@0.0.5": [
+"MAL-2025-190913"
+],
+"@postman/wdio-junit-reporter@0.0.6": [
+"MAL-2025-190913"
+],
+"@pradhumngautam/common-app@1.0.2": [
+"MAL-2025-191048"
+],
+"@pruthvi21/use-debounce@1.0.3": [
+"MAL-2025-191049"
+],
+"@qlik/api@2.14.2": [
+"MAL-2026-11783"
+],
+"@qlik/browserslist-config@3.0.2": [
+"MAL-2026-11784"
+],
+"@qlik/embed-react@2.5.3": [
+"MAL-2026-11789"
+],
+"@qlik/embed-runtime@1.6.4": [
+"MAL-2026-11790"
+],
+"@qlik/embed-web-components@1.7.3": [
+"MAL-2026-11792"
+],
+"@qlik/oxfmt-config@0.1.6": [
+"MAL-2026-11799"
+],
+"@qlik/oxlint-config@0.7.2": [
+"MAL-2026-11800"
+],
+"@qlik/sdk@0.28.1": [
+"MAL-2026-11804"
+],
+"@qlik/tsconfig@1.0.3": [
+"MAL-2026-11810"
+],
+"@quick-start-soft/quick-document-translator@1.4.2511142126": [
+"MAL-2025-190819"
+],
+"@quick-start-soft/quick-git-clean-markdown@1.4.2511142126": [
+"MAL-2025-190820"
+],
+"@quick-start-soft/quick-markdown-compose@1.4.2506300029": [
+"MAL-2025-190822"
+],
+"@quick-start-soft/quick-markdown-image@1.4.2511142126": [
+"MAL-2025-190823"
+],
+"@quick-start-soft/quick-markdown-print@1.4.2511142126": [
+"MAL-2025-191306"
+],
+"@quick-start-soft/quick-markdown-translator@1.4.2509202331": [
+"MAL-2025-191307"
+],
+"@quick-start-soft/quick-markdown@1.4.2511142126": [
+"MAL-2025-190821"
+],
+"@quick-start-soft/quick-remove-image-background@1.4.2511142126": [
+"MAL-2025-191308"
+],
+"@quick-start-soft/quick-task-refine@1.4.2511142126": [
+"MAL-2025-190824"
+],
+"@redhat-cloud-services/chrome@2.3.1": [
+"MAL-2026-5111"
+],
+"@redhat-cloud-services/config-manager-client@5.0.4": [
+"MAL-2026-5134"
+],
+"@redhat-cloud-services/entitlements-client@4.0.11": [
+"MAL-2026-5125"
+],
+"@redhat-cloud-services/eslint-config-redhat-cloud-services@3.2.1": [
+"MAL-2026-5112"
+],
+"@redhat-cloud-services/frontend-components-config-utilities@4.11.2": [
+"MAL-2026-5114"
+],
+"@redhat-cloud-services/frontend-components-config@6.11.3": [
+"MAL-2026-5126"
+],
+"@redhat-cloud-services/frontend-components-remediations@4.9.2": [
+"MAL-2026-5127"
+],
+"@redhat-cloud-services/frontend-components-testing@1.2.1": [
+"MAL-2026-5128"
+],
+"@redhat-cloud-services/hcc-feo-mcp@0.3.1": [
+"MAL-2026-5129"
+],
+"@redhat-cloud-services/hcc-kessel-mcp@0.3.1": [
+"MAL-2026-5139"
+],
+"@redhat-cloud-services/hcc-pf-mcp@0.6.1": [
+"MAL-2026-5140"
+],
+"@redhat-cloud-services/integrations-client@6.0.4": [
+"MAL-2026-5130"
+],
+"@redhat-cloud-services/javascript-clients-shared@2.0.8": [
+"MAL-2026-5143"
+],
+"@redhat-cloud-services/quickstarts-client@4.0.11": [
+"MAL-2026-5115"
+],
+"@redhat-cloud-services/tsc-transform-imports@1.2.2": [
+"MAL-2026-5147"
+],
+"@redhat-cloud-services/types@3.6.1": [
+"MAL-2026-5119"
+],
+"@seezo/sdr-mcp-server@0.0.5": [
+"MAL-2025-191053"
+],
+"@servicetitan/eslint-plugin-mobx-6@12.8.17": [
+"MAL-2026-11864"
+],
+"@servicetitan/examples@1.2.5": [
+"MAL-2026-11866"
+],
+"@servicetitan/examples@1.2.6": [
+"MAL-2026-11866"
+],
+"@servicetitan/examples@1.2.7": [
+"MAL-2026-11866"
+],
+"@servicetitan/grid@0.0.63": [
+"MAL-2026-11872"
+],
+"@servicetitan/grid@0.0.64": [
+"MAL-2026-11872"
+],
+"@servicetitan/grid@0.0.65": [
+"MAL-2026-11872"
+],
+"@servicetitan/marketing-ui@9.3.1": [
+"MAL-2026-11896"
+],
+"@servicetitan/marketing-ui@9.3.2": [
+"MAL-2026-11896"
+],
+"@servicetitan/measure-sheet-data@2.6.3": [
+"MAL-2026-11898"
+],
+"@servicetitan/micro-frontend@0.0.4": [
+"MAL-2026-11900"
+],
+"@servicetitan/micro-frontend@0.0.5": [
+"MAL-2026-11900"
+],
+"@servicetitan/micro-frontend@0.0.6": [
+"MAL-2026-11900"
+],
+"@servicetitan/microfront-auth@0.0.5": [
+"MAL-2026-11902"
+],
+"@servicetitan/microfront-auth@0.0.6": [
+"MAL-2026-11902"
+],
+"@servicetitan/microfront-auth@0.0.7": [
+"MAL-2026-11902"
+],
+"@servicetitan/microfront@0.0.2": [
+"MAL-2026-11901"
+],
+"@servicetitan/microfront@0.0.3": [
+"MAL-2026-11901"
+],
+"@servicetitan/microfront@0.0.4": [
+"MAL-2026-11901"
+],
+"@servicetitan/suppress-warnings@34.0.1": [
+"MAL-2026-11928"
+],
+"@servicetitan/suppress-warnings@34.1.0": [
+"MAL-2026-11928"
+],
+"@servicetitan/suppress-warnings@34.2.0": [
+"MAL-2026-11928"
+],
+"@servicetitan/table@41.3.1": [
+"MAL-2026-11929"
+],
+"@servicetitan/table@41.3.2": [
+"MAL-2026-11929"
+],
+"@servicetitan/table@41.3.3": [
+"MAL-2026-11929"
+],
+"@servicetitan/unit-tests@0.0.2": [
+"MAL-2026-11947"
+],
+"@servicetitan/unit-tests@0.0.3": [
+"MAL-2026-11947"
+],
+"@servicetitan/unit-tests@0.0.4": [
+"MAL-2026-11947"
+],
+"@seung-ju/next@0.0.2": [
+"MAL-2025-190755"
+],
+"@seung-ju/openapi-generator@0.0.4": [
+"MAL-2025-190756"
+],
+"@seung-ju/react-hooks@0.0.2": [
+"MAL-2025-190757"
+],
+"@seung-ju/react-native-action-sheet@0.2.1": [
+"MAL-2025-190915"
+],
+"@squawk/airport-data@0.7.4": [
+"MAL-2026-3435"
+],
+"@squawk/airports@0.6.3": [
+"MAL-2026-3436"
+],
+"@squawk/airspace-data@0.5.3": [
+"MAL-2026-3438"
+],
+"@squawk/airspace@0.8.2": [
+"MAL-2026-3437"
+],
+"@squawk/airway-data@0.5.4": [
+"MAL-2026-3439"
+],
+"@squawk/airways@0.4.2": [
+"MAL-2026-3440"
+],
+"@squawk/fix-data@0.6.4": [
+"MAL-2026-3441"
+],
+"@squawk/fixes@0.3.3": [
+"MAL-2026-3442"
+],
+"@squawk/flight-math@0.5.4": [
+"MAL-2026-3443"
+],
+"@squawk/flightplan@0.5.3": [
+"MAL-2026-3444"
+],
+"@squawk/geo@0.4.4": [
+"MAL-2026-3445"
+],
+"@squawk/icao-registry-data@0.8.5": [
+"MAL-2026-3447"
+],
+"@squawk/icao-registry@0.5.2": [
+"MAL-2026-3446"
+],
+"@squawk/mcp@0.9.1": [
+"MAL-2026-3448"
+],
+"@squawk/navaid-data@0.6.4": [
+"MAL-2026-3449"
+],
+"@squawk/navaids@0.4.2": [
+"MAL-2026-3450"
+],
+"@squawk/notams@0.3.6": [
+"MAL-2026-3451"
+],
+"@squawk/procedure-data@0.7.4": [
+"MAL-2026-3452"
+],
+"@squawk/procedures@0.5.2": [
+"MAL-2026-3453"
+],
+"@squawk/types@0.8.1": [
+"MAL-2026-3454"
+],
+"@squawk/units@0.4.4": [
+"MAL-2026-3455"
+],
+"@squawk/weather@0.5.6": [
+"MAL-2026-3456"
+],
+"@strapbuild/react-native-date-time-picker@2.0.4": [
+"MAL-2025-190825"
+],
+"@strapbuild/react-native-perspective-image-cropper-2@0.4.7": [
+"MAL-2025-190826"
+],
+"@strapbuild/react-native-perspective-image-cropper-poojan31@0.4.6": [
+"MAL-2025-190827"
+],
+"@strapbuild/react-native-perspective-image-cropper@0.4.15": [
+"MAL-2025-190758"
+],
+"@supersurkhet/cli@0.0.2": [
+"MAL-2026-3457"
+],
+"@supersurkhet/cli@0.0.4": [
+"MAL-2026-3457"
+],
+"@supersurkhet/cli@0.0.6": [
+"MAL-2026-3457"
+],
+"@supersurkhet/sdk@0.0.2": [
+"MAL-2026-3513"
+],
+"@supersurkhet/sdk@0.0.4": [
+"MAL-2026-3513"
+],
+"@supersurkhet/sdk@0.0.6": [
+"MAL-2026-3513"
+],
+"@tallyui/components@1.0.1": [
+"MAL-2026-3514"
+],
+"@tallyui/components@1.0.3": [
+"MAL-2026-3514"
+],
+"@tallyui/connector-medusa@1.0.1": [
+"MAL-2026-3515"
+],
+"@tallyui/connector-medusa@1.0.3": [
+"MAL-2026-3515"
+],
+"@tallyui/connector-shopify@1.0.1": [
+"MAL-2026-3516"
+],
+"@tallyui/connector-shopify@1.0.3": [
+"MAL-2026-3516"
+],
+"@tallyui/connector-vendure@1.0.1": [
+"MAL-2026-3458"
+],
+"@tallyui/connector-woocommerce@1.0.1": [
+"MAL-2026-3517"
+],
+"@tallyui/connector-woocommerce@1.0.3": [
+"MAL-2026-3517"
+],
+"@tallyui/core@0.2.1": [
+"MAL-2026-3603"
+],
+"@tallyui/database@1.0.1": [
+"MAL-2026-3518"
+],
+"@tallyui/database@1.0.3": [
+"MAL-2026-3518"
+],
+"@tallyui/pos@0.1.1": [
+"MAL-2026-3459"
+],
+"@tallyui/pos@0.1.3": [
+"MAL-2026-3459"
+],
+"@tallyui/storage-sqlite@0.2.1": [
+"MAL-2026-3604"
+],
+"@tallyui/storage-sqlite@0.2.2": [
+"MAL-2026-3604"
+],
+"@tallyui/storage-sqlite@0.2.3": [
+"MAL-2026-3604"
+],
+"@tallyui/theme@0.2.1": [
+"MAL-2026-3519"
+],
+"@tanstack/arktype-adapter@1.166.12": [
+"MAL-2026-3460"
+],
+"@tanstack/eslint-plugin-router@1.161.12": [
+"MAL-2026-3461"
+],
+"@tanstack/eslint-plugin-router@1.161.9": [
+"MAL-2026-3461"
+],
+"@tanstack/eslint-plugin-start@0.0.4": [
+"MAL-2026-3462"
+],
+"@tanstack/eslint-plugin-start@0.0.7": [
+"MAL-2026-3462"
+],
+"@tanstack/history@1.161.9": [
+"MAL-2026-3463"
+],
+"@tanstack/nitro-v2-vite-plugin@1.154.12": [
+"MAL-2026-3464"
+],
+"@tanstack/react-router-devtools@1.166.16": [
+"MAL-2026-3466"
+],
+"@tanstack/react-router@1.169.5": [
+"MAL-2026-3465"
+],
+"@tanstack/react-router@1.169.8": [
+"MAL-2026-3465"
+],
+"@tanstack/react-start-client@1.166.51": [
+"MAL-2026-3469"
+],
+"@tanstack/react-start-client@1.166.54": [
+"MAL-2026-3469"
+],
+"@tanstack/react-start-rsc@0.0.47": [
+"MAL-2026-3470"
+],
+"@tanstack/react-start-rsc@0.0.50": [
+"MAL-2026-3470"
+],
+"@tanstack/react-start-server@1.166.55": [
+"MAL-2026-3471"
+],
+"@tanstack/react-start@1.167.68": [
+"MAL-2026-3468"
+],
+"@tanstack/react-start@1.167.71": [
+"MAL-2026-3468"
+],
+"@tanstack/router-cli@1.166.46": [
+"MAL-2026-3472"
+],
+"@tanstack/router-cli@1.166.49": [
+"MAL-2026-3472"
+],
+"@tanstack/router-core@1.169.5": [
+"MAL-2026-3473"
+],
+"@tanstack/router-core@1.169.8": [
+"MAL-2026-3473"
+],
+"@tanstack/router-devtools-core@1.167.6": [
+"MAL-2026-3475"
+],
+"@tanstack/router-devtools-core@1.167.9": [
+"MAL-2026-3475"
+],
+"@tanstack/router-devtools@1.166.16": [
+"MAL-2026-3474"
+],
+"@tanstack/router-generator@1.166.45": [
+"MAL-2026-3476"
+],
+"@tanstack/router-generator@1.166.48": [
+"MAL-2026-3476"
+],
+"@tanstack/router-plugin@1.167.38": [
+"MAL-2026-3477"
+],
+"@tanstack/router-plugin@1.167.41": [
+"MAL-2026-3477"
+],
+"@tanstack/router-ssr-query-core@1.168.3": [
+"MAL-2026-3478"
+],
+"@tanstack/router-ssr-query-core@1.168.6": [
+"MAL-2026-3478"
+],
+"@tanstack/router-utils@1.161.11": [
+"MAL-2026-3479"
+],
+"@tanstack/router-utils@1.161.14": [
+"MAL-2026-3479"
+],
+"@tanstack/router-vite-plugin@1.166.53": [
+"MAL-2026-3480"
+],
+"@tanstack/solid-router-devtools@1.166.16": [
+"MAL-2026-3482"
+],
+"@tanstack/solid-router-ssr-query@1.166.15": [
+"MAL-2026-3483"
+],
+"@tanstack/solid-router@1.169.5": [
+"MAL-2026-3481"
+],
+"@tanstack/solid-router@1.169.8": [
+"MAL-2026-3481"
+],
+"@tanstack/solid-start-client@1.166.50": [
+"MAL-2026-3485"
+],
+"@tanstack/solid-start-server@1.166.54": [
+"MAL-2026-3486"
+],
+"@tanstack/solid-start@1.167.65": [
+"MAL-2026-3484"
+],
+"@tanstack/solid-start@1.167.68": [
+"MAL-2026-3484"
+],
+"@tanstack/start-client-core@1.168.5": [
+"MAL-2026-3487"
+],
+"@tanstack/start-client-core@1.168.8": [
+"MAL-2026-3487"
+],
+"@tanstack/start-fn-stubs@1.161.9": [
+"MAL-2026-3488"
+],
+"@tanstack/start-plugin-core@1.169.23": [
+"MAL-2026-3489"
+],
+"@tanstack/start-plugin-core@1.169.26": [
+"MAL-2026-3489"
+],
+"@tanstack/start-server-core@1.167.33": [
+"MAL-2026-3490"
+],
+"@tanstack/start-server-core@1.167.36": [
+"MAL-2026-3490"
+],
+"@tanstack/start-static-server-functions@1.166.44": [
+"MAL-2026-3491"
+],
+"@tanstack/start-storage-context@1.166.38": [
+"MAL-2026-3492"
+],
+"@tanstack/virtual-file-routes@1.161.10": [
+"MAL-2026-3494"
+],
+"@tanstack/vue-router-devtools@1.166.16": [
+"MAL-2026-3496"
+],
+"@tanstack/vue-router-ssr-query@1.166.15": [
+"MAL-2026-3497"
+],
+"@tanstack/vue-router@1.169.5": [
+"MAL-2026-3495"
+],
+"@tanstack/vue-router@1.169.8": [
+"MAL-2026-3495"
+],
+"@tanstack/vue-start-client@1.166.46": [
+"MAL-2026-3499"
+],
+"@tanstack/vue-start-server@1.166.50": [
+"MAL-2026-3500"
+],
+"@tanstack/vue-start@1.167.61": [
+"MAL-2026-3498"
+],
+"@tanstack/vue-start@1.167.64": [
+"MAL-2026-3498"
+],
+"@tanstack/zod-adapter@1.166.12": [
+"MAL-2026-3501"
+],
+"@taskflow-corp/cli@0.1.24": [
+"MAL-2026-3520"
+],
+"@taskflow-corp/cli@0.1.26": [
+"MAL-2026-3520"
+],
+"@taskflow-corp/cli@0.1.28": [
+"MAL-2026-3520"
+],
+"@teselagen/bio-parsers@0.4.29": [
+"MAL-2025-47271"
+],
+"@teselagen/bounce-loader@0.3.16": [
+"MAL-2025-47272"
+],
+"@teselagen/bounce-loader@0.3.17": [
+"MAL-2025-47272"
+],
+"@teselagen/file-utils@0.3.21": [
+"MAL-2025-47273"
+],
+"@teselagen/liquibase-tools@0.4.1": [
+"MAL-2025-47274"
+],
+"@teselagen/range-utils@0.3.14": [
+"MAL-2025-47276"
+],
+"@teselagen/react-list@0.8.19": [
+"MAL-2025-47277"
+],
+"@teselagen/sequence-utils@0.3.33": [
+"MAL-2025-47279"
+],
+"@thangved/callback-window@1.1.4": [
+"MAL-2025-47281"
+],
+"@things-factory/attachment-base@9.0.42": [
+"MAL-2025-47282"
+],
+"@things-factory/attachment-base@9.0.43": [
+"MAL-2025-47282"
+],
+"@things-factory/attachment-base@9.0.44": [
+"MAL-2025-47282"
+],
+"@things-factory/attachment-base@9.0.45": [
+"MAL-2025-47282"
+],
+"@things-factory/attachment-base@9.0.46": [
+"MAL-2025-47282"
+],
+"@things-factory/attachment-base@9.0.47": [
+"MAL-2025-47282"
+],
+"@things-factory/attachment-base@9.0.48": [
+"MAL-2025-47282"
+],
+"@things-factory/attachment-base@9.0.49": [
+"MAL-2025-47282"
+],
+"@things-factory/attachment-base@9.0.51": [
+"MAL-2025-47282"
+],
+"@things-factory/attachment-base@9.0.52": [
+"MAL-2025-47282"
+],
+"@things-factory/attachment-base@9.0.55": [
+"MAL-2025-47282"
+],
+"@things-factory/auth-base@9.0.42": [
+"MAL-2025-47283"
+],
+"@things-factory/auth-base@9.0.43": [
+"MAL-2025-47283"
+],
+"@things-factory/auth-base@9.0.44": [
+"MAL-2025-47283"
+],
+"@things-factory/auth-base@9.0.45": [
+"MAL-2025-47283"
+],
+"@things-factory/email-base@9.0.42": [
+"MAL-2025-47221"
+],
+"@things-factory/email-base@9.0.43": [
+"MAL-2025-47221"
+],
+"@things-factory/email-base@9.0.44": [
+"MAL-2025-47221"
+],
+"@things-factory/email-base@9.0.45": [
+"MAL-2025-47221"
+],
+"@things-factory/email-base@9.0.47": [
+"MAL-2025-47221"
+],
+"@things-factory/email-base@9.0.48": [
+"MAL-2025-47221"
+],
+"@things-factory/email-base@9.0.49": [
+"MAL-2025-47221"
+],
+"@things-factory/email-base@9.0.50": [
+"MAL-2025-47221"
+],
+"@things-factory/email-base@9.0.51": [
+"MAL-2025-47221"
+],
+"@things-factory/email-base@9.0.53": [
+"MAL-2025-47221"
+],
+"@things-factory/email-base@9.0.54": [
+"MAL-2025-47221"
+],
+"@things-factory/email-base@9.0.55": [
+"MAL-2025-47221"
+],
+"@things-factory/email-base@9.0.56": [
+"MAL-2025-47221"
+],
+"@things-factory/email-base@9.0.59": [
+"MAL-2025-47221"
+],
+"@things-factory/env@9.0.42": [
+"MAL-2025-47222"
+],
+"@things-factory/env@9.0.43": [
+"MAL-2025-47222"
+],
+"@things-factory/env@9.0.44": [
+"MAL-2025-47222"
+],
+"@things-factory/env@9.0.45": [
+"MAL-2025-47222"
+],
+"@things-factory/integration-base@9.0.42": [
+"MAL-2025-47223"
+],
+"@things-factory/integration-base@9.0.43": [
+"MAL-2025-47223"
+],
+"@things-factory/integration-base@9.0.44": [
+"MAL-2025-47223"
+],
+"@things-factory/integration-base@9.0.45": [
+"MAL-2025-47223"
+],
+"@things-factory/integration-marketplace@9.0.42": [
+"MAL-2025-47224"
+],
+"@things-factory/integration-marketplace@9.0.43": [
+"MAL-2025-47224"
+],
+"@things-factory/integration-marketplace@9.0.44": [
+"MAL-2025-47224"
+],
+"@things-factory/integration-marketplace@9.0.45": [
+"MAL-2025-47224"
+],
+"@things-factory/shell@9.0.42": [
+"MAL-2025-47392"
+],
+"@things-factory/shell@9.0.43": [
+"MAL-2025-47392"
+],
+"@things-factory/shell@9.0.44": [
+"MAL-2025-47392"
+],
+"@things-factory/shell@9.0.45": [
+"MAL-2025-47392"
+],
+"@tnf-dev/api@1.0.8": [
+"MAL-2025-47284"
+],
+"@tnf-dev/core@1.0.8": [
+"MAL-2025-47285"
+],
+"@tnf-dev/js@1.0.8": [
+"MAL-2025-47286"
+],
+"@tnf-dev/mui@1.0.8": [
+"MAL-2025-47287"
+],
+"@tnf-dev/react@1.0.8": [
+"MAL-2025-47288"
+],
+"@tolka/cli@1.0.2": [
+"MAL-2026-3521"
+],
+"@tolka/cli@1.0.4": [
+"MAL-2026-3521"
+],
+"@trpc-rate-limiter/cloudflare@0.1.4": [
+"MAL-2025-191327"
+],
+"@trpc-rate-limiter/hono@0.1.4": [
+"MAL-2025-191328"
+],
+"@uipath/access-policy-sdk@0.3.1": [
+"MAL-2026-3522"
+],
+"@uipath/agent-sdk@1.0.2": [
+"MAL-2026-3525"
+],
+"@uipath/agent-tool@1.0.1": [
+"MAL-2026-3526"
+],
+"@uipath/ap-chat@1.5.7": [
+"MAL-2026-3529"
+],
+"@uipath/apollo-core@5.9.2": [
+"MAL-2026-3531"
+],
+"@uipath/apollo-react@4.24.5": [
+"MAL-2026-3532"
+],
+"@uipath/apollo-wind@2.16.2": [
+"MAL-2026-3533"
+],
+"@uipath/case-tool@1.0.1": [
+"MAL-2026-3535"
+],
+"@uipath/data-fabric-tool@1.0.2": [
+"MAL-2026-3542"
+],
+"@uipath/flow-tool@1.0.2": [
+"MAL-2026-3545"
+],
+"@uipath/integrationservice-tool@1.0.2": [
+"MAL-2026-3552"
+],
+"@uipath/maestro-sdk@1.0.1": [
+"MAL-2026-3554"
+],
+"@uipath/maestro-tool@1.0.1": [
+"MAL-2026-3555"
+],
+"@uipath/packager-tool-workflowcompiler@0.0.16": [
+"MAL-2026-3564"
+],
+"@uipath/project-packager@1.1.16": [
+"MAL-2026-3567"
+],
+"@uipath/robot@1.3.4": [
+"MAL-2026-3571"
+],
+"@uipath/rpa-tool@0.9.5": [
+"MAL-2026-3573"
+],
+"@uipath/solution-tool@1.0.1": [
+"MAL-2026-3575"
+],
+"@uipath/solutionpackager-sdk@1.0.11": [
+"MAL-2026-3576"
+],
+"@uipath/vss@0.1.6": [
+"MAL-2026-3586"
+],
+"@uipath/widget.sdk@1.2.3": [
+"MAL-2026-3587"
+],
+"@vapi-ai/server-sdk@0.11.2": [
+"MAL-2026-5209"
+],
+"@vapi-ai/server-sdk@1.2.1": [
+"MAL-2026-5209"
+],
+"@vapi-ai/server-sdk@1.2.2": [
+"MAL-2026-5209"
+],
+"@vishadtyagi/full-year-calendar@0.1.11": [
+"MAL-2025-191330"
+],
+"@voiceflow/alexa-types@2.15.60": [
+"MAL-2025-191331"
+],
+"@voiceflow/alexa-types@2.15.61": [
+"MAL-2025-191331"
+],
+"@voiceflow/api-sdk@3.28.58": [
+"MAL-2025-191333"
+],
+"@voiceflow/api-sdk@3.28.59": [
+"MAL-2025-191333"
+],
+"@voiceflow/backend-utils@5.0.1": [
+"MAL-2025-191334"
+],
+"@voiceflow/backend-utils@5.0.2": [
+"MAL-2025-191334"
+],
+"@voiceflow/base-types@2.136.3": [
+"MAL-2025-191335"
+],
+"@voiceflow/chat-types@2.14.58": [
+"MAL-2025-191337"
+],
+"@voiceflow/chat-types@2.14.59": [
+"MAL-2025-191337"
+],
+"@voiceflow/common@8.9.1": [
+"MAL-2025-191340"
+],
+"@voiceflow/common@8.9.2": [
+"MAL-2025-191340"
+],
+"@voiceflow/dependency-cruiser-config@1.8.11": [
+"MAL-2025-191342"
+],
+"@voiceflow/dependency-cruiser-config@1.8.12": [
+"MAL-2025-191342"
+],
+"@voiceflow/dtos-interact@1.40.2": [
+"MAL-2025-191343"
+],
+"@voiceflow/encryption@0.3.2": [
+"MAL-2025-191344"
+],
+"@voiceflow/encryption@0.3.3": [
+"MAL-2025-191344"
+],
+"@voiceflow/eslint-plugin@1.6.2": [
+"MAL-2025-191346"
+],
+"@voiceflow/exception@1.10.1": [
+"MAL-2025-191347"
+],
+"@voiceflow/exception@1.10.2": [
+"MAL-2025-191347"
+],
+"@voiceflow/fetch@1.11.1": [
+"MAL-2025-191348"
+],
+"@voiceflow/fetch@1.11.2": [
+"MAL-2025-191348"
+],
+"@voiceflow/general-types@3.2.22": [
+"MAL-2025-191349"
+],
+"@voiceflow/general-types@3.2.23": [
+"MAL-2025-191349"
+],
+"@voiceflow/google-dfes-types@2.17.12": [
+"MAL-2025-191351"
+],
+"@voiceflow/google-dfes-types@2.17.13": [
+"MAL-2025-191351"
+],
+"@voiceflow/google-types@2.21.13": [
+"MAL-2025-191352"
+],
+"@voiceflow/logger@2.4.2": [
+"MAL-2025-191354"
+],
+"@voiceflow/logger@2.4.3": [
+"MAL-2025-191354"
+],
+"@voiceflow/natural-language-commander@0.5.3": [
+"MAL-2025-191356"
+],
+"@voiceflow/openai@3.2.3": [
+"MAL-2025-191363"
+],
+"@voiceflow/pino-pretty@4.4.2": [
+"MAL-2025-191365"
+],
+"@voiceflow/pino@6.11.3": [
+"MAL-2025-191364"
+],
+"@voiceflow/pino@6.11.4": [
+"MAL-2025-191364"
+],
+"@voiceflow/react-chat@1.65.4": [
+"MAL-2025-191367"
+],
+"@voiceflow/runtime-client-js@1.17.2": [
+"MAL-2025-191369"
+],
+"@voiceflow/runtime-client-js@1.17.3": [
+"MAL-2025-191369"
+],
+"@voiceflow/runtime@1.29.1": [
+"MAL-2025-191368"
+],
+"@voiceflow/runtime@1.29.2": [
+"MAL-2025-191368"
+],
+"@voiceflow/sdk-runtime@1.43.1": [
+"MAL-2025-191370"
+],
+"@voiceflow/sdk-runtime@1.43.2": [
+"MAL-2025-191370"
+],
+"@voiceflow/slate-serializer@1.7.4": [
+"MAL-2025-191374"
+],
+"@voiceflow/stitches-react@2.3.2": [
+"MAL-2025-191375"
+],
+"@voiceflow/test-common@2.1.1": [
+"MAL-2025-191378"
+],
+"@voiceflow/test-common@2.1.2": [
+"MAL-2025-191378"
+],
+"@voiceflow/tsconfig-paths@1.1.4": [
+"MAL-2025-191380"
+],
+"@voiceflow/tsconfig-paths@1.1.5": [
+"MAL-2025-191380"
+],
+"@voiceflow/vite-config@2.6.2": [
+"MAL-2025-191383"
+],
+"@voiceflow/vite-config@2.6.3": [
+"MAL-2025-191383"
+],
+"@voiceflow/voice-types@2.10.58": [
+"MAL-2025-191385"
+],
+"@voiceflow/voice-types@2.10.59": [
+"MAL-2025-191385"
+],
+"@voiceflow/voiceflow-types@3.32.46": [
+"MAL-2025-191386"
+],
+"@zapier/ai-actions-react@0.1.12": [
+"MAL-2025-190917"
+],
+"@zapier/ai-actions-react@0.1.13": [
+"MAL-2025-190917"
+],
+"@zapier/ai-actions@0.1.19": [
+"MAL-2025-190830"
+],
+"@zapier/babel-preset-zapier@6.4.2": [
+"MAL-2025-190761"
+],
+"@zapier/browserslist-config-zapier@1.0.4": [
+"MAL-2025-190762"
+],
+"@zapier/eslint-plugin-zapier@11.0.3": [
+"MAL-2025-190763"
+],
+"@zapier/eslint-plugin-zapier@11.0.4": [
+"MAL-2025-190763"
+],
+"@zapier/mcp-integration@3.0.1": [
+"MAL-2025-190918"
+],
+"@zapier/mcp-integration@3.0.2": [
+"MAL-2025-190918"
+],
+"@zapier/secret-scrubber@1.1.4": [
+"MAL-2025-190691"
+],
+"@zapier/spectral-api-ruleset@1.9.2": [
+"MAL-2025-190919"
+],
+"@zapier/stubtree@0.1.2": [
+"MAL-2025-190920"
+],
+"@zapier/stubtree@0.1.3": [
+"MAL-2025-190920"
+],
+"@zapier/zapier-sdk@0.15.5": [
+"MAL-2025-190648"
+],
+"@zapier/zapier-sdk@0.15.6": [
+"MAL-2025-190648"
+],
+"ace-colorpicker-rpk@0.0.14": [
+"MAL-2025-47293"
+],
+"ai-crowl-shield@1.0.7": [
+"MAL-2025-191063"
+],
+"airchief@0.3.1": [
+"MAL-2025-47294"
+],
+"airpilot@0.8.8": [
+"MAL-2025-47295"
+],
+"ansi-regex@6.2.1": [
+"MAL-2025-46966"
+],
+"ansi-styles@6.2.2": [
+"MAL-2025-46967"
+],
+"asyncapi-preview@1.0.1": [
+"MAL-2025-190831"
+],
+"automation_model@1.0.491": [
+"MAL-2025-191066"
+],
+"autotel-devtools@3.0.2": [
+"MAL-2026-5218"
+],
+"autotel-eventcatalog@3.0.1": [
+"MAL-2026-5221"
+],
+"autotel-mcp-instrumentation@32.0.1": [
+"MAL-2026-5224"
+],
+"autotel-mcp@20.0.1": [
+"MAL-2026-5223"
+],
+"autotel-mcp@4.0.1": [
+"MAL-2026-5223"
+],
+"autotel-mongoose@6.0.1": [
+"MAL-2026-5225"
+],
+"autotel-pact@1.0.3": [
+"MAL-2026-5226"
+],
+"autotel-subscribers@17.0.1": [
+"MAL-2026-5230"
+],
+"autotel-subscribers@31.1.4": [
+"MAL-2026-5230"
+],
+"autotel-subscribers@4.1.1": [
+"MAL-2026-5230"
+],
+"autotel-terminal@22.0.2": [
+"MAL-2026-5186"
+],
+"autotel-terminal@23.0.3": [
+"MAL-2026-5186"
+],
+"autotel-terminal@8.0.1": [
+"MAL-2026-5186"
+],
+"autotel@2.26.4": [
+"MAL-2026-5211"
+],
+"awaitly-analyze@1.1.1": [
+"MAL-2026-5235"
+],
+"awaitly-analyze@8.0.1": [
+"MAL-2026-5235"
+],
+"awaitly-libsql@1.0.1": [
+"MAL-2026-5236"
+],
+"awaitly-libsql@12.0.1": [
+"MAL-2026-5236"
+],
+"awaitly-libsql@22.0.1": [
+"MAL-2026-5236"
+],
+"awaitly-mongo@0.1.1": [
+"MAL-2026-5237"
+],
+"awaitly-mongo@12.0.1": [
+"MAL-2026-5237"
+],
+"awaitly-mongo@23.0.1": [
+"MAL-2026-5237"
+],
+"awaitly-postgres@1.0.1": [
+"MAL-2026-5238"
+],
+"awaitly-postgres@13.0.1": [
+"MAL-2026-5238"
+],
+"awaitly-postgres@23.0.1": [
+"MAL-2026-5238"
+],
+"awaitly-visualizer@13.0.1": [
+"MAL-2026-5239"
+],
+"awaitly-visualizer@2.0.2": [
+"MAL-2026-5239"
+],
+"awaitly-visualizer@22.0.2": [
+"MAL-2026-5239"
+],
+"awaitly@1.33.3": [
+"MAL-2026-5234"
+],
+"axios-builder@1.2.1": [
+"MAL-2025-190832"
+],
+"axios-timed@1.0.2": [
+"MAL-2025-191068"
+],
+"axios@1.14.1": [
+"MAL-2026-2307"
+],
+"backslash@0.2.1": [
+"MAL-2025-46968"
+],
+"best_gpio_controller@1.0.10": [
+"MAL-2025-191072"
+],
+"browser-webdriver-downloader@3.0.8": [
+"MAL-2025-47298"
+],
+"bytecode-checker-cli@1.0.10": [
+"MAL-2025-190833"
+],
+"bytecode-checker-cli@1.0.9": [
+"MAL-2025-190833"
+],
+"cache-manager@7.2.10": [
+"MAL-2026-11523"
+],
+"calc-loan-interest@1.0.4": [
+"MAL-2025-190834"
+],
+"capacitor-notificationhandler@0.0.2": [
+"MAL-2025-47394"
+],
+"capacitor-plugin-healthapp@0.0.2": [
+"MAL-2025-47395"
+],
+"capacitor-plugin-ihealth@1.1.8": [
+"MAL-2025-47396"
+],
+"capacitor-plugin-ihealth@1.1.9": [
+"MAL-2025-47396"
+],
+"capacitor-plugin-vonage@1.0.2": [
+"MAL-2025-47397"
+],
+"capacitorandroidpermissions@0.0.4": [
+"MAL-2025-47398"
+],
+"chalk-template@1.1.1": [
+"MAL-2025-46970"
+],
+"chrome-extension-downloads@0.0.4": [
+"MAL-2025-191081"
+],
+"claude-token-updater@1.0.3": [
+"MAL-2025-190837"
+],
+"cmux-agent-mcp@0.1.3": [
+"MAL-2026-3588"
+],
+"cmux-agent-mcp@0.1.5": [
+"MAL-2026-3588"
+],
+"cmux-agent-mcp@0.1.7": [
+"MAL-2026-3588"
+],
+"coinmarketcap-api@3.1.2": [
+"MAL-2025-190948"
+],
+"coinmarketcap-api@3.1.3": [
+"MAL-2025-190948"
+],
+"color-convert@3.1.1": [
+"MAL-2025-46971"
+],
+"color-name@2.0.1": [
+"MAL-2025-46972"
+],
+"colors-regex@2.0.1": [
+"MAL-2025-190949"
+],
+"command-irail@0.5.4": [
+"MAL-2025-191391"
+],
+"compare-obj@1.1.1": [
+"MAL-2025-190950"
+],
+"compare-obj@1.1.2": [
+"MAL-2025-190950"
+],
+"create-director-app@0.1.1": [
+"MAL-2025-191082"
+],
+"create-glee-app@0.2.3": [
+"MAL-2025-190767"
+],
+"create-hardhat3-app@1.1.2": [
+"MAL-2025-190839"
+],
+"create-hardhat3-app@1.1.3": [
+"MAL-2025-190839"
+],
+"create-hest-app@0.1.9": [
+"MAL-2025-47303"
+],
+"create-mastra@1.13.1": [
+"MAL-2026-6050"
+],
+"create-mcp-use-app@0.5.3": [
+"MAL-2025-190922"
+],
+"create-mcp-use-app@0.5.4": [
+"MAL-2025-190922"
+],
+"cross-stitch@1.1.3": [
+"MAL-2026-3502"
+],
+"db-evo@1.1.4": [
+"MAL-2025-47400"
+],
+"db-evo@1.1.5": [
+"MAL-2025-47400"
+],
+"debug@4.4.2": [
+"MAL-2025-46974"
+],
+"designstudiouiux@1.0.1": [
+"MAL-2025-190955"
+],
+"discord-bot-server@0.1.2": [
+"MAL-2025-190769"
+],
+"docusaurus-plugin-vanilla-extract@1.0.3": [
+"MAL-2025-190956"
+],
+"dotnet-template@0.0.3": [
+"MAL-2025-190770"
+],
+"duckdb@1.3.3": [
+"MAL-2025-46994"
+],
+"echarts-for-react@3.0.7": [
+"MAL-2026-4132"
+],
+"effect-analyzer@0.3.1": [
+"MAL-2026-5245"
+],
+"email-deliverability-tester@1.1.1": [
+"MAL-2025-190958"
+],
+"ember-browser-services@5.0.2": [
+"MAL-2025-47306"
+],
+"ember-browser-services@5.0.3": [
+"MAL-2025-47306"
+],
+"ember-headless-form-yup@1.0.1": [
+"MAL-2025-47308"
+],
+"ember-headless-form@1.1.2": [
+"MAL-2025-47307"
+],
+"ember-headless-form@1.1.3": [
+"MAL-2025-47307"
+],
+"ember-headless-table@2.1.5": [
+"MAL-2025-47309"
+],
+"ember-headless-table@2.1.6": [
+"MAL-2025-47309"
+],
+"ember-url-hash-polyfill@1.0.12": [
+"MAL-2025-47310"
+],
+"ember-url-hash-polyfill@1.0.13": [
+"MAL-2025-47310"
+],
+"ember-velcro@2.2.1": [
+"MAL-2025-47311"
+],
+"ember-velcro@2.2.2": [
+"MAL-2025-47311"
+],
+"error-ex@1.3.3": [
+"MAL-2025-46975"
+],
+"eslint-config-crowdstrike-node@4.0.3": [
+"MAL-2025-47227"
+],
+"eslint-config-crowdstrike-node@4.0.4": [
+"MAL-2025-47227"
+],
+"eslint-config-crowdstrike@11.0.2": [
+"MAL-2025-47226"
+],
+"eslint-config-crowdstrike@11.0.3": [
+"MAL-2025-47226"
+],
+"eslint-config-teselagen@6.1.7": [
+"MAL-2025-47313"
+],
+"eslint-config-zeallat-base@1.0.4": [
+"MAL-2025-190772"
+],
+"eslint-plugin-awaitly@1.0.1": [
+"MAL-2026-5246"
+],
+"eslint-plugin-executable-stories-jest@2.1.8": [
+"MAL-2026-5247"
+],
+"eslint-plugin-executable-stories-playwright@2.1.8": [
+"MAL-2026-5248"
+],
+"eslint-plugin-executable-stories-vitest@2.1.8": [
+"MAL-2026-5249"
+],
+"evm-checkcode-cli@1.0.13": [
+"MAL-2025-190841"
+],
+"evm-checkcode-cli@1.0.14": [
+"MAL-2025-190841"
+],
+"exact-ticker@0.3.5": [
+"MAL-2025-190697"
+],
+"executable-stories-cypress@6.1.1": [
+"MAL-2026-5250"
+],
+"executable-stories-jest@6.1.1": [
+"MAL-2026-5254"
+],
+"executable-stories-playwright@7.0.3": [
+"MAL-2026-5256"
+],
+"executable-stories-vitest@7.0.3": [
+"MAL-2026-5258"
+],
+"fat-fingered@1.0.2": [
+"MAL-2025-191090"
+],
+"feature-flip@1.0.2": [
+"MAL-2025-191091"
+],
+"file-entry-cache@11.1.6": [
+"MAL-2026-11970"
+],
+"fittxt@1.0.3": [
+"MAL-2025-191093"
+],
+"gate-evm-check-code2@2.0.4": [
+"MAL-2025-190843"
+],
+"gate-evm-check-code2@2.0.5": [
+"MAL-2025-190843"
+],
+"gate-evm-check-code2@2.0.6": [
+"MAL-2025-190843"
+],
+"gate-evm-tools-test@1.0.6": [
+"MAL-2025-190844"
+],
+"gate-evm-tools-test@1.0.7": [
+"MAL-2025-190844"
+],
+"generator-ng-itobuz@0.0.15": [
+"MAL-2025-191102"
+],
+"git-branch-selector@1.3.3": [
+"MAL-2026-3503"
+],
+"git-branch-selector@1.3.5": [
+"MAL-2026-3503"
+],
+"git-git-git@1.0.10": [
+"MAL-2026-3504"
+],
+"git-git-git@1.0.8": [
+"MAL-2026-3504"
+],
+"github-action-for-generator@2.1.27": [
+"MAL-2025-190845"
+],
+"gitsafe@1.0.5": [
+"MAL-2025-191104"
+],
+"globalize-rpk@1.7.4": [
+"MAL-2025-47315"
+],
+"go-template@0.1.9": [
+"MAL-2025-190846"
+],
+"graphql-sequelize-teselagen@5.3.8": [
+"MAL-2025-47316"
+],
+"has-ansi@6.0.1": [
+"MAL-2025-46976"
+],
+"hope-mapboxdraw@0.1.1": [
+"MAL-2025-190963"
+],
+"hopedraw@1.0.3": [
+"MAL-2025-190964"
+],
+"hover-design-prototype@0.0.5": [
+"MAL-2025-190965"
+],
+"html-to-base64-image@1.0.2": [
+"MAL-2025-47317"
+],
+"http-metrics-middleware@2.2.2": [
+"MAL-2026-11975"
+],
+"ids-css@1.5.1": [
+"MAL-2025-191106"
+],
+"ids-enterprise-mcp-server@0.0.2": [
+"MAL-2025-191107"
+],
+"ids-enterprise-typings@20.1.6": [
+"MAL-2025-191109"
+],
+"iron-shield-miniapp@0.0.2": [
+"MAL-2025-190773"
+],
+"is-arrayish@0.3.3": [
+"MAL-2025-46977"
+],
+"ito-button@8.0.3": [
+"MAL-2025-190970"
+],
+"itobuz-angular-button@8.0.11": [
+"MAL-2025-190973"
+],
+"itobuz-angular@0.0.1": [
+"MAL-2025-190971"
+],
+"jaetut-varit-test@1.0.2": [
+"MAL-2025-191112"
+],
+"jest-canvas-mock@2.5.3": [
+"MAL-2026-4136"
+],
+"jest-date-mock@1.0.11": [
+"MAL-2026-4137"
+],
+"jquery-bindings@1.1.2": [
+"MAL-2025-191113"
+],
+"jquery-bindings@1.1.3": [
+"MAL-2025-191113"
+],
+"json-rules-engine-simplified@0.2.1": [
+"MAL-2025-47318"
+],
+"json-rules-engine-simplified@0.2.3": [
+"MAL-2025-47318"
+],
+"jsonsurge@1.0.7": [
+"MAL-2025-191114"
+],
+"jumpgate@0.0.2": [
+"MAL-2025-47320"
+],
+"keyv@6.0.0": [
+"MAL-2026-11524"
+],
+"kill-port@2.0.3": [
+"MAL-2025-191116"
+],
+"koa2-swagger-ui@5.11.1": [
+"MAL-2025-47187"
+],
+"koa2-swagger-ui@5.11.2": [
+"MAL-2025-47187"
+],
+"korea-administrative-area-geo-json-util@1.0.7": [
+"MAL-2025-190774"
+],
+"kwami@1.5.10": [
+"MAL-2025-191121"
+],
+"lang-codes@1.0.2": [
+"MAL-2025-191122"
+],
+"leo-logger@1.0.8": [
+"MAL-2026-6429"
+],
+"manual-billing-system-miniapp-api@1.3.1": [
+"MAL-2025-190775"
+],
+"mastra@1.13.1": [
+"MAL-2026-5965"
+],
+"mbt@1.2.48": [
+"MAL-2026-3179"
+],
+"mcp-knowledge-base@0.0.2": [
+"MAL-2025-47326"
+],
+"mcp-knowledge-graph@1.2.1": [
+"MAL-2025-47327"
+],
+"mcp-use@1.4.2": [
+"MAL-2025-190923"
+],
+"mcp-use@1.4.3": [
+"MAL-2025-190923"
+],
+"medusa-plugin-logs@0.0.17": [
+"MAL-2025-191128"
+],
+"medusa-plugin-momo@0.0.68": [
+"MAL-2025-190850"
+],
+"medusa-plugin-product-reviews-kvy@0.0.4": [
+"MAL-2025-190776"
+],
+"medusa-plugin-zalopay@0.0.40": [
+"MAL-2025-190851"
+],
+"mon-package-react-typescript@1.0.1": [
+"MAL-2025-190976"
+],
+"monorepo-next@13.0.1": [
+"MAL-2025-47328"
+],
+"monorepo-next@13.0.2": [
+"MAL-2025-47328"
+],
+"n8n-nodes-vercel-ai-sdk@0.1.7": [
+"MAL-2025-190977"
+],
+"n8n-nodes-viral-app@0.2.5": [
+"MAL-2025-191399"
+],
+"nextmove-mcp@0.1.3": [
+"MAL-2026-3589"
+],
+"nextmove-mcp@0.1.5": [
+"MAL-2026-3589"
+],
+"ng-imports-checker@0.0.9": [
+"MAL-2025-47423"
+],
+"ng2-file-upload@8.0.2": [
+"MAL-2025-47196"
+],
+"ng2-file-upload@8.0.3": [
+"MAL-2025-47196"
+],
+"ngx-bootstrap@20.0.5": [
+"MAL-2025-47197"
+],
+"ngx-bootstrap@20.0.6": [
+"MAL-2025-47197"
+],
+"ngx-color@10.0.1": [
+"MAL-2025-47198"
+],
+"ngx-color@10.0.2": [
+"MAL-2025-47198"
+],
+"ngx-toastr@19.0.1": [
+"MAL-2025-47199"
+],
+"ngx-toastr@19.0.2": [
+"MAL-2025-47199"
+],
+"ngx-trend@8.0.1": [
+"MAL-2025-47200"
+],
+"ngx-useful-swiper-prosenjit@9.0.2": [
+"MAL-2025-191129"
+],
+"ngx-wooapi@12.0.1": [
+"MAL-2025-191130"
+],
+"ngx-ws@1.1.5": [
+"MAL-2025-47332"
+],
+"ngx-ws@1.1.6": [
+"MAL-2025-47332"
+],
+"node-env-resolver-aws@12.0.1": [
+"MAL-2026-5263"
+],
+"node-env-resolver@6.5.1": [
+"MAL-2026-5262"
+],
+"okta-react-router-6@5.0.1": [
+"MAL-2025-191137"
+],
+"oradm-to-gql@35.0.14": [
+"MAL-2025-47336"
+],
+"oradm-to-sqlz@1.1.2": [
+"MAL-2025-47337"
+],
+"oradm-to-sqlz@1.1.4": [
+"MAL-2025-47337"
+],
+"orbit-boxicons@2.1.3": [
+"MAL-2025-190854"
+],
+"orbit-nebula-draw-tools@1.0.10": [
+"MAL-2025-190698"
+],
+"orbit-nebula-editor@1.0.2": [
+"MAL-2025-190777"
+],
+"orbit-soap@0.43.13": [
+"MAL-2025-190855"
+],
+"ove-auto-annotate@0.0.10": [
+"MAL-2025-47338"
+],
+"ove-auto-annotate@0.0.9": [
+"MAL-2025-47338"
+],
+"parcel-plugin-asset-copier@1.1.3": [
+"MAL-2025-190984"
+],
+"pdf-annotation@0.0.2": [
+"MAL-2025-190985"
+],
+"picasso.js@2.11.6": [
+"MAL-2026-11979"
+],
+"pm2-gelf-json@1.0.4": [
+"MAL-2025-47339"
+],
+"pm2-gelf-json@1.0.5": [
+"MAL-2025-47339"
+],
+"poper-react-sdk@0.1.2": [
+"MAL-2025-190856"
+],
+"posthog-docusaurus@2.0.6": [
+"MAL-2025-190924"
+],
+"posthog-js@1.297.3": [
+"MAL-2025-191402"
+],
+"posthog-node@4.18.1": [
+"MAL-2025-190925"
+],
+"posthog-node@5.11.3": [
+"MAL-2025-190925"
+],
+"posthog-node@5.13.3": [
+"MAL-2025-190925"
+],
+"posthog-react-native@4.11.1": [
+"MAL-2025-190926"
+],
+"posthog-react-native@4.12.5": [
+"MAL-2025-190926"
+],
+"prime-one-table@0.0.19": [
+"MAL-2025-190987"
+],
+"ra-data-firebase@1.0.8": [
+"MAL-2025-190864"
+],
+"react-complaint-image@0.0.32": [
+"MAL-2025-47341"
+],
+"react-complaint-image@0.0.34": [
+"MAL-2025-47341"
+],
+"react-element-prompt-inspector@0.1.18": [
+"MAL-2025-190699"
+],
+"react-jam-icons@1.0.2": [
+"MAL-2025-190991"
+],
+"react-jsonschema-form-conditionals@0.3.18": [
+"MAL-2025-47342"
+],
+"react-jsonschema-form-conditionals@0.3.20": [
+"MAL-2025-47342"
+],
+"react-jsonschema-form-extras@1.0.3": [
+"MAL-2025-47343"
+],
+"react-jsonschema-rxnt-extras@0.4.8": [
+"MAL-2025-47344"
+],
+"react-keycloak-context@1.0.8": [
+"MAL-2025-190992"
+],
+"react-keycloak-context@1.0.9": [
+"MAL-2025-190992"
+],
+"react-library-setup@0.0.6": [
+"MAL-2025-190700"
+],
+"react-micromodal.js@1.0.2": [
+"MAL-2025-190994"
+],
+"react-native-email@2.1.1": [
+"MAL-2025-190996"
+],
+"react-native-get-pixel-dimensions@1.0.1": [
+"MAL-2025-190998"
+],
+"react-native-google-maps-directions@2.1.2": [
+"MAL-2025-190999"
+],
+"react-native-retriable-fetch@2.0.2": [
+"MAL-2025-191004"
+],
+"react-native-use-modal@1.0.3": [
+"MAL-2025-190779"
+],
+"react-native-view-finder@1.2.2": [
+"MAL-2025-191005"
+],
+"react-native-websocket@1.0.4": [
+"MAL-2025-191006"
+],
+"react-native-worklet-functions@3.3.3": [
+"MAL-2025-190857"
+],
+"rediff-viewer@0.0.7": [
+"MAL-2025-191417"
+],
+"rediff@1.0.5": [
+"MAL-2025-191416"
+],
+"redux-router-kit@1.2.3": [
+"MAL-2025-190780"
+],
+"remark-preset-lint-crowdstrike@4.0.1": [
+"MAL-2025-47228"
+],
+"remark-preset-lint-crowdstrike@4.0.2": [
+"MAL-2025-47228"
+],
+"safe-action@0.8.4": [
+"MAL-2026-3590"
+],
+"shinhan-limit-scrap@1.0.3": [
+"MAL-2025-190782"
+],
+"simple-swizzle@0.2.3": [
+"MAL-2025-46978"
+],
+"size-sensor@1.0.4": [
+"MAL-2026-4153"
+],
+"skills-use@0.1.1": [
+"MAL-2025-190783"
+],
+"slice-ansi@7.1.1": [
+"MAL-2025-46979"
+],
+"super-commit@1.0.1": [
+"MAL-2025-191015"
+],
+"supports-hyperlinks@4.1.1": [
+"MAL-2025-46982"
+],
+"swc-plugin-component-annotate@1.9.1": [
+"MAL-2025-47210"
+],
+"swc-plugin-component-annotate@1.9.2": [
+"MAL-2025-47210"
+],
+"tanstack-shadcn-table@1.1.5": [
+"MAL-2025-191018"
+],
+"tcsp-draw-test@1.0.5": [
+"MAL-2025-191019"
+],
+"tcsp-test-vd@2.4.4": [
+"MAL-2025-191020"
+],
+"tcsp@2.0.2": [
+"MAL-2025-191433"
+],
+"template-micro-service@1.0.3": [
+"MAL-2025-191022"
+],
+"test-hardhat-app@1.0.2": [
+"MAL-2025-190784"
+],
+"test-hardhat-app@1.0.3": [
+"MAL-2025-190784"
+],
+"test23112222-api@1.0.1": [
+"MAL-2025-191434"
+],
+"tg-client-query-builder@2.14.4": [
+"MAL-2025-47350"
+],
+"tg-redbird@1.3.1": [
+"MAL-2025-47351"
+],
+"tg-seq-gen@1.0.10": [
+"MAL-2025-47352"
+],
+"tg-seq-gen@1.0.9": [
+"MAL-2025-47352"
+],
+"thangved-react-grid@1.0.3": [
+"MAL-2025-47353"
+],
+"tiaan@1.0.2": [
+"MAL-2025-191024"
+],
+"ts-gaussian@3.0.5": [
+"MAL-2025-47213"
+],
+"ts-gaussian@3.0.6": [
+"MAL-2025-47213"
+],
+"ts-imports@1.0.1": [
+"MAL-2025-47355"
+],
+"ts-imports@1.0.2": [
+"MAL-2025-47355"
+],
+"tvi-cli@0.1.5": [
+"MAL-2025-47357"
+],
+"undefsafe-typed@1.0.3": [
+"MAL-2025-190937"
+],
+"undefsafe-typed@1.0.4": [
+"MAL-2025-190937"
+],
+"url-encode-decode@1.0.1": [
+"MAL-2025-190940"
+],
+"ve-bamreader@0.2.6": [
+"MAL-2025-47358"
+],
+"ve-editor@1.0.1": [
+"MAL-2025-47359"
+],
+"verror-extra@6.0.1": [
+"MAL-2025-47360"
+],
+"voip-callkit@1.0.2": [
+"MAL-2025-47416"
+],
+"web-scraper-mcp@1.1.4": [
+"MAL-2025-190943"
+],
+"wrap-ansi@9.0.1": [
+"MAL-2025-46983"
+],
+"yargs-help-output@5.0.3": [
+"MAL-2025-47366"
+],
+"zapier-async-storage@1.0.1": [
+"MAL-2025-190788"
+],
+"zapier-async-storage@1.0.2": [
+"MAL-2025-190788"
+],
+"zapier-platform-cli@18.0.2": [
+"MAL-2025-190703"
+],
+"zapier-platform-cli@18.0.3": [
+"MAL-2025-190703"
+],
+"zapier-platform-core@18.0.2": [
+"MAL-2025-190704"
+],
+"zapier-platform-core@18.0.3": [
+"MAL-2025-190704"
+],
+"zapier-platform-legacy-scripting-runner@4.0.3": [
+"MAL-2025-190928"
+],
+"zapier-platform-schema@18.0.3": [
+"MAL-2025-190705"
+],
+"zuper-cli@1.0.1": [
+"MAL-2025-190789"
+],
+"zuper-sdk@1.0.57": [
+"MAL-2025-191156"
+],
+"zuper-stream@2.0.9": [
+"MAL-2025-190862"
+]
+}
