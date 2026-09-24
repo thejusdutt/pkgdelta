@@ -43,7 +43,7 @@ def dep_lookup(name: str, published: str | None):
         pack = source.packument(name)
     except Exception:
         return None
-    created = (pack.get("time") or {}).get("created")
+    created = rules.first_published(pack)
     if not created or not published:
         return None
     a = dt.datetime.fromisoformat(created.replace("Z", "+00:00"))

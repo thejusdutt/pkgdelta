@@ -27,7 +27,7 @@ def osv(i):
     vid = f"MAL-2026-{i}"
     path = source.CACHE / "osv_ids" / f"{vid}.json"
     if path.exists():
-        t = path.read_text()
+        t = path.read_text(encoding="utf-8")
         return json.loads(t) if t else None
     try:
         d = urllib.request.urlopen(f"https://api.osv.dev/v1/vulns/{vid}", timeout=60).read()

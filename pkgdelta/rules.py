@@ -93,7 +93,7 @@ CAPS: dict[str, re.Pattern] = {
     "credential_paths": re.compile(r"""['"`/\\](?:\.npmrc|\.ssh|id_rsa|id_ed25519|\.aws[/\\]credentials|\.aws['"`]|\.git-credentials|\.docker[/\\]config\.json|\.kube[/\\]config|\.claude(?:\.json)?|\.cursor|\.config[/\\]gcloud|\.azure|Local State|Login Data|\.bitcoin|\.electrum|exodus|keystore|wallet\.dat)['"`/\\]"""),
     "token_tools": re.compile(r"""gh\s+auth\s+token|npm\s+(?:whoami|token)|trufflehog|aws\s+sts\s+get-caller-identity|gcloud\s+auth\s+print-access-token|169\.254\.169\.254|169\.254\.170\.2|/proc/\d*/?(?:self/)?(?:environ|mem)\b|Runner\.Worker"""),
     "exfil_service": re.compile(r"""//(?:[\w-]+\.)*(?:webhook\.site|pipedream\.net|\.ngrok(?:-free)?\.(?:io|app)|burpcollaborator|oastify\.com|interact\.sh|oast\.(?:pro|live|fun|me|site|online)|requestbin|discord(?:app)?\.com/api/webhooks|api\.telegram\.org/bot|hooks\.slack\.com|canarytokens|\.trycloudflare\.com|transfer\.sh|paste(?:bin)?\.(?:com|ee)/raw)"""),
-    "download_exec": re.compile(r"""(?:curl|wget|iwr|Invoke-WebRequest)\s[^'"`\n]{0,200}(?:\|\s*(?:sh|bash|cmd|powershell|iex)\b|-o\s)|bun\.sh/install|oven-sh/bun/releases|registry\.npmjs\.org/bun"""),
+    "download_exec": re.compile(r"""(?:curl|wget|iwr|Invoke-WebRequest)\s[^'"`\n]{0,200}(?:\|\s*(?:sh|bash|cmd|powershell|iex)\b|-o\s)|\b(?:ba|z)?sh\s+-c\s+["']?\$\(\s*(?:curl|wget)\b|base64\s+(?:-d|--decode|-D)\b[^|\n]{0,60}\|\s*(?:ba|z)?sh\b|bun\.sh/install|oven-sh/bun/releases|registry\.npmjs\.org/bun"""),
     "crypto_wallet": re.compile(r"""window\.ethereum|ethereum\.request|solana\.signTransaction|\bsecretKey\b[^;\n]{0,60}(?:fetch|send|post)|\bprivateKey\b[^;\n]{0,60}(?:fetch|send|post)|\bmnemonic\b[^;\n]{0,60}(?:fetch|send|post)"""),
     "persistence": re.compile(r"""\.claude[/\\]settings|SessionStart|runOn['"]?\s*:\s*['"]folderOpen|\.vscode[/\\]tasks\.json|LaunchAgents|systemctl\s+(?:--user\s+)?enable|crontab\s|\\CurrentVersion\\Run|\.github[/\\]workflows"""),
 }
@@ -403,6 +403,15 @@ def rule_injected_growth(d: Delta, r: Report) -> None:
 def d_bump(d: Delta) -> str:
     from .semver import bump_kind
     return bump_kind(d.old.version, d.new.version)
+
+
+def first_published(pack: dict) -> str | None:
+    """When the package really first appeared. `time.created` is reset when npm
+    replaces a malicious package with a "0.0.1-security" placeholder, but the
+    removed versions keep their timestamps, so use the earliest of those."""
+    times = pack.get("time") or {}
+    vs = [t for v, t in times.items() if v not in ("created", "modified") and "security" not in v]
+    return min(vs) if vs else times.get("created")
 
 
 def _maintainers(meta_or_pack: dict) -> set[str]:

@@ -180,7 +180,62 @@ def from_dd_zip(path: str | os.PathLike, password: bytes = b"infected") -> tuple
     return Package(name, ver, files, man, meta, info.get("time", {}).get(ver)), info
 
 
+SEVENZIP = os.environ.get("PKGDELTA_7Z") or next(
+    (p for p in (r"C:\Program Files\7-Zip\7z.exe", "/usr/bin/7z", "/usr/local/bin/7z") if os.path.exists(p)), None)
+
+
+def _read_dd_zip_7z(path, password):
+    """Decrypt with 7-Zip into memory. `7z x -so` writes every file's bytes to
+    stdout in archive order; the listing gives the sizes to split them again."""
+    import subprocess
+    pw = "-p" + password.decode()
+    listing = subprocess.run([SEVENZIP, "l", "-slt", pw, str(path)], capture_output=True, timeout=300).stdout.decode("utf-8", "replace")
+    entries, cur = [], {}
+    for line in listing.splitlines()[listing.splitlines().index("----------") + 1:] if "----------" in listing else []:
+        if not line.strip():
+            if cur.get("Path") is not None:
+                entries.append(cur)
+            cur = {}
+            continue
+        k, _, v = line.partition(" = ")
+        cur[k] = v
+    if cur.get("Path") is not None:
+        entries.append(cur)
+    files_in_order = [(e["Path"].replace("\\", "/"), int(e.get("Size") or 0)) for e in entries
+                      if "D" not in (e.get("Attributes") or "") and e.get("Folder") != "+"]
+    blob = subprocess.run([SEVENZIP, "x", "-so", pw, str(path)], capture_output=True, timeout=600).stdout
+    if len(blob) != sum(s for _, s in files_in_order):
+        raise ValueError("7z output does not match listing")
+    out, i = {}, 0
+    for name, size in files_in_order:
+        out[name] = blob[i:i + size]
+        i += size
+    return out
+
+
 def _read_dd_zip(path, password):
+    raw = None
+    if SEVENZIP:
+        try:
+            raw = _read_dd_zip_7z(path, password)
+        except Exception:
+            raw = None
+    if raw is not None:
+        files: dict[str, bytes] = {}
+        info: dict = {}
+        for n, b in raw.items():
+            if "/package_info-" in n and n.endswith(".json"):
+                try:
+                    info = json.loads(b)
+                except Exception:
+                    info = {}
+            elif n.startswith("package/"):
+                files[n[len("package/"):]] = b"" if len(b) > MAX_FILE else b
+            elif "/package/" in n:
+                files[n.split("/package/", 1)[1]] = b"" if len(b) > MAX_FILE else b
+            elif n.endswith(".tgz") and not files:
+                files = files_from_tgz(b)
+        return files, info
     zf = zipfile.ZipFile(path)
     files: dict[str, bytes] = {}
     info: dict = {}

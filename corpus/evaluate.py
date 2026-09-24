@@ -23,7 +23,7 @@ def dep_lookup(name, published):
         pack = source.packument(name, max_age=10 ** 9)
     except Exception:
         return None
-    created = (pack.get("time") or {}).get("created")
+    created = rules.first_published(pack)
     if not created or not published:
         return None
     a = dt.datetime.fromisoformat(created.replace("Z", "+00:00"))
