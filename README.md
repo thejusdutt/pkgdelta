@@ -34,7 +34,7 @@ Benign updates: the last 6 real releases of each of the top 1,200 npm packages (
 **How the test was kept honest**
 
 - Time split. Rules were written looking only at campaigns found before 2026-01-01 (11 campaigns, 864 samples) and half of the benign packages. Every 2026 campaign (16 campaigns, 499 samples) and the other benign half were held out.
-- The rules were committed ([c3484c5](#)) before the held-out run. One loader bug was fixed after (a zip layout, [5758d7a](#)); that fix touches no rule.
+- The rules were committed (commit `c3484c5`) before the held-out run. One loader bug was fixed after (a zip layout, commit `5758d7a`); that fix touches no rule.
 - Shai-Hulud-style worms put one payload into hundreds of packages. Per-sample recall rewards that. The headline is the **macro average of per-campaign recall** (campaign = samples found within a day of each other).
 
 **v1, frozen rules, held-out 2026 data**
